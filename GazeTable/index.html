@@ -15,7 +15,7 @@
           s0:{head:{x:0.76, y:0.455}, ipad:{x:0.617, y:0.475}, color:"green"},
           s1:{head:{x:0.74, y:0.22}, ipad:{x:0.58, y:0.21}, color:"blue"},
           s2:{head:{x:0.27, y:0.22}, ipad:{x:0.365, y:0.21}, color:"red"},
-          s3:{head:{x:0.25, y:0.455}, ipad:{x:0.335, y:0.475}, color:"yellow"}
+          s3:{head:{x:0.25, y:0.45}, ipad:{x:0.335, y:0.475}, color:"yellow"}
       }
 
       var margin = {top: 20, right: 20, bottom: 30, left: 40},
@@ -40,8 +40,10 @@
       /* Draw heads */
       _.each(positions, function(pos){
           svg.append("circle")
-              .attr("fill",pos.color)
-              .attr("r", "20px")
+              .attr("stroke",pos.color)
+              .attr("stroke-width", "6px")
+              .attr("fill", "white")
+              .attr("r", "30px")
               .attr("cx", pos.head.x*img_width)
               .attr("cy", pos.head.y*img_height)
       })
@@ -49,7 +51,10 @@
       /* Draw iPads */
       _.each(positions, function(pos){
           svg.append("rect")
-              .attr("fill", pos.color)
+              //.attr("class", "ipad")
+              .attr("stroke-width", "4px")
+              .attr("stroke", pos.color)
+              .attr("fill", "white")
               .attr("width", "42px")
               .attr("height", "60px")
               .attr("x", pos.ipad.x*img_width)
@@ -58,9 +63,12 @@
 
       /* Draw screen */
       svg.append("rect")
-          .attr("fill", "black")
+          .attr("stroke", "black")
+          .attr("stroke-width", "4px")
+          .attr("fill", "white")
           .attr("width", img_width*3/4 + "px")
           .attr("height", 30+ "px")
+          .attr("borderStyle", "plain")
           .attr("x", 0.12*img_width)
           .attr("y", 0.88* img_height);
 
