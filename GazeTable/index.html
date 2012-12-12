@@ -4,8 +4,66 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>The Gaze table</title>
     <script type="text/javascript" src="http://mbostock.github.com/d3/d3.v2.js"></script>
+    <script type="text/javascript" src="http://underscorejs.org/underscore.js"></script>
   </head>
   <body>
-    Hi!
+  <script>
+      var img_width = 800;
+      var img_height = 600;
+
+      var positions = {
+          s0:{head:{x:0.76, y:0.455}, ipad:{x:0.617, y:0.475}, color:"green"},
+          s1:{head:{x:0.74, y:0.22}, ipad:{x:0.58, y:0.21}, color:"blue"},
+          s2:{head:{x:0.27, y:0.22}, ipad:{x:0.365, y:0.21}, color:"red"},
+          s3:{head:{x:0.25, y:0.455}, ipad:{x:0.335, y:0.475}, color:"yellow"}
+      }
+
+      var margin = {top: 20, right: 20, bottom: 30, left: 40},
+          width = 960 - margin.left - margin.right,
+          height = 700 - margin.top - margin.bottom;
+
+      var x = d3.scale.linear()
+          .range([0, width]);
+
+      var y = d3.scale.linear()
+          .range([height, 0]);
+
+      var svg = d3.select("body").append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+
+      var image = svg.append("image")
+          .attr("xlink:href", "display-experimentCSCW.png")
+          .attr("width", img_width)
+          .attr("height", img_height)
+
+      /* Draw heads */
+      _.each(positions, function(pos){
+          svg.append("circle")
+              .attr("fill",pos.color)
+              .attr("r", "20px")
+              .attr("cx", pos.head.x*img_width)
+              .attr("cy", pos.head.y*img_height)
+      })
+
+      /* Draw iPads */
+      _.each(positions, function(pos){
+          svg.append("rect")
+              .attr("fill", pos.color)
+              .attr("width", "42px")
+              .attr("height", "60px")
+              .attr("x", pos.ipad.x*img_width)
+              .attr("y", pos.ipad.y*img_height)
+      })
+
+      /* Draw screen */
+      svg.append("rect")
+          .attr("fill", "black")
+          .attr("width", img_width*3/4 + "px")
+          .attr("height", 30+ "px")
+          .attr("x", 0.12*img_width)
+          .attr("y", 0.88* img_height);
+
+  </script>
   </body>
 </html>
