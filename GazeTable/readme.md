@@ -1,5 +1,1 @@
-Bill Marsh created a nice [visual guide to the Euro debt crisis](http://www.nytimes.com/interactive/2011/10/23/sunday-review/an-overview-of-the-euro-crisis.html) in today’s *New York Times* using a custom graph layout with directed edges. An alternative approach to visualizing asymmetric relationships among a group of entities is a [chord diagram](http://mbostock.github.com/d3/ex/chord.html). Chord diagrams don’t show indirect relationships as well, but they better convey the magnitudes of the debt for each country.
-
-This visualization uses two chord diagrams. The diagram on the left emphasizes how much each country lends (**creditors**); you can see Japan and France are the biggest lenders, but France is also the most exposed by its risky debts to Italy and Greece. The diagram on the right emphasizes how much each country owes (**debtors**); the United States has by far the largest debt, nearly three times the size of the next-largest debtor, Britain!
-
-Built with [D3.js](http://mbostock.github.com/d3/).
+This visualisation places the Gazes on the Table.
