@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Timeline of speeches</title>
-    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.v2.js"></script>
-</head>
-<body>
-Hi!
-</body>
+  <head>
+    <title>Hello World!</title>
+  </head>
+ <body>
+  </body>
+ <script src="http://d3js.org/d3.v2.js"></script>
+ 
+<script type="text/javascript">
+
+var w = 3000,
+    h = 600;
+	
+var svg = d3.select("body").append("svg:svg")
+    .attr("width", w)
+    .attr("height", h);
+	
+	function time(d){ return d.time/800;}
+	function tStart(d){ return d.tStart/1000;}
+	//function tEnd(d){ return d.tEnd;}
+	//function category(d){ return d.category;}
+	//function dialogue(d){ return d.dialogue;}
+	function subject(d){ return d.subject;}
+	function red(){svg.style("fill", "red");}
+	function blue(){svg.style("fill", "blue");}
+	function pink(){svg.style("fill", "pink");}
+	function yellow(){svg.style("fill", "yellow");}
+		
+	
+	d3.csv("NeuronTask - Copie.csv", function(data) { 
+	console.log(data);
+	svg.selectAll("circle")
+    .data(data)
+	.enter().append("circle")
+    .attr("cx", tStart)		
+    .attr("cy", function(d){switch(subject(d))
+					{
+						case "s0":
+						return 30;
+						break;
+						case "s1":
+						return 90;
+						case "s2":
+						return 150;
+						break;
+						case "s3":
+						return 210;
+						break;
+						default:
+						return -300;
+						
+						break;
+					}
+					})
+    .attr("r", time)
+	.style("fill", function(d){switch(subject(d))
+					{
+						case "s0":
+						return "red";
+						break;
+						case "s1":
+						return "blue";
+						case "s2":
+						return "pink";
+						break;
+						case "s3":
+						return "yellow";
+						break;
+						default:
+						return "white";
+						break;
+					}
+					});
+}); 
+
+
+/*
+
+var area = d3.svg.area();
+    //.x(function(d) { return x(d.x); })
+    //.y0(function(d) { return y(d.y0); })
+    //.y1(function(d) { return y(d.y0 + d.y); });
+	
+
+
+var svg = d3.select("body").append("svg")
+    .attr("width", w)
+    .attr("height", h);
+
+d3.csv("NeuronTask.csv", function(data) { 
+	svg.selectAll("path")
+		.data(data)
+  .enter().append("path")
+    .attr("d", area)
+    .style("fill", function() {console.log(area(data.time)); return color(Math.random()); });
+
+});
+*/
+  </script>
+	
 </html>
