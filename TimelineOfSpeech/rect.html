@@ -53,8 +53,8 @@ var svg = d3.select("body").append("svg:svg")
     .attr("width", w)
     .attr("height", h);
 	
-	function time(d){ return d.time;}
-	function tStart(d){ return d.tStart;}
+	function time(d){ return 2*d.time;}
+	function tStart(d){ return 2*d.tStart;}
 	
 	function subject(d){ return d.subject;}
 	function red(){svg.style("fill", "red");}
