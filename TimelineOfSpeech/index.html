@@ -28,7 +28,7 @@ var svg = d3.select("body").append("svg:svg")
 	function yellow(){svg.style("fill", "yellow");}
 		
 	
-	d3.csv("NeuronTask - Copie.csv", function(data) { 
+	d3.csv("NeuronTask.csv", function(data) { 
 	console.log(data);
 	svg.selectAll("circle")
     .data(data)
