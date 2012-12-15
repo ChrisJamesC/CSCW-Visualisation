@@ -46,7 +46,7 @@ txtFile.onreadystatechange = function()
 txtFile.send(null);
 */
 
-var w =8000,
+var w =3000,
     h = 600;
 	
 var svg = d3.select("body").append("svg:svg")
@@ -69,8 +69,8 @@ var svg = d3.select("body").append("svg:svg")
 	var yS2 = 180;
 	var yS3 = 240;
 	
-	//d3.csv("NeuronTask - Copie.csv", function(data) { 
-	d3.csv("Hamster_NeurologyTask.csv", function(data) { 
+	
+	d3.csv("dataFiles/Penguin_EnergyTask.csv", function(data) { 
 	console.log(data);
 	svg.selectAll("circle")
     .data(data)
@@ -136,30 +136,6 @@ var svg = d3.select("body").append("svg:svg")
 					}
 					});
 }); 
-
-
-/*
-
-var area = d3.svg.area();
-    //.x(function(d) { return x(d.x); })
-    //.y0(function(d) { return y(d.y0); })
-    //.y1(function(d) { return y(d.y0 + d.y); });
-	
-
-
-var svg = d3.select("body").append("svg")
-    .attr("width", w)
-    .attr("height", h);
-
-d3.csv("NeuronTask.csv", function(data) { 
-	svg.selectAll("path")
-		.data(data)
-  .enter().append("path")
-    .attr("d", area)
-    .style("fill", function() {console.log(area(data.time)); return color(Math.random()); });
-
-});
-*/
   </script>
 	
 </html>
