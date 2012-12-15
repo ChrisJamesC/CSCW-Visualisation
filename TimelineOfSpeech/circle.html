@@ -8,34 +8,10 @@
  <script src="http://d3js.org/d3.v2.js"></script>
  
 <script type="text/javascript">
-
-	var maxValTime
-	var txtFile = new XMLHttpRequest();
-
-	txtFile.open("GET", "dataFiles/Penguin_EnergyTask.csv", false);
-	txtFile.send('');
-
-	if (txtFile.readyState === 4) {
-		console.log("ready to parse");
-		if (txtFile.status === 200) {
-			console.log("file found");
-		
-			allText = txtFile.responseText; 
-			  
-			lines = txtFile.responseText.split("\n");
-			var lineSplit =[] ;
-			for(var i = 1; i<lines.length; i++){
-				lineSplit.push(lines[i].split(","));
-					
-			}
-		  
-		maxValTime = parseFloat(lineSplit[lineSplit.length-1][0]) +parseFloat(lineSplit[lineSplit.length-1][1]) 
-		 
-		}	
-	}
-
+	
 	var w =3000,
-		h = 600;
+		h = 600,
+		maxValTime = getMaxValTime();
 		
 	var svg = d3.select("body").append("svg:svg")
 		.attr("width", w)
@@ -43,12 +19,8 @@
 		
 		function time(d){ return d.time;}
 		function tStart(d){return 2*parseFloat(d.tStart)+parseFloat(d.time);}
-		
 		function subject(d){ return d.subject;}
-		function red(){svg.style("fill", "red");}
-		function blue(){svg.style("fill", "blue");}
-		function pink(){svg.style("fill", "pink");}
-		function yellow(){svg.style("fill", "yellow");}
+		
 		var yS0 = 30;
 		var yS1 = 60;
 		var yS2 = 90;
@@ -120,6 +92,32 @@
 						}
 						});
 	}); 
+	
+	function getMaxValTime(){
+		var txtFile = new XMLHttpRequest();
+
+		txtFile.open("GET", "dataFiles/Penguin_EnergyTask.csv", false);
+		txtFile.send('');
+
+		if (txtFile.readyState === 4) {
+			console.log("ready to parse");
+			if (txtFile.status === 200) {
+				console.log("file found");
+			
+				allText = txtFile.responseText; 
+				  
+				lines = txtFile.responseText.split("\n");
+				var lineSplit =[] ;
+				for(var i = 1; i<lines.length; i++){
+					lineSplit.push(lines[i].split(","));
+						
+				}
+			  
+			return parseFloat(lineSplit[lineSplit.length-1][0]) +parseFloat(lineSplit[lineSplit.length-1][1]) 
+			 
+			}	
+		}
+	}
   </script>
 	
 </html>
