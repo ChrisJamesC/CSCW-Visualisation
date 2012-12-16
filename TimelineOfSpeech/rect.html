@@ -2,59 +2,47 @@
 <html>
   <head>
     <title>Time line of speech : Rectangle</title>
+	<style type="text/css">
+	
+	.axis path,
+	.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+	}
+
+	.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+	}
+	</style>
   </head>
  <body>
   </body>
  <script src="http://d3js.org/d3.v2.js"></script>
- 
+ <script src="getMaxValTime.js"></script>
 <script type="text/javascript">
-/*
-var txtFile = new XMLHttpRequest();
-txtFile.open("GET", "NeuronTask - Copie.csv", true);
-txtFile.onreadystatechange = function()
-{
-  if (txtFile.readyState === 4) {  // document is ready to parse.
-  console.log("ready to parse");
-    if (txtFile.status === 200) {  // file is found
-	console.log("file found");
-	
-      allText = txtFile.responseText; 
-	  
-      lines = txtFile.responseText.split("\n");
-	  var lineSplit =[] ;
-	  for(var i = 1; i<lines.length; i++){
-			lineSplit.push(lines[i].split(","));
-			
-	  }
-	var finalLine[];
-		for(var i = 0; i<lines.length-1; i++){
-			var result;
-			if(lineSplit[i][2]==lineSplit[i+1][2]){
-				finalLine.push([lineSplit[i][0], lineSplit[i][1]+lineSplit[i+1][1], lineSplit[i][2]]);
-				i++;
-			}else{
-				finalLine.push(lineSplit[i]);
-			}
-			 
-			
-	  }
-	  
-	  
-    }
-  }
-}
-txtFile.send(null);
-*/
 
-var w =3000,
+var dataFile = "dataFiles/Penguin_EnergyTask.csv";
+var graphScale = 2;
+var w =8000,
     h = 600;
+	maxValTime = getMaxValTime();
+	
+	var xScale = d3.scale.linear()
+                    .domain([0, maxValTime/60])
+					.range([0,graphScale*maxValTime]);
+					
+	var xAxis = d3.svg.axis()
+				.scale(xScale)
+				.ticks(maxValTime/60);
 	
 var svg = d3.select("body").append("svg:svg")
     .attr("width", w)
     .attr("height", h);
 	
-	function time(d){ return 2*d.time;}
-	function tStart(d){ return 2*d.tStart;}
+	function time(d){ return graphScale*d.time;}
+	function tStart(d){ return graphScale*d.tStart;}
 	
 	function subject(d){ return d.subject;}
 	function red(){svg.style("fill", "red");}
@@ -134,6 +122,20 @@ var svg = d3.select("body").append("svg:svg")
 					}
 					});
 }); 
+
+svg.append("g")
+	.attr("class", "axis")  //Assign "axis" class
+	.attr("transform", "translate(0, 170)")
+    .call(xAxis);
+	
+svg.append("text")
+    .attr("class", "x label")
+    .attr("text-anchor", "end")
+    .attr("x", maxValTime/2)
+    .attr("y", 210)
+    .text("Time (minutes)");
+	
+	
   </script>
 	
 </html>
