@@ -13,9 +13,7 @@ function getMaxValTime(){
 				var lineSplit =[] ;
 				
 					lineSplit.push(lines[lines.length - 1].split(","));
-						
-				
-			  
+
 			return parseFloat(lineSplit[lineSplit.length-1][0]) +parseFloat(lineSplit[lineSplit.length-1][1]) 
 			 
 			}	
