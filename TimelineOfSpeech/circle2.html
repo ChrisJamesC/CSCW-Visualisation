@@ -27,8 +27,9 @@
  
 <script type="text/javascript">
 	
-	var dataFile = "dataFiles/Penguin_EnergyTask.csv";
-	
+	var title = "Penguin_EnergyTask";
+	var dataFile = "dataFiles/"+title+".csv";
+	var leftMargin = 10
 	var graphScale = 1;
 	
 	var w =8000,
@@ -37,7 +38,7 @@
 		
 	var xScale = d3.scale.linear()
                     .domain([0, maxValTime/60])
-					.range([0,graphScale*maxValTime]);
+					.range([leftMargin,graphScale*maxValTime]);
 					
 	var xAxis = d3.svg.axis()
 				.scale(xScale)
@@ -48,13 +49,13 @@
 		.attr("height", h);
 		
 		function time(d){ return d.time;}
-		function tStart(d){return graphScale*parseFloat(d.tStart)+parseFloat(d.time);}
+		function tStart(d){return leftMargin + graphScale*parseFloat(d.tStart)+parseFloat(d.time);}
 		function subject(d){ return d.subject;}
 		
-		var yS0 = 30;
-		var yS1 = 60;
-		var yS2 = 90;
-		var yS3 = 120;
+		var yS0 = 60;
+		var yS1 = 90;
+		var yS2 = 120;
+		var yS3 = 150;
 		
 		
 	d3.csv(dataFile, function(data) { 
@@ -125,15 +126,22 @@
 	
 	svg.append("g")
 	.attr("class", "axis")  //Assign "axis" class
-	.attr("transform", "translate(0, 170)")
+	.attr("transform", "translate(0, 200)")
     .call(xAxis);
 	
 	svg.append("text")
     .attr("class", "x label")
     .attr("text-anchor", "end")
     .attr("x", maxValTime/2)
-    .attr("y", 210)
+    .attr("y", 240)
     .text("Time (minutes)");
+	
+	svg.append("text")
+    .attr("class", "x label")
+    .attr("text-anchor", "end")
+    .attr("x", maxValTime/2)
+    .attr("y", 30)
+    .text(title);
   </script>
 	
 </html>
