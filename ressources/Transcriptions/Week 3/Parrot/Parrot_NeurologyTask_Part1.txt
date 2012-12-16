@@ -1,0 +1,654 @@
+default		00:19:40.467	1180.467	00:20:03.706	1203.706	00:00:23.239	23.239	
+gaze.s0		00:19:40.460	1180.46	00:19:50.140	1190.14	00:00:09.680	9.68	
+gaze.s0		00:19:50.140	1190.14	00:19:51.786	1191.786	00:00:01.646	1.646	
+gaze.s0		00:19:51.786	1191.786	00:20:03.750	1203.75	00:00:11.964	11.964	
+gaze.s0.target		00:19:40.460	1180.46	00:19:50.140	1190.14	00:00:09.680	9.68	wb
+gaze.s0.target		00:19:50.140	1190.14	00:19:51.786	1191.786	00:00:01.646	1.646	tool
+gaze.s0.target		00:19:51.786	1191.786	00:20:03.750	1203.75	00:00:11.964	11.964	wb
+gaze.s1		00:19:40.470	1180.47	00:19:43.288	1183.288	00:00:02.818	2.818	
+gaze.s1		00:19:43.288	1183.288	00:19:46.365	1186.365	00:00:03.077	3.077	
+gaze.s1		00:19:46.365	1186.365	00:19:50.753	1190.753	00:00:04.388	4.388	
+gaze.s1		00:19:50.753	1190.753	00:20:03.444	1203.444	00:00:12.691	12.691	
+gaze.s1.target		00:19:40.470	1180.47	00:19:43.288	1183.288	00:00:02.818	2.818	wb
+gaze.s1.target		00:19:43.288	1183.288	00:19:46.365	1186.365	00:00:03.077	3.077	tool
+gaze.s1.target		00:19:46.365	1186.365	00:19:50.753	1190.753	00:00:04.388	4.388	s3
+gaze.s1.target		00:19:50.753	1190.753	00:20:03.444	1203.444	00:00:12.691	12.691	wb
+gaze.s2		00:19:40.519	1180.519	00:20:03.603	1203.603	00:00:23.084	23.084	
+gaze.s2.target		00:19:40.519	1180.519	00:20:03.603	1203.603	00:00:23.084	23.084	wb
+gaze.s3		00:19:40.460	1180.46	00:19:46.815	1186.815	00:00:06.355	6.355	
+gaze.s3		00:19:46.815	1186.815	00:19:49.879	1189.879	00:00:03.064	3.064	
+gaze.s3		00:19:49.879	1189.879	00:20:02.362	1202.362	00:00:12.483	12.483	
+gaze.s3		00:20:02.362	1202.362	00:20:03.749	1203.749	00:00:01.387	1.387	
+gaze.s3.target		00:19:40.460	1180.46	00:19:46.815	1186.815	00:00:06.355	6.355	wb
+gaze.s3.target		00:19:46.815	1186.815	00:19:49.879	1189.879	00:00:03.064	3.064	s0
+gaze.s3.target		00:19:49.879	1189.879	00:20:02.362	1202.362	00:00:12.483	12.483	wb
+gaze.s3.target		00:20:02.362	1202.362	00:20:03.749	1203.749	00:00:01.387	1.387	tool
+act.s0		00:19:40.404	1180.404	00:19:42.982	1182.982	00:00:02.578	2.578	
+act.s0		00:19:42.982	1182.982	00:19:45.550	1185.55	00:00:02.568	2.568	
+act.s0		00:19:45.550	1185.55	00:19:58.190	1198.19	00:00:12.640	12.64	
+act.s0		00:19:58.198	1198.198	00:20:01.727	1201.727	00:00:03.529	3.529	
+act.s0		00:20:01.727	1201.727	00:20:03.784	1203.784	00:00:02.057	2.057	
+act.s0.category		00:19:40.404	1180.404	00:19:42.982	1182.982	00:00:02.578	2.578	talk
+act.s0.category		00:19:42.982	1182.982	00:19:45.550	1185.55	00:00:02.568	2.568	idle
+act.s0.category		00:19:45.550	1185.55	00:19:58.190	1198.19	00:00:12.640	12.64	talk
+act.s0.category		00:19:58.198	1198.198	00:20:01.727	1201.727	00:00:03.529	3.529	idle
+act.s0.category		00:20:01.727	1201.727	00:20:03.784	1203.784	00:00:02.057	2.057	talk
+act.s1		00:19:40.458	1180.458	00:19:42.611	1182.611	00:00:02.153	2.153	
+act.s1		00:19:42.611	1182.611	00:19:53.134	1193.134	00:00:10.523	10.523	
+act.s1		00:19:53.134	1193.134	00:19:55.160	1195.16	00:00:02.026	2.026	
+act.s1		00:19:55.160	1195.16	00:19:56.860	1196.86	00:00:01.700	1.7	
+act.s1		00:19:56.860	1196.86	00:20:03.854	1203.854	00:00:06.994	6.994	
+act.s1.category		00:19:40.458	1180.458	00:19:42.611	1182.611	00:00:02.153	2.153	idle
+act.s1.category		00:19:42.611	1182.611	00:19:53.134	1193.134	00:00:10.523	10.523	
+act.s1.category		00:19:53.134	1193.134	00:19:55.160	1195.16	00:00:02.026	2.026	idle
+act.s1.category		00:19:55.160	1195.16	00:19:56.860	1196.86	00:00:01.700	1.7	talk
+act.s1.category		00:19:56.860	1196.86	00:20:03.854	1203.854	00:00:06.994	6.994	idle
+act.s2		00:19:40.480	1180.48	00:19:41.607	1181.607	00:00:01.127	1.127	
+act.s2		00:19:41.607	1181.607	00:19:44.902	1184.902	00:00:03.295	3.295	
+act.s2		00:19:44.902	1184.902	00:19:48.797	1188.797	00:00:03.895	3.895	
+act.s2		00:19:48.797	1188.797	00:20:03.691	1203.691	00:00:14.894	14.894	
+act.s2.category		00:19:40.480	1180.48	00:19:41.607	1181.607	00:00:01.127	1.127	
+act.s2.category		00:19:41.607	1181.607	00:19:44.902	1184.902	00:00:03.295	3.295	idle
+act.s2.category		00:19:44.902	1184.902	00:19:48.797	1188.797	00:00:03.895	3.895	
+act.s2.category		00:19:48.797	1188.797	00:20:03.691	1203.691	00:00:14.894	14.894	idle
+act.s3		00:19:40.458	1180.458	00:19:44.943	1184.943	00:00:04.485	4.485	
+act.s3		00:19:44.943	1184.943	00:19:46.214	1186.214	00:00:01.271	1.271	
+act.s3		00:19:46.214	1186.214	00:19:53.828	1193.828	00:00:07.614	7.614	
+act.s3		00:19:53.828	1193.828	00:20:02.071	1202.071	00:00:08.243	8.243	
+act.s3		00:20:02.071	1202.071	00:20:03.726	1203.726	00:00:01.655	1.655	
+act.s3.category		00:19:40.458	1180.458	00:19:44.943	1184.943	00:00:04.485	4.485	idle
+act.s3.category		00:19:44.943	1184.943	00:19:46.214	1186.214	00:00:01.271	1.271	talk
+act.s3.category		00:19:46.214	1186.214	00:19:53.828	1193.828	00:00:07.614	7.614	
+act.s3.category		00:19:53.828	1193.828	00:20:02.071	1202.071	00:00:08.243	8.243	talk
+act.s3.category		00:20:02.071	1202.071	00:20:03.726	1203.726	00:00:01.655	1.655	
+gesture.s0		00:19:49.520	1189.52	00:19:54.954	1194.954	00:00:05.434	5.434	
+gesture.s0.category		00:19:49.520	1189.52	00:19:54.954	1194.954	00:00:05.434	5.434	deictic
+gesture.s1		00:19:43.575	1183.575	00:20:03.742	1203.742	00:00:20.167	20.167	
+gesture.s1.category		00:19:43.575	1183.575	00:20:03.742	1203.742	00:00:20.167	20.167	tapping
+gesture.s2		00:19:44.868	1184.868	00:19:45.874	1185.874	00:00:01.006	1.006	
+gesture.s2.category		00:19:44.868	1184.868	00:19:45.874	1185.874	00:00:01.006	1.006	deictic
+gesture.s3		00:19:57.320	1197.32	00:20:00.209	1200.209	00:00:02.889	2.889	
+gesture.s3.category		00:19:57.320	1197.32	00:20:00.209	1200.209	00:00:02.889	2.889	deictic
+dialogue.all		00:00:00.000	0.0	00:00:08.950	8.95	00:00:08.950	8.95	s3:ok, so first page.           s1: so let's reserch about the...
+dialogue.all		00:00:08.960	8.96	00:00:13.000	13.0	00:00:04.040	4.04	s0:wow we allready have suggestions
+dialogue.all		00:00:13.000	13.0	00:00:21.109	21.109	00:00:08.109	8.109	all: laughing           s3:so we have a nice ???           s0: click it
+dialogue.all		00:00:21.109	21.109	00:00:31.013	31.013	00:00:09.904	9.904	s0: yes          s1:so what is the neuron...s0: no, no ??? video            s1: go here no?    s0 ah it's good now
+dialogue.all		00:00:31.013	31.013	00:00:44.202	44.202	00:00:13.189	13.189	 (silence and some noise)
+dialogue.all		00:00:44.202	44.202	00:00:49.509	49.509	00:00:05.307	5.307	s0: compare the role
+dialogue.all		00:00:49.509	49.509	00:00:54.176	54.176	00:00:04.667	4.667	s0: ?? because they move their mouse
+dialogue.all		00:00:54.176	54.176	00:00:59.603	59.603	00:00:05.427	5.427	(silence)
+dialogue.all		00:00:59.603	59.603	00:01:03.672	63.672	00:00:04.069	4.069	s0: ah there are active corner, they told us
+dialogue.all		00:01:03.672	63.672	00:01:09.016	69.016	00:00:05.344	5.344	s0: ok
+dialogue.all		00:01:09.016	69.016	00:01:15.761	75.761	00:00:06.745	6.745	s0: ok s, does anyone have an opinion?
+dialogue.all		00:01:15.761	75.761	00:01:19.778	79.778	00:00:04.017	4.017	s1: euh before we ????
+dialogue.all		00:01:19.778	79.778	00:01:32.870	92.87	00:00:13.092	13.092	(silence)
+dialogue.all		00:01:32.880	92.88	00:01:42.455	102.455	00:00:09.575	9.575	s0: yes but the notion of... what is the role of those two for number one question?
+dialogue.all		00:01:42.460	102.46	00:02:45.086	165.086	00:01:02.626	62.626	(silence and some inaudible dialogue) 
+dialogue.all		00:02:45.086	165.086	00:02:50.892	170.892	00:00:05.806	5.806	s0: wow, this ????????
+dialogue.all		00:02:50.892	170.892	00:02:56.216	176.216	00:00:05.324	5.324	s3: what?
+dialogue.all		00:02:56.216	176.216	00:02:59.778	179.778	00:00:03.562	3.562	s2:????????good isn't?  s3: good comparaison table
+dialogue.all		00:02:59.778	179.778	00:03:05.229	185.229	00:00:05.451	5.451	s3: (laughing)maybe ???         s0: ok so...
+dialogue.all		00:03:05.229	185.229	00:03:07.500	187.5	00:00:02.271	2.271	(silence)
+dialogue.all		00:03:07.510	187.51	00:03:19.526	199.526	00:00:12.016	12.016	s0: ok so, inside there is, inside of the membrane there is less NA+ and more K+...ok?
+dialogue.all		00:03:19.526	199.526	00:03:27.165	207.165	00:00:07.639	7.639	s0:ok so..second paragraph in the midl-s3:yeah yeah
+dialogue.all		00:03:27.165	207.165	00:03:33.277	213.277	00:00:06.112	6.112	 s0:so..s3: ??? they just like the comparness
+dialogue.all		00:03:33.277	213.277	00:03:51.001	231.001	00:00:17.724	17.724	s0:so, perhaps there is this fact and then the..the forth paragraph..explains what's...euh...their role, in the...In fact kind of to the answer the question if you really don't understand the question. 
+dialogue.all		00:03:51.001	231.001	00:03:55.993	235.993	00:00:04.992	4.992	(silence)
+dialogue.all		00:03:55.993	235.993	00:03:58.277	238.277	00:00:02.284	2.284	s3: it's smaller cause it's question one
+dialogue.all		00:03:58.277	238.277	00:04:06.717	246.717	00:00:08.440	8.44	s0: euh?? which one?   s3: K+ NA+ s0:hum..yes insides
+dialogue.all		00:04:06.717	246.717	00:04:09.980	249.98	00:00:03.263	3.263	s3: and he is the same but he is larger? s0: yes
+dialogue.all		00:04:09.980	249.98	00:04:18.399	258.399	00:00:08.419	8.419	s2: but how can I say that??? 
+dialogue.all		00:04:18.399	258.399	00:04:26.107	266.107	00:00:07.708	7.708	s0: yes     s2:where? where is that? s0: euh, it was on the screen I ???  s2: oh you can't ???? s0:no
+dialogue.all		00:04:26.107	266.107	00:04:33.000	273.0	00:00:06.893	6.893	(silence)
+dialogue.all		00:04:33.000	273.0	00:04:35.354	275.354	00:00:02.354	2.354	s0: that was a wikiedia article basicly
+dialogue.all		00:04:35.354	275.354	00:04:42.307	282.307	00:00:06.953	6.953	(silence)
+dialogue.all		00:04:42.307	282.307	00:04:47.521	287.521	00:00:05.214	5.214	s2: ah it's here...??? potential 
+dialogue.all		00:04:47.521	287.521	00:04:56.312	296.312	00:00:08.791	8.791	s0: so euh... so for NA+ it says....
+dialogue.all		00:04:56.312	296.312	00:05:03.628	303.628	00:00:07.316	7.316	s0: in fact thereis a movment, there is....euh...nnn...euh
+dialogue.all		00:05:03.628	303.628	00:05:11.981	311.981	00:00:08.353	8.353	s0: K+ wants, ion wants to go inside...euh no outside of the membrane and NA+ inside.
+dialogue.all		00:05:11.981	311.981	00:05:19.194	319.194	00:00:07.213	7.213	s0: they want to exchange euh ????
+dialogue.all		00:05:19.194	319.194	00:05:22.587	322.587	00:00:03.393	3.393	s0: it's what's explain in forth paragraph
+dialogue.all		00:05:22.587	322.587	00:05:29.015	329.015	00:00:06.428	6.428	(Silence)
+dialogue.all		00:05:29.015	329.015	00:05:41.273	341.273	00:00:12.258	12.258	s0: K+..yeah in the forth paragraph, that means toward the exterior of the neuron for K+ ions and towards the interior for NA+ ions
+dialogue.all		00:05:41.273	341.273	00:05:44.307	344.307	00:00:03.034	3.034	(silence)
+dialogue.all		00:05:44.307	344.307	00:05:58.377	358.377	00:00:14.070	14.07	s0: and after they say that K+ ion diffuse more rapidlly, so they go out more rapidly than ions coming inside and that's what explains the resting potential
+dialogue.all		00:05:58.377	358.377	00:06:02.538	362.538	00:00:04.161	4.161	s2: oh sorry
+dialogue.all		00:06:02.538	362.538	00:06:11.340	371.34	00:00:08.802	8.802	(siilence)
+dialogue.all		00:06:11.340	371.34	00:06:15.862	375.862	00:00:04.522	4.522	(inaudible)
+dialogue.all		00:06:15.862	375.862	00:06:18.038	378.038	00:00:02.176	2.176	(silence)
+dialogue.all		00:06:18.038	378.038	00:06:24.768	384.768	00:00:06.730	6.73	s3: forth paragraph.. s0: yes... they say that...euh
+dialogue.all		00:06:24.768	384.768	00:06:28.776	388.776	00:00:04.008	4.008	s1: que Na il va a l'intérieur
+dialogue.all		00:06:28.776	388.776	00:07:07.868	427.868	00:00:39.092	39.092	(silence)
+dialogue.all		00:07:07.868	427.868	00:07:13.498	433.498	00:00:05.630	5.63	(inaudible)
+dialogue.all		00:07:13.498	433.498	00:07:22.935	442.935	00:00:09.437	9.437	s0: BUT...yeah what I want to say is NA+ is going inside and K+ is going outside.
+dialogue.all		00:07:22.935	442.935	00:07:25.118	445.118	00:00:02.183	2.183	s3: yes ????
+dialogue.all		00:07:25.118	445.118	00:07:38.306	458.306	00:00:13.188	13.188	s0: it's what's written in forth paragraph-s2: ah yeah yeah-s0: and euh, this is...yes you're looking at the process that puts back the ions in their original place, so then
+dialogue.all		00:07:38.306	458.306	00:07:46.191	466.191	00:00:07.885	7.885	s0: with this, we have what like K+ that going outside faster than NA+ going inside
+dialogue.all		00:07:46.191	466.191	00:07:56.844	476.844	00:00:10.653	10.653	s0: ok? s3:what do ???   s0: that's what they say euh..furthermore K+ ions diffuse more rapidly than sodium ions
+dialogue.all		00:07:56.844	476.844	00:08:02.319	482.319	00:00:05.475	5.475	(silence)
+dialogue.all		00:08:02.319	482.319	00:08:11.736	491.736	00:00:09.417	9.417	s0: there was a surface a negative charges ??? the neuron....and that's what creating the resting potential
+dialogue.all		00:08:11.736	491.736	00:08:15.707	495.707	00:00:03.971	3.971	(Silence)
+dialogue.all		00:08:15.707	495.707	00:08:19.224	499.224	00:00:03.517	3.517	s0:yeah but this is crutial..s3:hum
+dialogue.all		00:08:19.224	499.224	00:08:24.492	504.492	00:00:05.268	5.268	(silence)
+dialogue.all		00:08:24.492	504.492	00:08:34.214	514.214	00:00:09.722	9.722	s0: so it is ok, we say that the role of NA+ is to go euh.. s1: inside s0:inside and the role of K+ is to go outside
+dialogue.all		00:08:34.214	514.214	00:08:38.594	518.594	00:00:04.380	4.38	s1: but do they have other role?
+dialogue.all		00:08:38.594	518.594	00:08:43.742	523.742	00:00:05.148	5.148	s1: what is the goal to s0: ok mabe in same paragraph....
+dialogue.all		00:08:43.742	523.742	00:08:48.052	528.052	00:00:04.310	4.31	s1:when ??? the sodium go inside?
+dialogue.all		00:08:48.052	528.052	00:08:54.210	534.21	00:00:06.158	6.158	s0: yeah but this is just to balance the charges
+dialogue.all		00:08:54.210	534.21	00:08:56.518	536.518	00:00:02.308	2.308	s?: yeah it's really???
+dialogue.all		00:08:56.518	536.518	00:09:00.576	540.576	00:00:04.058	4.058	s3: oh we have like one minute
+dialogue.all		00:09:00.576	540.576	00:09:04.337	544.337	00:00:03.761	3.761	s2: but we canot??? right? s0: yes
+dialogue.all		00:09:04.337	544.337	00:09:12.652	552.652	00:00:08.315	8.315	s1: what does it do the... s0: this create....
+dialogue.all		00:09:12.652	552.652	00:09:17.349	557.349	00:00:04.697	4.697	s1:...the potential?
+dialogue.all		00:09:17.349	557.349	00:09:25.028	565.028	00:00:07.679	7.679	s0: euh a charge in fact, the...it polaraize the neuron and so gives it its ????
+dialogue.all		00:09:25.028	565.028	00:09:29.984	569.984	00:00:04.956	4.956	s1: inaudible
+dialogue.all		00:09:29.984	569.984	00:09:32.797	572.797	00:00:02.813	2.813	s3: ok since we have the roles
+dialogue.all		00:09:32.797	572.797	00:09:35.426	575.426	00:00:02.629	2.629	
+dialogue.all		00:09:35.426	575.426	00:09:42.118	582.118	00:00:06.692	6.692	s0: but this is..s1: ah ok it a way to give aneuron impulse.
+dialogue.all		00:09:42.118	582.118	00:09:52.510	592.51	00:00:10.392	10.392	s0: so are you ok with the answer saying that NA+ goes inside and K+ goes outside?
+dialogue.all		00:09:52.510	592.51	00:09:58.546	598.546	00:00:06.036	6.036	(silence)
+dialogue.all		00:09:58.546	598.546	00:10:03.622	603.622	00:00:05.076	5.076	s1: next question       s0: maybe i can just...ah ok you said it
+dialogue.all		00:10:03.622	603.622	00:10:06.111	606.111	00:00:02.489	2.489	(silence)
+dialogue.all		00:10:06.111	606.111	00:10:08.487	608.487	00:00:02.376	2.376	s0: yes we didn't ????
+dialogue.all		00:10:08.487	608.487	00:10:22.587	622.587	00:00:14.100	14.1	(silence)
+dialogue.all		00:10:22.587	622.587	00:10:25.021	625.021	00:00:02.434	2.434	s3: ????
+dialogue.all		00:10:25.021	625.021	00:10:27.939	627.939	00:00:02.918	2.918	s3: is it just to go ????
+dialogue.all		00:10:27.939	627.939	00:10:36.531	636.531	00:00:08.592	8.592	s0: yes, but then there is a pump to exchange the ??? to go back to the other state
+dialogue.all		00:10:36.531	636.531	00:10:46.988	646.988	00:00:10.457	10.457	(silence)
+dialogue.all		00:10:46.988	646.988	00:10:52.390	652.39	00:00:05.402	5.402	s0: so they manage...the po???
+dialogue.all		00:10:52.390	652.39	00:11:05.447	665.447	00:00:13.057	13.057	s0: yeah..this is my keyboard s2:???
+dialogue.all		00:11:05.447	665.447	00:11:07.639	667.639	00:00:02.192	2.192	????
+dialogue.all		00:11:07.639	667.639	00:11:18.446	678.446	00:00:10.807	10.807	s0: do you understand s2:mhm ...???
+dialogue.all		00:11:18.446	678.446	00:11:23.700	683.7	00:00:05.254	5.254	s2:???? 
+dialogue.all		00:11:23.700	683.7	00:11:32.225	692.225	00:00:08.525	8.525	(silence)
+dialogue.all		00:11:32.225	692.225	00:11:40.931	700.931	00:00:08.706	8.706	s2:??? s0: yeah so we should change to the other task   s1:???
+dialogue.all		00:11:40.931	700.931	00:11:45.395	705.395	00:00:04.464	4.464	s1: ??? finish??  s0: yeah but I think ????'
+dialogue.all		00:11:45.395	705.395	00:11:51.483	711.483	00:00:06.088	6.088	s3: ok well...????
+dialogue.all		00:11:51.483	711.483	00:12:06.838	726.838	00:00:15.355	15.355	s3:actually the role of ???? is heu kind of like enable the communication between the neuron, because here in this explenation it says like how...how it works
+dialogue.all		00:12:06.838	726.838	00:12:18.720	738.72	00:00:11.882	11.882	s3: well the thing is that when...like ??? the neuron are like in a negative state...and then when they positive euh... I don't know like
+dialogue.all		00:12:18.720	738.72	00:12:29.511	749.511	00:00:10.791	10.791	s3: then when the sodium comes inside, it then..is taken outside because the difference of the charges in both ????
+dialogue.all		00:12:29.511	749.511	00:12:41.272	761.272	00:00:11.761	11.761	s3: so it's like, there are like, by nature, there are like resting here and then when sodium came like it..it goes but then it..it.. gives it a way out
+dialogue.all		00:12:41.272	761.272	00:12:45.178	765.178	00:00:03.906	3.906	s3: ok well I'm actually not sure of it but...
+dialogue.all		00:12:45.178	765.178	00:12:51.954	771.954	00:00:06.776	6.776	 s3: it's the way  I understand, but other thing are why not..saying anything about the roles....so
+dialogue.all		00:12:51.954	771.954	00:12:59.384	779.384	00:00:07.430	7.43	s3: well I just saying wha't happening but why not actually...   s1:so now ????
+dialogue.all		00:12:59.384	779.384	00:13:06.447	786.447	00:00:07.063	7.063	s0: so here is my scheme s1: we have to s0: ???? s1: illustrate the generation of resting potential
+dialogue.all		00:13:06.447	786.447	00:13:19.551	799.551	00:00:13.104	13.104	s0: that's it... that's why...... my idea is just that it's created by the fact that there is more s3: here there????   s0:ions going out than inside.
+dialogue.all		00:13:19.551	799.551	00:13:24.613	804.613	00:00:05.062	5.062	(silence)
+dialogue.all		00:13:24.613	804.613	00:13:29.023	809.023	00:00:04.410	4.41	s3: then the steps ????
+dialogue.all		00:13:29.023	809.023	00:13:38.741	818.741	00:00:09.718	9.718	(silence)
+dialogue.all		00:13:38.741	818.741	00:13:41.885	821.885	00:00:03.144	3.144	s3:it's ??? 
+dialogue.all		00:13:41.885	821.885	00:13:56.707	836.707	00:00:14.822	14.822	(silence)
+dialogue.all		00:13:56.707	836.707	00:14:05.838	845.838	00:00:09.131	9.131	(inaudible) 
+dialogue.all		00:14:05.838	845.838	00:14:11.161	851.161	00:00:05.323	5.323	(silence)
+dialogue.all		00:14:11.161	851.161	00:14:17.040	857.04	00:00:05.879	5.879	(inaudible)
+dialogue.all		00:14:17.040	857.04	00:14:31.030	871.03	00:00:13.990	13.99	s3:actualy the K+ is is inside the... s0: yeah but it going outside, want to go... s3: ok ok. s0: and the NA+..yes it is... yes there are more like you can say it this way if you want.
+dialogue.all		00:14:31.030	871.03	00:14:36.663	876.663	00:00:05.633	5.633	s3:the K..the K is actually inside when the sodium arrives s0:yes
+dialogue.all		00:14:36.663	876.663	00:14:48.094	888.094	00:00:11.431	11.431	s3: it push the others outside s0: exactlly s3: but...but..but the external environment makes the K goes inside so the Na goes outside again.
+dialogue.all		00:14:48.094	888.094	00:15:10.955	910.955	00:00:22.861	22.861	s3: yeah something like that.. s0: yes no you have the..the........what I understand is the process, if you don't have like some pump to back inside, the process just like ??? and ions interaction, we just put the NA+ inside of the neuron and the K+ outside, beause there is like euh
+dialogue.all		00:15:10.955	910.955	00:15:28.346	928.346	00:00:17.391	17.391	s0: polarisation which like this one ???? just equilibrate the two spaces. s3: yes s0:  So and after you have like the small pump I tried draw, just to go back in the initial state
+dialogue.all		00:15:28.346	928.346	00:15:58.555	958.555	00:00:30.209	30.209	s3: ok this thing is to go in initial state again : s0: yes, this it to...this...the big arrows are what's happening, normally and the small arrow are, are like working again of the nature. s2: yeah yeah so ??? s1:???? s0: the nature want to put NA+ inside and K+ until there are the same concentration inside and outside
+dialogue.all		00:15:58.555	958.555	00:16:06.555	966.555	00:00:08.000	8.0	s2: yea but, you know that's general but it could be ????
+dialogue.all		00:16:06.555	966.555	00:16:11.373	971.373	00:00:04.818	4.818	s0: yeah it's true s2: so we did ????
+dialogue.all		00:16:11.373	971.373	00:16:32.295	992.295	00:00:20.922	20.922	(silence)  
+dialogue.all		00:16:32.295	992.295	00:16:37.684	997.684	00:00:05.389	5.389	s1: to inverse transformation
+dialogue.all		00:16:37.684	997.684	00:16:47.454	1007.454	00:00:09.770	9.77	(silence)
+dialogue.all		00:16:47.454	1007.454	00:16:56.785	1016.785	00:00:09.331	9.331	s3: but what...the thing is that this is...like the neuron are actually like connected to others neuron right?
+dialogue.all		00:16:56.785	1016.785	00:17:03.888	1023.888	00:00:07.103	7.103	s3: so maybe we should like try to put like some other s2: yes  s3: in the other side, so we like ????
+dialogue.all		00:17:03.888	1023.888	00:17:12.624	1032.624	00:00:08.736	8.736	s3: because this NA+ goes inside and then goes outside again right? so it goes inside an other one after
+dialogue.all		00:17:12.624	1032.624	00:17:29.935	1049.935	00:00:17.311	17.311	s1:I...I don't think it's euh to an other one...there... there are neurons and there are in sort of.... a ...a bath of sodium and....and potassium
+dialogue.all		00:17:29.935	1049.935	00:17:35.815	1055.815	00:00:05.880	5.88	(inaudible)
+dialogue.all		00:17:35.815	1055.815	00:17:45.370	1065.37	00:00:09.555	9.555	s1: let's research
+dialogue.all		00:17:45.370	1065.37	00:17:53.332	1073.332	00:00:07.962	7.962	s1: here... s0: so I tired to... s1:there...there are euh s2: but also something is record over ????
+dialogue.all		00:17:53.332	1073.332	00:18:05.454	1085.454	00:00:12.122	12.122	s2:??? but on another chanel, it's more than this one ????
+dialogue.all		00:18:05.454	1085.454	00:18:18.353	1098.353	00:00:12.899	12.899	s2:the NA goes....so I think???? we can draw??? more and then each one is ??????
+dialogue.all		00:18:18.353	1098.353	00:18:21.293	1101.293	00:00:02.940	2.94	s2????
+dialogue.all		00:18:21.293	1101.293	00:18:24.722	1104.722	00:00:03.429	3.429	(silence)
+dialogue.all		00:18:24.722	1104.722	00:18:45.952	1125.952	00:00:21.230	21.23	s2: and what we draw...s0:it really difficult to drawand interwriting with... s2:because acctually this one is only work with the ??? s1: yeah but one thing is not a neuron, everything is... s2: a neuron s1: neuron s2: so we can do... s0: but here.. s1: yeah s0: this specific thing s3:????
+dialogue.all		00:18:45.952	1125.952	00:18:53.873	1133.873	00:00:07.921	7.921	s2: I mean because actually this ???? really work for thaht s1:yeah but itŝ not...ah putain c'est chiant
+dialogue.all		00:18:53.873	1133.873	00:18:57.548	1137.548	00:00:03.675	3.675	s2:????
+dialogue.all		00:18:57.548	1137.548	00:19:08.233	1148.233	00:00:10.685	10.685	s1:euh... s2: the s??? our drawing is only... s1: but this representation is really a....zoom s0:yeah yeah s2: I think ????
+dialogue.all		00:19:08.233	1148.233	00:19:40.676	1180.676	00:00:32.443	32.443	s0: it's just to say that..that's permable, some stuff can go through the membrane, but you have two different process... s1: this is the membrane, so we didn't... s0:you have one process, which is like the natual one. the natural which one to basicly have the same concentration outside and inside of the membrane and you have the other one, which is a force process, using pumps to reverse the transformation to..euh to go back to euh rest...to a rest potential  s1: yes
+dialogue.all		00:19:40.676	1180.676	00:19:44.024	1184.024	00:00:03.348	3.348	s0: so do you understand my.. my scheme or not?
+dialogue.all		00:19:44.024	1184.024	00:20:03.743	1203.743	00:00:19.719	19.719	s3: the other one... s0: it's..it's really hard to read but...yes I'm sorry, maybe..  (all laughing) maybe we can try to write it to on a    s3:eu early it's ??? s1: oh we understand it   s0: we can write it on...liike...like    s3: in..in notes, over the text...because the text I really don't understand.   s0: yes, so ok we can make some notes
+dialogue.all		00:20:03.743	1203.743	00:20:07.905	1207.905	00:00:04.162	4.162	s0: so basicly the pumps..euh... they reverse the transformation
+dialogue.all		00:20:07.905	1207.905	00:20:13.784	1213.784	00:00:05.879	5.879	s0: here I tried to write permable membrane, but this is quite hard s1:????
+dialogue.all		00:20:13.784	1213.784	00:20:17.948	1217.948	00:00:04.164	4.164	s0: and this is just to say  s3: but something happend with my....
+dialogue.all		00:20:17.948	1217.948	00:20:24.561	1224.561	00:00:06.613	6.613	s0: yes mine to is ....   s3:it's kind...  s0: ah yes if you move I..ok it's it's
+dialogue.all		00:20:24.561	1224.561	00:20:29.705	1229.705	00:00:05.144	5.144	s0: ok so NA+ ions... s3: mine is moving without
+dialogue.all		00:20:29.705	1229.705	00:20:41.137	1241.137	00:00:11.432	11.432	s2: but you're the pink, mine red  s3: yeah yeah but... s1: maybe you move ... s3: I ..I ..I'm like someone controlly mine   s0: ok so... s2:???? s1:mine's crazy too
+dialogue.all		00:20:41.137	1241.137	00:20:53.791	1253.791	00:00:12.654	12.654	s3: wll noww it's back to reality.....no well nothing more
+dialogue.all		00:20:53.791	1253.791	00:21:12.652	1272.652	00:00:18.861	18.861	s0: wwhhaatt?  (inaudible)   s2: becarfull when you delete it'll crash no?
+dialogue.all		00:21:12.652	1272.652	00:21:45.965	1305.965	00:00:33.313	33.313	(silence)
+dialogue.all		00:21:45.965	1305.965	00:22:00.744	1320.744	00:00:14.779	14.779	s0: ah sergio you're writing there too    s2: ????    s0:mmm?    s2: make notes ??? hu...    s3:oh what's happening with this....   s2:??????
+dialogue.all		00:22:00.744	1320.744	00:22:10.623	1330.623	00:00:09.879	9.879	(inaudible)
+dialogue.all		00:22:10.623	1330.623	00:22:19.672	1339.672	00:00:09.049	9.049	s2:???? s1:???   s3: K+...tends to go...   s0+s3: go outside
+dialogue.all		00:22:19.672	1339.672	00:22:26.218	1346.218	00:00:06.546	6.546	(silence)
+dialogue.all		00:22:26.218	1346.218	00:22:35.528	1355.528	00:00:09.310	9.31	s0: oohhhh ttttsssttt, this is really hard to collaborate......       s2:hahah
+dialogue.all		00:22:35.528	1355.528	00:22:43.123	1363.123	00:00:07.595	7.595	(silence)
+dialogue.all		00:22:43.123	1363.123	00:22:59.267	1379.267	00:00:16.144	16.144	s2: what did you text in  midle on note two?    s0: I don't know   s2: ????   s0:someone deleted ??????   it was a bug ?????
+dialogue.all		00:22:59.267	1379.267	00:23:15.213	1395.213	00:00:15.946	15.946	s0: my screen doesn't have notes anymore....so this is not cool...euh
+dialogue.all		00:23:15.213	1395.213	00:23:25.665	1405.665	00:00:10.452	10.452	s3: oh what's happening? s0: ok just one person will try it, I don't if if it??? but just to...
+dialogue.all		00:23:25.665	1405.665	00:23:34.309	1414.309	00:00:08.644	8.644	s3: and what is written here? in the other... s0: ok so, the pump reverse the transformation, and the membrane..euh
+dialogue.all		00:23:34.309	1414.309	00:23:44.398	1424.398	00:00:10.089	10.089	s3:wait wait wait wait, the thing is that...ok so, like here in there...s0:ok pump reverse transformation
+dialogue.all		00:23:44.398	1424.398	00:23:53.424	1433.424	00:00:09.026	9.026	
+dialogue.all		00:23:53.424	1433.424	00:24:01.958	1441.958	00:00:08.534	8.534	
+dialogue.all		00:24:01.958	1441.958	00:24:18.643	1458.643	00:00:16.685	16.685	
+dialogue.all		00:24:18.643	1458.643	00:24:25.911	1465.911	00:00:07.268	7.268	
+dialogue.all		00:24:25.911	1465.911	00:24:29.831	1469.831	00:00:03.920	3.92	
+dialogue.all		00:24:29.831	1469.831	00:24:46.000	1486.0	00:00:16.169	16.169	
+dialogue.all		00:24:46.000	1486.0	00:24:53.105	1493.105	00:00:07.105	7.105	
+dialogue.all		00:24:53.105	1493.105	00:25:00.453	1500.453	00:00:07.348	7.348	
+dialogue.all		00:25:00.453	1500.453	00:25:05.596	1505.596	00:00:05.143	5.143	
+dialogue.all		00:25:05.596	1505.596	00:25:18.301	1518.301	00:00:12.705	12.705	
+dialogue.all		00:25:18.301	1518.301	00:25:21.436	1521.436	00:00:03.135	3.135	
+dialogue.all		00:25:21.436	1521.436	00:25:29.192	1529.192	00:00:07.756	7.756	
+dialogue.all		00:25:29.192	1529.192	00:25:40.705	1540.705	00:00:11.513	11.513	
+dialogue.all		00:25:40.705	1540.705	00:25:45.767	1545.767	00:00:05.062	5.062	
+dialogue.all		00:25:45.767	1545.767	00:26:06.996	1566.996	00:00:21.229	21.229	
+dialogue.all		00:26:06.996	1566.996	00:26:22.179	1582.179	00:00:15.183	15.183	
+dialogue.all		00:26:22.179	1582.179	00:26:25.854	1585.854	00:00:03.675	3.675	
+dialogue.all		00:26:25.854	1585.854	00:26:31.242	1591.242	00:00:05.388	5.388	
+dialogue.all		00:26:31.242	1591.242	00:26:34.182	1594.182	00:00:02.940	2.94	
+dialogue.all		00:26:34.182	1594.182	00:26:45.122	1605.122	00:00:10.940	10.94	
+dialogue.all		00:26:45.122	1605.122	00:27:00.089	1620.089	00:00:14.967	14.967	
+dialogue.all		00:27:00.089	1620.089	00:27:06.703	1626.703	00:00:06.614	6.614	
+dialogue.all		00:27:06.703	1626.703	00:27:19.931	1639.931	00:00:13.228	13.228	
+dialogue.all		00:27:19.931	1639.931	00:27:35.156	1655.156	00:00:15.225	15.225	
+dialogue.all		00:27:35.156	1655.156	00:27:44.056	1664.056	00:00:08.900	8.9	
+dialogue.all		00:27:44.056	1664.056	00:27:57.186	1677.186	00:00:13.130	13.13	
+dialogue.all		00:27:57.186	1677.186	00:28:10.496	1690.496	00:00:13.310	13.31	
+dialogue.all		00:28:10.496	1690.496	00:28:26.257	1706.257	00:00:15.761	15.761	
+dialogue.all		00:28:26.257	1706.257	00:28:32.545	1712.545	00:00:06.288	6.288	
+dialogue.all		00:28:32.545	1712.545	00:28:41.772	1721.772	00:00:09.227	9.227	
+dialogue.all		00:28:41.772	1721.772	00:28:59.001	1739.001	00:00:17.229	17.229	
+dialogue.all		00:28:59.001	1739.001	00:29:05.941	1745.941	00:00:06.940	6.94	
+dialogue.all		00:29:05.941	1745.941	00:29:10.807	1750.807	00:00:04.866	4.866	
+dialogue.all		00:29:10.807	1750.807	00:29:15.168	1755.168	00:00:04.361	4.361	
+dialogue.all		00:29:15.168	1755.168	00:29:22.271	1762.271	00:00:07.103	7.103	
+dialogue.all		00:29:22.271	1762.271	00:29:29.915	1769.915	00:00:07.644	7.644	
+dialogue.all		00:29:29.915	1769.915	00:29:49.756	1789.756	00:00:19.841	19.841	
+dialogue.all		00:29:49.756	1789.756	00:30:05.270	1805.27	00:00:15.514	15.514	
+dialogue.all		00:30:05.270	1805.27	00:30:10.577	1810.577	00:00:05.307	5.307	
+dialogue.all		00:30:10.577	1810.577	00:30:34.236	1834.236	00:00:23.659	23.659	
+dialogue.all		00:30:34.236	1834.236	00:30:43.053	1843.053	00:00:08.817	8.817	
+dialogue.all		00:30:43.053	1843.053	00:30:51.827	1851.827	00:00:08.774	8.774	
+dialogue.all		00:30:51.827	1851.827	00:31:06.363	1866.363	00:00:14.536	14.536	
+dialogue.all		00:31:06.363	1866.363	00:31:20.370	1880.37	00:00:14.007	14.007	
+dialogue.all		00:31:20.370	1880.37	00:31:32.732	1892.732	00:00:12.362	12.362	
+dialogue.all		00:31:32.732	1892.732	00:31:40.346	1900.346	00:00:07.614	7.614	
+dialogue.all		00:31:40.346	1900.346	00:31:50.223	1910.223	00:00:09.877	9.877	
+dialogue.all		00:31:50.223	1910.223	00:31:56.109	1916.109	00:00:05.886	5.886	
+dialogue.all		00:31:56.109	1916.109	00:31:59.702	1919.702	00:00:03.593	3.593	
+dialogue.all		00:31:59.702	1919.702	00:32:12.686	1932.686	00:00:12.984	12.984	
+dialogue.all		00:32:12.686	1932.686	00:32:23.874	1943.874	00:00:11.188	11.188	
+dialogue.all		00:32:23.874	1943.874	00:32:35.061	1955.061	00:00:11.187	11.187	
+dialogue.all		00:32:35.061	1955.061	00:32:37.828	1957.828	00:00:02.767	2.767	
+dialogue.all		00:32:37.828	1957.828	00:33:10.079	1990.079	00:00:32.251	32.251	
+dialogue.all		00:33:10.079	1990.079	00:33:16.425	1996.425	00:00:06.346	6.346	
+dialogue.all		00:33:16.425	1996.425	00:33:27.877	2007.877	00:00:11.452	11.452	
+dialogue.all		00:33:27.877	2007.877	00:33:34.981	2014.981	00:00:07.104	7.104	
+dialogue.all		00:33:34.981	2014.981	00:33:49.397	2029.397	00:00:14.416	14.416	
+dialogue.all		00:33:49.397	2029.397	00:33:59.112	2039.112	00:00:09.715	9.715	
+dialogue.all		00:33:59.112	2039.112	00:34:03.520	2043.52	00:00:04.408	4.408	
+dialogue.all		00:34:03.520	2043.52	00:34:10.379	2050.379	00:00:06.859	6.859	
+dialogue.all		00:34:10.379	2050.379	00:34:16.910	2056.91	00:00:06.531	6.531	
+dialogue.all		00:34:16.910	2056.91	00:34:27.659	2067.659	00:00:10.749	10.749	
+dialogue.all		00:34:27.659	2067.659	00:34:37.001	2077.001	00:00:09.342	9.342	
+dialogue.all		00:34:37.001	2077.001	00:34:39.694	2079.694	00:00:02.693	2.693	
+dialogue.all		00:34:39.694	2079.694	00:34:51.941	2091.941	00:00:12.247	12.247	
+dialogue.all		00:34:51.941	2091.941	00:35:10.966	2110.966	00:00:19.025	19.025	
+dialogue.all		00:35:10.966	2110.966	00:35:22.724	2122.724	00:00:11.758	11.758	
+dialogue.all		00:35:22.724	2122.724	00:35:31.786	2131.786	00:00:09.062	9.062	
+dialogue.all		00:35:31.786	2131.786	00:35:36.661	2136.661	00:00:04.875	4.875	
+dialogue.all		00:35:36.661	2136.661	00:35:43.054	2143.054	00:00:06.393	6.393	
+dialogue.all		00:35:43.054	2143.054	00:35:54.998	2154.998	00:00:11.944	11.944	
+dialogue.all		00:35:54.998	2154.998	00:36:03.899	2163.899	00:00:08.901	8.901	
+dialogue.all		00:36:03.899	2163.899	00:36:16.473	2176.473	00:00:12.574	12.574	
+dialogue.all		00:36:16.473	2176.473	00:36:25.726	2185.726	00:00:09.253	9.253	
+dialogue.all		00:36:25.726	2185.726	00:36:33.730	2193.73	00:00:08.004	8.004	
+dialogue.all		00:36:33.730	2193.73	00:36:42.223	2202.223	00:00:08.493	8.493	
+dialogue.all		00:36:42.223	2202.223	00:36:49.081	2209.081	00:00:06.858	6.858	
+dialogue.all		00:36:49.081	2209.081	00:36:56.186	2216.186	00:00:07.105	7.105	
+dialogue.all		00:36:56.186	2216.186	00:37:03.535	2223.535	00:00:07.349	7.349	
+dialogue.all		00:37:03.535	2223.535	00:37:09.413	2229.413	00:00:05.878	5.878	
+dialogue.all		00:37:09.413	2229.413	00:37:17.902	2237.902	00:00:08.489	8.489	
+dialogue.all		00:37:17.902	2237.902	00:37:20.759	2240.759	00:00:02.857	2.857	
+dialogue.all		00:37:20.759	2240.759	00:37:24.187	2244.187	00:00:03.428	3.428	
+dialogue.all		00:37:24.187	2244.187	00:37:41.313	2261.313	00:00:17.126	17.126	
+dialogue.all		00:37:41.313	2261.313	00:37:54.373	2274.373	00:00:13.060	13.06	
+dialogue.all		00:37:54.373	2274.373	00:37:59.678	2279.678	00:00:05.305	5.305	
+dialogue.all		00:37:59.678	2279.678	00:38:12.171	2292.171	00:00:12.493	12.493	
+dialogue.all		00:38:12.171	2292.171	00:38:23.845	2303.845	00:00:11.674	11.674	
+dialogue.all		00:38:23.845	2303.845	00:38:31.828	2311.828	00:00:07.983	7.983	
+dialogue.all		00:38:31.828	2311.828	00:38:37.631	2317.631	00:00:05.803	5.803	
+dialogue.all		00:38:37.631	2317.631	00:38:46.238	2326.238	00:00:08.607	8.607	
+dialogue.all		00:38:46.238	2326.238	00:39:00.120	2340.12	00:00:13.882	13.882	
+dialogue.all		00:39:00.120	2340.12	00:39:07.632	2347.632	00:00:07.512	7.512	
+dialogue.all		00:39:07.632	2347.632	00:39:12.938	2352.938	00:00:05.306	5.306	
+dialogue.all		00:39:12.938	2352.938	00:39:29.133	2369.133	00:00:16.195	16.195	
+dialogue.all		00:39:29.133	2369.133	00:39:34.768	2374.768	00:00:05.635	5.635	
+dialogue.all		00:39:34.768	2374.768	00:39:39.584	2379.584	00:00:04.816	4.816	
+dialogue.all		00:39:39.584	2379.584	00:39:54.166	2394.166	00:00:14.582	14.582	
+dialogue.all		00:39:54.166	2394.166	00:40:02.740	2402.74	00:00:08.574	8.574	
+dialogue.all		00:40:02.740	2402.74	00:40:06.903	2406.903	00:00:04.163	4.163	
+dialogue.all		00:40:06.903	2406.903	00:40:11.965	2411.965	00:00:05.062	5.062	
+dialogue.all		00:40:11.965	2411.965	00:40:16.826	2416.826	00:00:04.861	4.861	
+dialogue.all		00:40:16.826	2416.826	00:40:31.965	2431.965	00:00:15.139	15.139	
+dialogue.all		00:40:31.965	2431.965	00:40:35.206	2435.206	00:00:03.241	3.241	
+dialogue.all		00:40:35.206	2435.206	00:40:47.128	2447.128	00:00:11.922	11.922	
+dialogue.all		00:40:47.128	2447.128	00:40:55.820	2455.82	00:00:08.692	8.692	
+dialogue.all		00:40:55.820	2455.82	00:41:01.952	2461.952	00:00:06.132	6.132	
+dialogue.all		00:41:01.952	2461.952	00:41:08.879	2468.879	00:00:06.927	6.927	
+dialogue.all		00:41:08.879	2468.879	00:41:24.663	2484.663	00:00:15.784	15.784	
+dialogue.all		00:41:24.663	2484.663	00:41:33.396	2493.396	00:00:08.733	8.733	
+dialogue.all		00:41:33.396	2493.396	00:41:44.667	2504.667	00:00:11.271	11.271	
+dialogue.all		00:41:44.667	2504.667	00:41:59.043	2519.043	00:00:14.376	14.376	
+dialogue.all		00:41:59.043	2519.043	00:42:03.698	2523.698	00:00:04.655	4.655	
+dialogue.all		00:42:03.698	2523.698	00:42:07.607	2527.607	00:00:03.909	3.909	
+dialogue.all		00:42:07.607	2527.607	00:42:13.006	2533.006	00:00:05.399	5.399	
+dialogue.all		00:42:13.006	2533.006	00:42:27.378	2547.378	00:00:14.372	14.372	
+dialogue.all		00:42:27.378	2547.378	00:42:39.626	2559.626	00:00:12.248	12.248	
+dialogue.all		00:42:39.626	2559.626	00:42:47.710	2567.71	00:00:08.084	8.084	
+dialogue.all		00:42:47.710	2567.71	00:42:54.968	2574.968	00:00:07.258	7.258	
+dialogue.all		00:42:54.968	2574.968	00:42:59.867	2579.867	00:00:04.899	4.899	
+dialogue.all		00:42:59.867	2579.867	00:43:08.338	2588.338	00:00:08.471	8.471	
+dialogue.all		00:43:08.338	2588.338	00:43:27.633	2607.633	00:00:19.295	19.295	
+dialogue.all		00:43:27.633	2607.633	00:43:46.494	2626.494	00:00:18.861	18.861	
+dialogue.all		00:43:46.494	2626.494	00:43:55.065	2635.065	00:00:08.571	8.571	
+dialogue.all		00:43:55.065	2635.065	00:43:59.227	2639.227	00:00:04.162	4.162	
+dialogue.all		00:43:59.227	2639.227	00:44:04.372	2644.372	00:00:05.145	5.145	
+dialogue.all		00:44:04.372	2644.372	00:44:11.361	2651.361	00:00:06.989	6.989	
+dialogue.all		00:44:11.361	2651.361	00:44:14.301	2654.301	00:00:02.940	2.94	
+dialogue.all		00:44:14.301	2654.301	00:44:17.975	2657.975	00:00:03.674	3.674	
+dialogue.all		00:44:17.975	2657.975	00:44:26.777	2666.777	00:00:08.802	8.802	
+dialogue.all		00:44:26.777	2666.777	00:44:32.656	2672.656	00:00:05.879	5.879	
+dialogue.all		00:44:32.656	2672.656	00:44:42.700	2682.7	00:00:10.044	10.044	
+dialogue.all		00:44:42.700	2682.7	00:44:48.822	2688.822	00:00:06.122	6.122	
+dialogue.all		00:44:48.822	2688.822	00:44:52.495	2692.495	00:00:03.673	3.673	
+dialogue.all		00:44:52.495	2692.495	00:45:01.233	2701.233	00:00:08.738	8.738	
+dialogue.all		00:45:01.233	2701.233	00:45:03.927	2703.927	00:00:02.694	2.694	
+dialogue.all		00:45:03.927	2703.927	00:45:12.208	2712.208	00:00:08.281	8.281	
+dialogue.all.category		00:00:00.000	0.0	00:00:08.950	8.95	00:00:08.950	8.95	task
+dialogue.all.category		00:00:08.960	8.96	00:00:13.000	13.0	00:00:04.040	4.04	tech
+dialogue.all.category		00:00:13.000	13.0	00:00:21.109	21.109	00:00:08.109	8.109	interaction
+dialogue.all.category		00:00:21.109	21.109	00:00:31.013	31.013	00:00:09.904	9.904	tech
+dialogue.all.category		00:00:31.013	31.013	00:00:44.202	44.202	00:00:13.189	13.189	
+dialogue.all.category		00:00:44.202	44.202	00:00:49.509	49.509	00:00:05.307	5.307	task
+dialogue.all.category		00:00:49.509	49.509	00:00:54.176	54.176	00:00:04.667	4.667	tech
+dialogue.all.category		00:00:59.603	59.603	00:01:03.672	63.672	00:00:04.069	4.069	tech
+dialogue.all.category		00:01:03.672	63.672	00:01:09.016	69.016	00:00:05.344	5.344	interaction
+dialogue.all.category		00:01:09.016	69.016	00:01:15.761	75.761	00:00:06.745	6.745	task
+dialogue.all.category		00:01:15.761	75.761	00:01:19.778	79.778	00:00:04.017	4.017	task
+dialogue.all.category		00:01:19.778	79.778	00:01:32.870	92.87	00:00:13.092	13.092	
+dialogue.all.category		00:01:32.880	92.88	00:01:42.455	102.455	00:00:09.575	9.575	task
+dialogue.all.category		00:02:45.086	165.086	00:02:50.892	170.892	00:00:05.806	5.806	tech
+dialogue.all.category		00:02:50.892	170.892	00:02:56.216	176.216	00:00:05.324	5.324	tech
+dialogue.all.category		00:02:56.216	176.216	00:02:59.778	179.778	00:00:03.562	3.562	interaction
+dialogue.all.category		00:02:59.778	179.778	00:03:05.229	185.229	00:00:05.451	5.451	interaction
+dialogue.all.category		00:03:07.510	187.51	00:03:19.526	199.526	00:00:12.016	12.016	task
+dialogue.all.category		00:03:19.526	199.526	00:03:27.165	207.165	00:00:07.639	7.639	task
+dialogue.all.category		00:03:27.165	207.165	00:03:33.277	213.277	00:00:06.112	6.112	task
+dialogue.all.category		00:03:33.277	213.277	00:03:51.001	231.001	00:00:17.724	17.724	task
+dialogue.all.category		00:03:55.993	235.993	00:03:58.277	238.277	00:00:02.284	2.284	task
+dialogue.all.category		00:03:58.277	238.277	00:04:06.717	246.717	00:00:08.440	8.44	task
+dialogue.all.category		00:04:06.717	246.717	00:04:09.980	249.98	00:00:03.263	3.263	task
+dialogue.all.category		00:04:09.980	249.98	00:04:18.399	258.399	00:00:08.419	8.419	task
+dialogue.all.category		00:04:18.399	258.399	00:04:26.107	266.107	00:00:07.708	7.708	interaction
+dialogue.all.category		00:04:26.107	266.107	00:04:33.000	273.0	00:00:06.893	6.893	
+dialogue.all.category		00:04:33.000	273.0	00:04:35.354	275.354	00:00:02.354	2.354	interaction
+dialogue.all.category		00:04:42.307	282.307	00:04:47.521	287.521	00:00:05.214	5.214	task
+dialogue.all.category		00:04:47.521	287.521	00:04:56.312	296.312	00:00:08.791	8.791	task
+dialogue.all.category		00:04:56.312	296.312	00:05:03.628	303.628	00:00:07.316	7.316	task
+dialogue.all.category		00:05:03.628	303.628	00:05:11.981	311.981	00:00:08.353	8.353	task
+dialogue.all.category		00:05:11.981	311.981	00:05:19.194	319.194	00:00:07.213	7.213	task
+dialogue.all.category		00:05:19.194	319.194	00:05:22.587	322.587	00:00:03.393	3.393	task
+dialogue.all.category		00:05:29.015	329.015	00:05:41.273	341.273	00:00:12.258	12.258	task
+dialogue.all.category		00:05:44.307	344.307	00:05:58.377	358.377	00:00:14.070	14.07	task
+dialogue.all.category		00:05:58.377	358.377	00:06:02.538	362.538	00:00:04.161	4.161	tech
+dialogue.all.category		00:06:18.038	378.038	00:06:24.768	384.768	00:00:06.730	6.73	task
+dialogue.all.category		00:06:24.768	384.768	00:06:28.776	388.776	00:00:04.008	4.008	task
+dialogue.all.category		00:07:13.498	433.498	00:07:22.935	442.935	00:00:09.437	9.437	task
+dialogue.all.category		00:07:22.935	442.935	00:07:25.118	445.118	00:00:02.183	2.183	task
+dialogue.all.category		00:07:25.118	445.118	00:07:38.306	458.306	00:00:13.188	13.188	task
+dialogue.all.category		00:07:38.306	458.306	00:07:46.191	466.191	00:00:07.885	7.885	task
+dialogue.all.category		00:07:46.191	466.191	00:07:56.844	476.844	00:00:10.653	10.653	task
+dialogue.all.category		00:08:02.319	482.319	00:08:11.736	491.736	00:00:09.417	9.417	task
+dialogue.all.category		00:08:15.707	495.707	00:08:19.224	499.224	00:00:03.517	3.517	task
+dialogue.all.category		00:08:24.492	504.492	00:08:34.214	514.214	00:00:09.722	9.722	task
+dialogue.all.category		00:08:34.214	514.214	00:08:38.594	518.594	00:00:04.380	4.38	task
+dialogue.all.category		00:08:38.594	518.594	00:08:43.742	523.742	00:00:05.148	5.148	task
+dialogue.all.category		00:08:43.742	523.742	00:08:48.052	528.052	00:00:04.310	4.31	task
+dialogue.all.category		00:08:48.052	528.052	00:08:54.210	534.21	00:00:06.158	6.158	task
+dialogue.all.category		00:08:54.210	534.21	00:08:56.518	536.518	00:00:02.308	2.308	tech
+dialogue.all.category		00:08:56.518	536.518	00:09:00.576	540.576	00:00:04.058	4.058	org.task
+dialogue.all.category		00:09:00.576	540.576	00:09:04.337	544.337	00:00:03.761	3.761	org.task
+dialogue.all.category		00:09:04.337	544.337	00:09:12.652	552.652	00:00:08.315	8.315	task
+dialogue.all.category		00:09:12.652	552.652	00:09:17.349	557.349	00:00:04.697	4.697	task
+dialogue.all.category		00:09:17.349	557.349	00:09:25.028	565.028	00:00:07.679	7.679	task
+dialogue.all.category		00:09:29.984	569.984	00:09:32.797	572.797	00:00:02.813	2.813	task
+dialogue.all.category		00:09:35.426	575.426	00:09:42.118	582.118	00:00:06.692	6.692	task
+dialogue.all.category		00:09:42.118	582.118	00:09:52.510	592.51	00:00:10.392	10.392	task
+dialogue.all.category		00:09:58.546	598.546	00:10:03.622	603.622	00:00:05.076	5.076	org.task
+dialogue.all.category		00:10:06.111	606.111	00:10:08.487	608.487	00:00:02.376	2.376	interaction
+dialogue.all.category		00:10:22.587	622.587	00:10:25.021	625.021	00:00:02.434	2.434	task
+dialogue.all.category		00:10:25.021	625.021	00:10:27.939	627.939	00:00:02.918	2.918	task
+dialogue.all.category		00:10:27.939	627.939	00:10:36.531	636.531	00:00:08.592	8.592	task
+dialogue.all.category		00:10:46.988	646.988	00:10:52.390	652.39	00:00:05.402	5.402	task
+dialogue.all.category		00:10:52.390	652.39	00:11:05.447	665.447	00:00:13.057	13.057	tech
+dialogue.all.category		00:11:07.639	667.639	00:11:18.446	678.446	00:00:10.807	10.807	task
+dialogue.all.category		00:11:18.446	678.446	00:11:23.700	683.7	00:00:05.254	5.254	task
+dialogue.all.category		00:11:32.225	692.225	00:11:40.931	700.931	00:00:08.706	8.706	org.task
+dialogue.all.category		00:11:40.931	700.931	00:11:45.395	705.395	00:00:04.464	4.464	org.task
+dialogue.all.category		00:11:45.395	705.395	00:11:51.483	711.483	00:00:06.088	6.088	org.task
+dialogue.all.category		00:11:51.483	711.483	00:12:06.838	726.838	00:00:15.355	15.355	task
+dialogue.all.category		00:12:06.838	726.838	00:12:18.720	738.72	00:00:11.882	11.882	task
+dialogue.all.category		00:12:18.720	738.72	00:12:29.511	749.511	00:00:10.791	10.791	task
+dialogue.all.category		00:12:29.511	749.511	00:12:41.272	761.272	00:00:11.761	11.761	task
+dialogue.all.category		00:12:41.272	761.272	00:12:45.178	765.178	00:00:03.906	3.906	task
+dialogue.all.category		00:12:45.178	765.178	00:12:51.954	771.954	00:00:06.776	6.776	task
+dialogue.all.category		00:12:51.954	771.954	00:12:59.384	779.384	00:00:07.430	7.43	task
+dialogue.all.category		00:12:59.384	779.384	00:13:06.447	786.447	00:00:07.063	7.063	org.wb
+dialogue.all.category		00:13:06.447	786.447	00:13:19.551	799.551	00:00:13.104	13.104	org.wb
+dialogue.all.category		00:13:24.613	804.613	00:13:29.023	809.023	00:00:04.410	4.41	task
+dialogue.all.category		00:13:38.741	818.741	00:13:41.885	821.885	00:00:03.144	3.144	task
+dialogue.all.category		00:14:17.040	857.04	00:14:31.030	871.03	00:00:13.990	13.99	task
+dialogue.all.category		00:14:31.030	871.03	00:14:36.663	876.663	00:00:05.633	5.633	task
+dialogue.all.category		00:14:36.663	876.663	00:14:48.094	888.094	00:00:11.431	11.431	task
+dialogue.all.category		00:14:48.094	888.094	00:15:10.955	910.955	00:00:22.861	22.861	task
+dialogue.all.category		00:15:10.955	910.955	00:15:28.346	928.346	00:00:17.391	17.391	task
+dialogue.all.category		00:15:28.346	928.346	00:15:58.555	958.555	00:00:30.209	30.209	org.wb
+dialogue.all.category		00:15:58.555	958.555	00:16:06.555	966.555	00:00:08.000	8.0	task
+dialogue.all.category		00:16:06.555	966.555	00:16:11.373	971.373	00:00:04.818	4.818	task
+dialogue.all.category		00:16:32.295	992.295	00:16:37.684	997.684	00:00:05.389	5.389	task
+dialogue.all.category		00:16:47.454	1007.454	00:16:56.785	1016.785	00:00:09.331	9.331	task
+dialogue.all.category		00:16:56.785	1016.785	00:17:03.888	1023.888	00:00:07.103	7.103	task
+dialogue.all.category		00:17:03.888	1023.888	00:17:12.624	1032.624	00:00:08.736	8.736	task
+dialogue.all.category		00:17:12.624	1032.624	00:17:29.935	1049.935	00:00:17.311	17.311	task
+dialogue.all.category		00:17:35.815	1055.815	00:17:45.370	1065.37	00:00:09.555	9.555	org.task
+dialogue.all.category		00:17:45.370	1065.37	00:17:53.332	1073.332	00:00:07.962	7.962	org.wb
+dialogue.all.category		00:17:53.332	1073.332	00:18:05.454	1085.454	00:00:12.122	12.122	task
+dialogue.all.category		00:18:05.454	1085.454	00:18:18.353	1098.353	00:00:12.899	12.899	org.wb
+dialogue.all.category		00:18:24.722	1104.722	00:18:45.952	1125.952	00:00:21.230	21.23	task
+dialogue.all.category		00:18:45.952	1125.952	00:18:53.873	1133.873	00:00:07.921	7.921	task
+dialogue.all.category		00:18:57.548	1137.548	00:19:08.233	1148.233	00:00:10.685	10.685	org.wb
+dialogue.all.category		00:19:08.233	1148.233	00:19:40.676	1180.676	00:00:32.443	32.443	task
+dialogue.all.category		00:19:40.676	1180.676	00:19:44.024	1184.024	00:00:03.348	3.348	org.wb
+dialogue.all.category		00:19:44.024	1184.024	00:20:03.743	1203.743	00:00:19.719	19.719	org.wb
+dialogue.all.category		00:20:03.743	1203.743	00:20:07.905	1207.905	00:00:04.162	4.162	task
+dialogue.all.category		00:20:07.905	1207.905	00:20:13.784	1213.784	00:00:05.879	5.879	org.wb
+dialogue.all.category		00:20:13.784	1213.784	00:20:17.948	1217.948	00:00:04.164	4.164	tech
+dialogue.all.category		00:20:17.948	1217.948	00:20:24.561	1224.561	00:00:06.613	6.613	tech
+dialogue.all.category		00:20:24.561	1224.561	00:20:29.705	1229.705	00:00:05.144	5.144	tech
+dialogue.all.category		00:20:29.705	1229.705	00:20:41.137	1241.137	00:00:11.432	11.432	tech
+dialogue.all.category		00:20:41.137	1241.137	00:20:53.791	1253.791	00:00:12.654	12.654	tech
+dialogue.all.category		00:20:53.791	1253.791	00:21:12.652	1272.652	00:00:18.861	18.861	tech
+dialogue.all.category		00:21:45.965	1305.965	00:22:00.744	1320.744	00:00:14.779	14.779	interaction
+dialogue.all.category		00:22:10.623	1330.623	00:22:19.672	1339.672	00:00:09.049	9.049	task
+dialogue.all.category		00:22:26.218	1346.218	00:22:35.528	1355.528	00:00:09.310	9.31	tech
+dialogue.all.category		00:22:43.123	1363.123	00:22:59.267	1379.267	00:00:16.144	16.144	interaction
+dialogue.all.category		00:22:59.267	1379.267	00:23:15.213	1395.213	00:00:15.946	15.946	tech
+dialogue.all.category		00:23:15.213	1395.213	00:23:25.665	1405.665	00:00:10.452	10.452	tech
+dialogue.all.category		00:23:25.665	1405.665	00:23:34.309	1414.309	00:00:08.644	8.644	task
+dialogue.all.category		00:23:34.309	1414.309	00:23:44.398	1424.398	00:00:10.089	10.089	task
+dialogue.all.subject		00:00:00.000	0.0	00:00:08.950	8.95	00:00:08.950	8.95	s3
+dialogue.all.subject		00:00:08.960	8.96	00:00:13.000	13.0	00:00:04.040	4.04	s0
+dialogue.all.subject		00:00:13.000	13.0	00:00:21.109	21.109	00:00:08.109	8.109	s3
+dialogue.all.subject		00:00:21.109	21.109	00:00:31.013	31.013	00:00:09.904	9.904	s0
+dialogue.all.subject		00:00:31.013	31.013	00:00:44.202	44.202	00:00:13.189	13.189	
+dialogue.all.subject		00:00:44.202	44.202	00:00:49.509	49.509	00:00:05.307	5.307	s0
+dialogue.all.subject		00:00:49.509	49.509	00:00:54.176	54.176	00:00:04.667	4.667	s0
+dialogue.all.subject		00:00:54.176	54.176	00:00:59.603	59.603	00:00:05.427	5.427	
+dialogue.all.subject		00:00:59.603	59.603	00:01:03.672	63.672	00:00:04.069	4.069	s0
+dialogue.all.subject		00:01:03.672	63.672	00:01:09.016	69.016	00:00:05.344	5.344	s0
+dialogue.all.subject		00:01:09.016	69.016	00:01:15.761	75.761	00:00:06.745	6.745	s0
+dialogue.all.subject		00:01:15.761	75.761	00:01:19.778	79.778	00:00:04.017	4.017	s1
+dialogue.all.subject		00:01:19.778	79.778	00:01:32.870	92.87	00:00:13.092	13.092	
+dialogue.all.subject		00:01:32.880	92.88	00:01:42.455	102.455	00:00:09.575	9.575	s0
+dialogue.all.subject		00:01:42.460	102.46	00:02:45.086	165.086	00:01:02.626	62.626	
+dialogue.all.subject		00:02:45.086	165.086	00:02:50.892	170.892	00:00:05.806	5.806	s0
+dialogue.all.subject		00:02:50.892	170.892	00:02:56.216	176.216	00:00:05.324	5.324	s3
+dialogue.all.subject		00:02:56.216	176.216	00:02:59.778	179.778	00:00:03.562	3.562	s2
+dialogue.all.subject		00:02:59.778	179.778	00:03:05.229	185.229	00:00:05.451	5.451	s3
+dialogue.all.subject		00:03:05.229	185.229	00:03:07.500	187.5	00:00:02.271	2.271	
+dialogue.all.subject		00:03:07.510	187.51	00:03:19.526	199.526	00:00:12.016	12.016	s0
+dialogue.all.subject		00:03:19.526	199.526	00:03:27.165	207.165	00:00:07.639	7.639	s0
+dialogue.all.subject		00:03:27.165	207.165	00:03:33.277	213.277	00:00:06.112	6.112	s3
+dialogue.all.subject		00:03:33.277	213.277	00:03:51.001	231.001	00:00:17.724	17.724	s0
+dialogue.all.subject		00:03:51.001	231.001	00:03:55.993	235.993	00:00:04.992	4.992	
+dialogue.all.subject		00:03:55.993	235.993	00:03:58.277	238.277	00:00:02.284	2.284	s3
+dialogue.all.subject		00:03:58.277	238.277	00:04:06.717	246.717	00:00:08.440	8.44	s0
+dialogue.all.subject		00:04:06.717	246.717	00:04:09.980	249.98	00:00:03.263	3.263	s3
+dialogue.all.subject		00:04:09.980	249.98	00:04:18.399	258.399	00:00:08.419	8.419	s2
+dialogue.all.subject		00:04:18.399	258.399	00:04:26.107	266.107	00:00:07.708	7.708	s2
+dialogue.all.subject		00:04:26.107	266.107	00:04:33.000	273.0	00:00:06.893	6.893	
+dialogue.all.subject		00:04:33.000	273.0	00:04:35.354	275.354	00:00:02.354	2.354	s0
+dialogue.all.subject		00:04:35.354	275.354	00:04:42.307	282.307	00:00:06.953	6.953	
+dialogue.all.subject		00:04:42.307	282.307	00:04:47.521	287.521	00:00:05.214	5.214	s2
+dialogue.all.subject		00:04:47.521	287.521	00:04:56.312	296.312	00:00:08.791	8.791	s0
+dialogue.all.subject		00:04:56.312	296.312	00:05:03.628	303.628	00:00:07.316	7.316	s0
+dialogue.all.subject		00:05:03.628	303.628	00:05:11.981	311.981	00:00:08.353	8.353	s0
+dialogue.all.subject		00:05:11.981	311.981	00:05:19.194	319.194	00:00:07.213	7.213	s0
+dialogue.all.subject		00:05:19.194	319.194	00:05:22.587	322.587	00:00:03.393	3.393	s0
+dialogue.all.subject		00:05:22.587	322.587	00:05:29.015	329.015	00:00:06.428	6.428	
+dialogue.all.subject		00:05:29.015	329.015	00:05:41.273	341.273	00:00:12.258	12.258	s0
+dialogue.all.subject		00:05:41.273	341.273	00:05:44.307	344.307	00:00:03.034	3.034	
+dialogue.all.subject		00:05:44.307	344.307	00:05:58.377	358.377	00:00:14.070	14.07	s0
+dialogue.all.subject		00:05:58.377	358.377	00:06:02.538	362.538	00:00:04.161	4.161	s2
+dialogue.all.subject		00:06:02.538	362.538	00:06:11.340	371.34	00:00:08.802	8.802	
+dialogue.all.subject		00:06:11.340	371.34	00:06:15.862	375.862	00:00:04.522	4.522	
+dialogue.all.subject		00:06:15.862	375.862	00:06:18.038	378.038	00:00:02.176	2.176	
+dialogue.all.subject		00:06:18.038	378.038	00:06:24.768	384.768	00:00:06.730	6.73	s3
+dialogue.all.subject		00:06:24.768	384.768	00:06:28.776	388.776	00:00:04.008	4.008	s1
+dialogue.all.subject		00:06:28.776	388.776	00:07:07.868	427.868	00:00:39.092	39.092	
+dialogue.all.subject		00:07:07.868	427.868	00:07:13.498	433.498	00:00:05.630	5.63	
+dialogue.all.subject		00:07:13.498	433.498	00:07:22.935	442.935	00:00:09.437	9.437	s0
+dialogue.all.subject		00:07:22.935	442.935	00:07:25.118	445.118	00:00:02.183	2.183	s3
+dialogue.all.subject		00:07:25.118	445.118	00:07:38.306	458.306	00:00:13.188	13.188	s0
+dialogue.all.subject		00:07:38.306	458.306	00:07:46.191	466.191	00:00:07.885	7.885	s0
+dialogue.all.subject		00:07:46.191	466.191	00:07:56.844	476.844	00:00:10.653	10.653	s3
+dialogue.all.subject		00:07:56.844	476.844	00:08:02.319	482.319	00:00:05.475	5.475	
+dialogue.all.subject		00:08:02.319	482.319	00:08:11.736	491.736	00:00:09.417	9.417	s0
+dialogue.all.subject		00:08:11.736	491.736	00:08:15.707	495.707	00:00:03.971	3.971	
+dialogue.all.subject		00:08:15.707	495.707	00:08:19.224	499.224	00:00:03.517	3.517	s0
+dialogue.all.subject		00:08:19.224	499.224	00:08:24.492	504.492	00:00:05.268	5.268	
+dialogue.all.subject		00:08:24.492	504.492	00:08:34.214	514.214	00:00:09.722	9.722	s0
+dialogue.all.subject		00:08:34.214	514.214	00:08:38.594	518.594	00:00:04.380	4.38	s1
+dialogue.all.subject		00:08:38.594	518.594	00:08:43.742	523.742	00:00:05.148	5.148	s1
+dialogue.all.subject		00:08:43.742	523.742	00:08:48.052	528.052	00:00:04.310	4.31	s1
+dialogue.all.subject		00:08:48.052	528.052	00:08:54.210	534.21	00:00:06.158	6.158	s0
+dialogue.all.subject		00:08:54.210	534.21	00:08:56.518	536.518	00:00:02.308	2.308	
+dialogue.all.subject		00:08:56.518	536.518	00:09:00.576	540.576	00:00:04.058	4.058	s3
+dialogue.all.subject		00:09:00.576	540.576	00:09:04.337	544.337	00:00:03.761	3.761	s2
+dialogue.all.subject		00:09:04.337	544.337	00:09:12.652	552.652	00:00:08.315	8.315	s1
+dialogue.all.subject		00:09:12.652	552.652	00:09:17.349	557.349	00:00:04.697	4.697	s1
+dialogue.all.subject		00:09:17.349	557.349	00:09:25.028	565.028	00:00:07.679	7.679	s0
+dialogue.all.subject		00:09:25.028	565.028	00:09:29.984	569.984	00:00:04.956	4.956	
+dialogue.all.subject		00:09:29.984	569.984	00:09:32.797	572.797	00:00:02.813	2.813	s3
+dialogue.all.subject		00:09:32.797	572.797	00:09:35.426	575.426	00:00:02.629	2.629	
+dialogue.all.subject		00:09:35.426	575.426	00:09:42.118	582.118	00:00:06.692	6.692	s0
+dialogue.all.subject		00:09:42.118	582.118	00:09:52.510	592.51	00:00:10.392	10.392	s0
+dialogue.all.subject		00:09:52.510	592.51	00:09:58.546	598.546	00:00:06.036	6.036	
+dialogue.all.subject		00:09:58.546	598.546	00:10:03.622	603.622	00:00:05.076	5.076	s1
+dialogue.all.subject		00:10:03.622	603.622	00:10:06.111	606.111	00:00:02.489	2.489	
+dialogue.all.subject		00:10:06.111	606.111	00:10:08.487	608.487	00:00:02.376	2.376	s0
+dialogue.all.subject		00:10:08.487	608.487	00:10:22.587	622.587	00:00:14.100	14.1	s3
+dialogue.all.subject		00:10:25.021	625.021	00:10:27.939	627.939	00:00:02.918	2.918	s3
+dialogue.all.subject		00:10:27.939	627.939	00:10:36.531	636.531	00:00:08.592	8.592	s0
+dialogue.all.subject		00:10:36.531	636.531	00:10:46.988	646.988	00:00:10.457	10.457	
+dialogue.all.subject		00:10:46.988	646.988	00:10:52.390	652.39	00:00:05.402	5.402	s0
+dialogue.all.subject		00:10:52.390	652.39	00:11:05.447	665.447	00:00:13.057	13.057	s0
+dialogue.all.subject		00:11:05.447	665.447	00:11:07.639	667.639	00:00:02.192	2.192	
+dialogue.all.subject		00:11:07.639	667.639	00:11:18.446	678.446	00:00:10.807	10.807	s0
+dialogue.all.subject		00:11:18.446	678.446	00:11:23.700	683.7	00:00:05.254	5.254	s2
+dialogue.all.subject		00:11:23.700	683.7	00:11:32.225	692.225	00:00:08.525	8.525	
+dialogue.all.subject		00:11:32.225	692.225	00:11:40.931	700.931	00:00:08.706	8.706	s2
+dialogue.all.subject		00:11:40.931	700.931	00:11:45.395	705.395	00:00:04.464	4.464	s1
+dialogue.all.subject		00:11:45.395	705.395	00:11:51.483	711.483	00:00:06.088	6.088	s3
+dialogue.all.subject		00:11:51.483	711.483	00:12:06.838	726.838	00:00:15.355	15.355	s3
+dialogue.all.subject		00:12:06.838	726.838	00:12:18.720	738.72	00:00:11.882	11.882	s3
+dialogue.all.subject		00:12:18.720	738.72	00:12:29.511	749.511	00:00:10.791	10.791	s3
+dialogue.all.subject		00:12:29.511	749.511	00:12:41.272	761.272	00:00:11.761	11.761	s3
+dialogue.all.subject		00:12:41.272	761.272	00:12:45.178	765.178	00:00:03.906	3.906	s3
+dialogue.all.subject		00:12:45.178	765.178	00:12:51.954	771.954	00:00:06.776	6.776	s3
+dialogue.all.subject		00:12:51.954	771.954	00:12:59.384	779.384	00:00:07.430	7.43	s3
+dialogue.all.subject		00:12:59.384	779.384	00:13:06.447	786.447	00:00:07.063	7.063	s0
+dialogue.all.subject		00:13:06.447	786.447	00:13:19.551	799.551	00:00:13.104	13.104	s0
+dialogue.all.subject		00:13:19.551	799.551	00:13:24.613	804.613	00:00:05.062	5.062	
+dialogue.all.subject		00:13:24.613	804.613	00:13:29.023	809.023	00:00:04.410	4.41	s3
+dialogue.all.subject		00:13:29.023	809.023	00:13:38.741	818.741	00:00:09.718	9.718	
+dialogue.all.subject		00:13:38.741	818.741	00:13:41.885	821.885	00:00:03.144	3.144	s3
+dialogue.all.subject		00:13:41.885	821.885	00:13:56.707	836.707	00:00:14.822	14.822	
+dialogue.all.subject		00:13:56.707	836.707	00:14:05.838	845.838	00:00:09.131	9.131	
+dialogue.all.subject		00:14:05.838	845.838	00:14:11.161	851.161	00:00:05.323	5.323	
+dialogue.all.subject		00:14:11.161	851.161	00:14:17.040	857.04	00:00:05.879	5.879	
+dialogue.all.subject		00:14:17.040	857.04	00:14:31.030	871.03	00:00:13.990	13.99	s3
+dialogue.all.subject		00:14:31.030	871.03	00:14:36.663	876.663	00:00:05.633	5.633	s3
+dialogue.all.subject		00:14:36.663	876.663	00:14:48.094	888.094	00:00:11.431	11.431	s3
+dialogue.all.subject		00:14:48.094	888.094	00:15:10.955	910.955	00:00:22.861	22.861	s3
+dialogue.all.subject		00:15:10.955	910.955	00:15:28.346	928.346	00:00:17.391	17.391	s0
+dialogue.all.subject		00:15:28.346	928.346	00:15:58.555	958.555	00:00:30.209	30.209	s3
+dialogue.all.subject		00:15:58.555	958.555	00:16:06.555	966.555	00:00:08.000	8.0	s2
+dialogue.all.subject		00:16:06.555	966.555	00:16:11.373	971.373	00:00:04.818	4.818	s2
+dialogue.all.subject		00:16:32.295	992.295	00:16:37.684	997.684	00:00:05.389	5.389	s1
+dialogue.all.subject		00:16:37.684	997.684	00:16:47.454	1007.454	00:00:09.770	9.77	
+dialogue.all.subject		00:16:47.454	1007.454	00:16:56.785	1016.785	00:00:09.331	9.331	s3
+dialogue.all.subject		00:16:56.785	1016.785	00:17:03.888	1023.888	00:00:07.103	7.103	s3
+dialogue.all.subject		00:17:03.888	1023.888	00:17:12.624	1032.624	00:00:08.736	8.736	s3
+dialogue.all.subject		00:17:12.624	1032.624	00:17:29.935	1049.935	00:00:17.311	17.311	s1
+dialogue.all.subject		00:17:29.935	1049.935	00:17:35.815	1055.815	00:00:05.880	5.88	
+dialogue.all.subject		00:17:35.815	1055.815	00:17:45.370	1065.37	00:00:09.555	9.555	s1
+dialogue.all.subject		00:17:45.370	1065.37	00:17:53.332	1073.332	00:00:07.962	7.962	s1
+dialogue.all.subject		00:17:53.332	1073.332	00:18:05.454	1085.454	00:00:12.122	12.122	s2
+dialogue.all.subject		00:18:05.454	1085.454	00:18:18.353	1098.353	00:00:12.899	12.899	s2
+dialogue.all.subject		00:18:18.353	1098.353	00:18:21.293	1101.293	00:00:02.940	2.94	s2
+dialogue.all.subject		00:18:21.293	1101.293	00:18:24.722	1104.722	00:00:03.429	3.429	
+dialogue.all.subject		00:18:24.722	1104.722	00:18:45.952	1125.952	00:00:21.230	21.23	s2
+dialogue.all.subject		00:18:45.952	1125.952	00:18:53.873	1133.873	00:00:07.921	7.921	s2
+dialogue.all.subject		00:18:53.873	1133.873	00:18:57.548	1137.548	00:00:03.675	3.675	s2
+dialogue.all.subject		00:18:57.548	1137.548	00:19:08.233	1148.233	00:00:10.685	10.685	s1
+dialogue.all.subject		00:19:08.233	1148.233	00:19:40.676	1180.676	00:00:32.443	32.443	s0
+dialogue.all.subject		00:19:40.676	1180.676	00:19:44.024	1184.024	00:00:03.348	3.348	s0
+dialogue.all.subject		00:19:44.024	1184.024	00:20:03.743	1203.743	00:00:19.719	19.719	s3
+dialogue.all.subject		00:20:03.743	1203.743	00:20:07.905	1207.905	00:00:04.162	4.162	s0
+dialogue.all.subject		00:20:07.905	1207.905	00:20:13.784	1213.784	00:00:05.879	5.879	s0
+dialogue.all.subject		00:20:13.784	1213.784	00:20:17.948	1217.948	00:00:04.164	4.164	
+dialogue.all.subject		00:20:17.948	1217.948	00:20:24.561	1224.561	00:00:06.613	6.613	s0
+dialogue.all.subject		00:20:24.561	1224.561	00:20:29.705	1229.705	00:00:05.144	5.144	s3
+dialogue.all.subject		00:20:29.705	1229.705	00:20:41.137	1241.137	00:00:11.432	11.432	s2
+dialogue.all.subject		00:20:41.137	1241.137	00:20:53.791	1253.791	00:00:12.654	12.654	s3
+dialogue.all.subject		00:20:53.791	1253.791	00:21:12.652	1272.652	00:00:18.861	18.861	s2
+dialogue.all.subject		00:21:12.652	1272.652	00:21:45.965	1305.965	00:00:33.313	33.313	
+dialogue.all.subject		00:21:45.965	1305.965	00:22:00.744	1320.744	00:00:14.779	14.779	s0
+dialogue.all.subject		00:22:00.744	1320.744	00:22:10.623	1330.623	00:00:09.879	9.879	
+dialogue.all.subject		00:22:10.623	1330.623	00:22:19.672	1339.672	00:00:09.049	9.049	s2
+dialogue.all.subject		00:22:19.672	1339.672	00:22:26.218	1346.218	00:00:06.546	6.546	
+dialogue.all.subject		00:22:26.218	1346.218	00:22:35.528	1355.528	00:00:09.310	9.31	s0
+dialogue.all.subject		00:22:35.528	1355.528	00:22:43.123	1363.123	00:00:07.595	7.595	
+dialogue.all.subject		00:22:43.123	1363.123	00:22:59.267	1379.267	00:00:16.144	16.144	s2
+dialogue.all.subject		00:22:59.267	1379.267	00:23:15.213	1395.213	00:00:15.946	15.946	s0
+dialogue.all.subject		00:23:15.213	1395.213	00:23:25.665	1405.665	00:00:10.452	10.452	s3
+dialogue.all.subject		00:23:25.665	1405.665	00:23:34.309	1414.309	00:00:08.644	8.644	s3
+dialogue.all.subject		00:23:34.309	1414.309	00:23:44.398	1424.398	00:00:10.089	10.089	s3
+dialogue.all.subject		00:23:53.424	1433.424	00:24:01.958	1441.958	00:00:08.534	8.534	
+dialogue.all.subject		00:24:01.958	1441.958	00:24:18.643	1458.643	00:00:16.685	16.685	
+dialogue.all.subject		00:24:18.643	1458.643	00:24:25.911	1465.911	00:00:07.268	7.268	
