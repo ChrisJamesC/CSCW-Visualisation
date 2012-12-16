@@ -16,7 +16,7 @@
           s1:{head:{x:0.74, y:0.22}, ipad:{x:0.58, y:0.21}, color:"blue"},
           s2:{head:{x:0.27, y:0.22}, ipad:{x:0.365, y:0.21}, color:"red"},
           s3:{head:{x:0.25, y:0.45}, ipad:{x:0.335, y:0.475}, color:"yellow"}
-      }
+      };
 
       var margin = {top: 20, right: 20, bottom: 30, left: 40},
           width = 960 - margin.left - margin.right,
@@ -30,12 +30,12 @@
 
       var svg = d3.select("body").append("svg")
           .attr("width", width + margin.left + margin.right)
-          .attr("height", height + margin.top + margin.bottom)
+          .attr("height", height + margin.top + margin.bottom);
 
       var image = svg.append("image")
-          .attr("xlink:href", "display-experimentCSCW.png")
+          .attr("xlink:href", "display-experimentCSCW-tableOnly.jpg")
           .attr("width", img_width)
-          .attr("height", img_height)
+          .attr("height", img_height);
 
       /* Draw heads */
       _.each(positions, function(pos){
@@ -46,7 +46,7 @@
               .attr("r", "30px")
               .attr("cx", pos.head.x*img_width)
               .attr("cy", pos.head.y*img_height)
-      })
+      });
 
       /* Draw iPads */
       _.each(positions, function(pos){
@@ -59,7 +59,7 @@
               .attr("height", "60px")
               .attr("x", pos.ipad.x*img_width)
               .attr("y", pos.ipad.y*img_height)
-      })
+      });
 
       /* Draw screen */
       svg.append("rect")
