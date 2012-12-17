@@ -55,10 +55,10 @@ var dataFile = "dataFiles/"+title+".csv";
 	var a = [["0","6.7","s3"],["0","6.7","s0"]];
 	console.log(a);
 	console.log(tab);
-	var valS0 = [[0,25]];
-	var valS1 = [[0,25]];
-	var valS2 = [[0,25]];
-	var valS3 = [[0,25]];
+	//var valS0 = [[0,25]];
+	//var valS1 = [[0,25]];
+	//var valS2 = [[0,25]];
+	//var valS3 = [[0,25]];
 	
 	console.log(tab[0][2]);//output: s3
 	console.log("s3");
