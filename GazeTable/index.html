@@ -8,16 +8,27 @@
   </head>
   <body>
   <script>
+    d3.csv("data/Week 2/Parrot/Parrot_EnergyTask_Part2.csv", function(rows) {
+      var count = {
+          s0:{tool:0, wb:0, s0:0, s1:0, s2:0, s3:0},
+          s1:{tool:0, wb:0, s0:0, s1:0, s2:0, s3:0},
+          s2:{tool:0, wb:0, s0:0, s1:0, s2:0, s3:0},
+          s3:{tool:0, wb:0, s0:0, s1:0, s2:0, s3:0}
+      }
+      rows.forEach(function(row){
+        count[row.subject][row.target] = count[row.subject][row.target] + parseFloat(row.time)
+      })
+
       var img_width = 800;
       var img_height = 600;
 
-      var ipad_w = 42;
-      var ipad_h = 60;
+      var tool_w = 42;
+      var tool_h = 60;
       var positions = [
-          {head:{x:0.76*img_width, y:0.455*img_height}, ipad:{x:0.617*img_width, y:0.475*img_height}, color:"green"},
-          {head:{x:0.74*img_width, y:0.220*img_height}, ipad:{x:0.580*img_width, y:0.210*img_height}, color:"blue"},
-          {head:{x:0.27*img_width, y:0.220*img_height}, ipad:{x:0.365*img_width, y:0.210*img_height}, color:"red"},
-          {head:{x:0.25*img_width, y:0.450*img_height}, ipad:{x:0.335*img_width, y:0.475*img_height}, color:"orange"}
+          {id:"s0", head:{x:0.76*img_width, y:0.455*img_height}, tool:{x:0.617*img_width, y:0.475*img_height}, color:"green"},
+          {id:"s1", head:{x:0.74*img_width, y:0.220*img_height}, tool:{x:0.580*img_width, y:0.210*img_height}, color:"blue"},
+          {id:"s2",head:{x:0.27*img_width, y:0.220*img_height}, tool:{x:0.365*img_width, y:0.210*img_height}, color:"red"},
+          {id:"s4", head:{x:0.25*img_width, y:0.450*img_height}, tool:{x:0.335*img_width, y:0.475*img_height}, color:"orange"}
       ];
 
       var screen = {x: 0.12*img_width, y:0.88* img_height, width:img_width*3/4, height:30}
@@ -78,10 +89,10 @@
           .attr("stroke", "yellow")
           .attr("stroke-width", 5)
 
-      /* Draw relations to iPad */
+      /* Draw relations to tool */
       positions.forEach(function(pos){
           svg.append("path")
-            .attr("d", "M"+pos.head.x+","+ pos.head.y +" L" + (pos.ipad.x+ipad_w/2) + "," + (pos.ipad.y+ipad_h/2))
+            .attr("d", "M"+pos.head.x+","+ pos.head.y +" L" + (pos.tool.x+tool_w/2) + "," + (pos.tool.y+tool_h/2))
             //.attr("fill","red")
             .attr("stroke", "green")
             .attr("stroke-width", 10)
@@ -107,17 +118,17 @@
               .attr("cy", pos.head.y)
       });
 
-      /* Draw iPads */
+      /* Draw tools */
       positions.forEach(function(pos){
           svg.append("rect")
-              //.attr("class", "ipad")
+              //.attr("class", "tool")
               .attr("stroke-width", "4px")
               .attr("stroke", pos.color)
               .attr("fill", "white")
-              .attr("width", ipad_w)
-              .attr("height", ipad_h)
-              .attr("x", pos.ipad.x)
-              .attr("y", pos.ipad.y)
+              .attr("width", tool_w)
+              .attr("height", tool_h)
+              .attr("x", pos.tool.x)
+              .attr("y", pos.tool.y)
       });
 
       /* Draw screen */
@@ -130,6 +141,7 @@
           .attr("borderStyle", "plain")
           .attr("x", screen.x)
           .attr("y", screen.y);
+    })
 
   </script>
   </body>
