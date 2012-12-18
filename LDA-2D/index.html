@@ -81,8 +81,8 @@
             .useVoronoi(true)
             .color(d3.scale.category10().range());
 
-        chart.xAxis.tickFormat(d3.format('.02f'))
-        chart.yAxis.tickFormat(d3.format('.02f'))
+        chart.xAxis.tickFormat(d3.format('.02f')).axisLabel('LDA1')
+        chart.yAxis.tickFormat(d3.format('.02f')).axisLabel('LDA2')
 
         d3.select('#test1 svg')
             .datum(data)
