@@ -42,11 +42,17 @@
 </div>
 
 <script>
-  //d3.csv("../ressources/visualization3csv.csv", function(rows) {
 
-  d3.csv("../ressources/visualization3csv-xy_lda12-size_actions.csv", function(rows) {
+  d3.csv("../ressources/test.csv", function(test) {
+    console.log(test)
+
+     var parameters = [
+      {key: "total.actions", x: 1, y:0, size:1},
+      {key: "nb.actions.mk", x:0, y:1, size:0}
+     ]
+
+
     //Format A
-    console.log(rows);
     var data = [];
     var roles = ['Organize', 'Time', 'Leader', 'Search', 'None']
 
@@ -57,14 +63,27 @@
         });
     }
 
-    console.log(data);
+    console.log("DATA: " + data);
 
-    rows.forEach(function(row){
+    test.forEach(function(row){
         data.forEach(function(d){
-            if(d.key == row.role){
+            if(d.key == row["assigned.role"]){
+                var x_ = 0;
+                var y_ = 0;
+                var size_ =0;
+
+                console.log("KEY: " + d.key)
+
+                parameters.forEach(function(p){
+                    console.log("RP: " +row[p.key])
+                    x_ += p.x* parseFloat(row[p.key])
+                    y_ += p.y* parseFloat(row[p.key])
+                    size_ += p.size * parseFloat(row[p.key])
+                })
+
                 d.values.push({
-                    x: parseFloat(row.x),
-                    y: parseFloat(row.y),
+                    x: x_,
+                    y: y_,
                     size: parseFloat(row.size),
                     shape: 'circle'
                 })
@@ -72,7 +91,10 @@
         })
     })
 
-    //console.log(data)
+    //rows
+
+    console.log(data)
+
     nv.addGraph(function() {
         var chart = nv.models.scatterChart()
             .showDistX(true)
@@ -92,6 +114,7 @@
         nv.utils.windowResize(chart.update);
         return chart;
     });
+
   })
 
 </script>
