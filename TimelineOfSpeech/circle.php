@@ -33,7 +33,7 @@
 	var dataFile = "dataFiles/"+title+".csv";
 	console.log(dataFile);
 	var leftMargin = 10
-	var graphScale = 1;
+	var graphScale = 2;
 	
 	var w =8000,
 		h = 600,
@@ -61,7 +61,27 @@
 		var yS3 = 150;
 		
 		
-	d3.csv(dataFile, function(data) { 
+	d3.csv(dataFile, function(file) { 
+	
+	var tempData=[];
+		
+		file.forEach(function(dat){
+			tempData.push(dat);
+		})
+		
+		var data = [tempData[0]]; 
+
+		var j=0;
+		var i=1;
+		for(i; i < tempData.length; i++){
+			if(tempData[i].subject === data[j].subject){
+				data[j].time = parseFloat(data[j].time)+parseFloat(tempData[i].time);
+			}else{
+				data.push(tempData[i]);
+				j++;
+			}
+		}
+		
 		svg.selectAll("circle")
 		.data(data)
 		.enter().append("circle")
