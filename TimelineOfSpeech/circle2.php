@@ -22,7 +22,7 @@
  <body>
   </body>
   
- <script src="http://d3js.org/d3.v2.js"></script>
+ <script src="d3.v2.js"></script>
  <script src="getMaxValTime.js"></script>
  
 <script type="text/javascript">
@@ -30,7 +30,7 @@
 	var title = '<?php $file = $_GET["file"]; echo addslashes($file); ?>';
 	var dataFile = "dataFiles/"+title+".csv";
 	console.log(dataFile);
-	var leftMargin = 0
+	var leftMargin = 0;
 	
 	var w =1200,
 		h = 600,
@@ -77,7 +77,7 @@
 		svg.selectAll("ellipse")
 		.data(data)
 		.enter().append("ellipse")
-		.attr("cx", function(d){return (leftMargin + ((parseFloat(d.tStart)*w/maxValTime)+(parseFloat(d.time/2)*w/maxValTime)));})
+		.attr("cx", function(d){return (leftMargin + (parseFloat(d.tStart)+ parseFloat(d.time/2))*w/maxValTime);})
 		.attr("cy", function(d){switch(d.subject)
 						{
 							case "s0":

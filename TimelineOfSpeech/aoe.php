@@ -22,134 +22,109 @@
  <body>
   </body>
   
- <script src="http://d3js.org/d3.v2.js"></script>
+ <script src="d3.v2.js"></script>
 
  
 <script type="text/javascript">
 var title = '<?php $file = $_GET["file"]; echo addslashes($file); ?>';
 var dataFile = "dataFiles/"+title+".csv";
 
-var tab =[] ;
-	//function getLineSplit(){
-		var txtFile = new XMLHttpRequest();
-
-		txtFile.open("GET", dataFile, false);
-		txtFile.send('');
-
-		//if (txtFile.readyState === 4) {
-			//console.log("ready to parse");
-			//if (txtFile.status === 200) {
-				//console.log("file found");
-				lines = txtFile.responseText.replace(/\r/g, '').split("\n");
-				//lines = txtFile.responseText.split("\n");
-				for(var i=1; i< lines.length; i++){
-					tab.push(lines[i].split(","));
-				}
-			 
-			//}	
-	//	}
-	//}
-
+	d3.csv(dataFile, function(file) {
 	
-	var valS0 = [[0,25]];
-	var valS1 = [[0,25]];
-	var valS2 = [[0,25]];
-	var valS3 = [[0,25]];
+	var threshold = 0
+	var allTab=[[[0,threshold]],[[0,threshold]],[[0,threshold]],[[0,threshold]]];
+	var data = [];
+	
+	file.forEach(function(dat){
+		data.push([dat.tStart, dat.time, dat.subject.replace(/\r/g, '')]);
+	});
+	
+	function add(tab, i){
+		//allTab[tab].push([parseFloat(data[i][0]),allTab[tab][allTab[tab].length-1][1]]);
+		allTab[tab].push([parseFloat(data[i][0]),parseFloat(allTab[tab][i][1])+parseFloat(data[i][1])/2]);
+	}
+	
+	function substract(tab,  i){
+	//allTab[tab].push([parseFloat(data[i][0]),allTab[tab][allTab[tab].length-1][1]]);
+		var valTemp = parseFloat(allTab[tab][i][1])-parseFloat(data[i][1])/3;
+		if(valTemp < threshold){
+				allTab[tab].push([parseFloat(data[i][0]),threshold]);
+		}else{
+				allTab[tab].push([parseFloat(data[i][0]),valTemp]);
+		}
+	}
+	
+	function subToAll(tab1, tab2, tab3, i){
+		substract(tab1, i);
+		substract(tab2, i);
+		substract(tab3, i);
+	}
+	
+	function addSilence(tab, i){
+			allTab[tab].push([parseFloat(data[i][0]),parseFloat(allTab[tab][i][1])]);
+	}
+	
+	function addSilenceToAll(i){
+		addSilence(0,i);
+		addSilence(1,i);
+		addSilence(2,i);
+		addSilence(3,i);
+	}
 	
 	
-	
-	for(var i = 0; i<tab.length-1;i++){
-		//tabTemp = tab[i][2].split('');
-		//temp = tabTemp[0]+tabTemp[1];
-		
-		switch(tab[i][2])
+	for(var i = 0; i< data.length; i++){
+	switch(data[i][2])
 		{
 			case "s0":
-				valS0.push([parseFloat(tab[i][0]),valS0[i][1]]);
-				valS0.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS0[i][1])+parseFloat(tab[i][1])]);
-				
-				valS1.push([parseFloat(tab[i][0]),valS1[i][1]]);
-				valS1.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS1[i][1])-parseFloat(tab[i][1])/3]);
-				
-				valS2.push([parseFloat(tab[i][0]),valS2[i][1]]);
-				valS2.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS2[i][1])-parseFloat(tab[i][1])/3]);
-				
-				valS3.push([parseFloat(tab[i][0]),valS3[i][1]]);
-				valS3.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS3[i][1])-parseFloat(tab[i][1])/3]);
+				add(0,i);
+				subToAll(1,2,3,i);
 				break;
 			case "s1":
-				valS1.push([parseFloat(tab[i][0]),valS1[i][1]]);
-				valS1.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS1[i][1])+parseFloat(tab[i][1])]);
-				
-				valS0.push([parseFloat(tab[i][0]),valS0[i][1]]);
-				valS0.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS0[i][1])-parseFloat(tab[i][1])/3]);
-				
-				valS2.push([parseFloat(tab[i][0]),valS2[i][1]]);
-				valS2.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS2[i][1])-parseFloat(tab[i][1])/3]);
-				
-				valS3.push([parseFloat(tab[i][0]),valS3[i][1]]);
-				valS3.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS3[i][1])-parseFloat(tab[i][1])/3]);
+				add(1,i);
+				subToAll(0,2,3,i);
 				break;
 			case "s2":
-				valS2.push([parseFloat(tab[i][0]),valS2[i][1]]);
-				valS2.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS2[i][1])+parseFloat(tab[i][1])]);
-				
-				valS1.push([parseFloat(tab[i][0]),valS1[i][1]]);
-				valS1.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS1[i][1])-parseFloat(tab[i][1])/3]);
-				
-				valS0.push([parseFloat(tab[i][0]),valS0[i][1]]);
-				valS0.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS0[i][1])-parseFloat(tab[i][1])/3]);
-				
-				valS3.push([parseFloat(tab[i][0]),valS3[i][1]]);
-				valS3.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS3[i][1])-parseFloat(tab[i][1])/3]);
+				add(2,i);
+				subToAll(1,0,3,i);
 				break;
 			case "s3":
-				valS3.push([parseFloat(tab[i][0]),valS3[i][1]]);
-				valS3.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS3[i][1])+parseFloat(tab[i][1])]);
-				
-				valS1.push([parseFloat(tab[i][0]),valS1[i][1]]);
-				valS1.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS1[i][1])-parseFloat(tab[i][1])/3]);
-				
-				valS2.push([parseFloat(tab[i][0]),valS2[i][1]]);
-				valS2.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS2[i][1])-parseFloat(tab[i][1])/3]);
-				
-				valS0.push([parseFloat(tab[i][0]),valS0[i][1]]);
-				valS0.push([parseFloat(tab[i][0])+parseFloat(tab[i][1]),parseFloat(valS0[i][1])-parseFloat(tab[i][1])/3]);
+				add(3,i);
+				subToAll(1,2,0,i);
 				break;
 			default:
-				
+			console.log("default");
+				addSilenceToAll(i);
 				break;
 		}
 	}
-	var m=200;
-	var area1 = d3.svg.area()
-	.x(function(d) {return d[0]; })
-	.y0(h)
-    .y1(function(d) {console.log(d[1]); return d[1]; })
-	.interpolate("basis");
-    
-	
-    
-    	
-	var line = d3.svg.line()
-    .x(function(d) {return d[0]; })
-    .y(function(d) {console.log(d[1]); return d[1]; });
-  
 	
 	var w =8000,
-    h = 600;
+	h = 600;
 	
 	var svg = d3.select("body").append("svg:svg")
     .attr("width", w)
     .attr("height", h);
 	
-	var data =[valS0];
-	svg.selectAll("path")
-    .data(data)
+	var area = d3.svg.area()
+	.x(function(d) {return d[0]; })
+	.y0(-h)
+    .y1(function(d) { return d[1]; })
+	.interpolate("basis");
+      	
+	var line = d3.svg.line()
+    .x(function(d) {return d[0]; })
+    .y(function(d) { return d[1]; });
+  
+	var x =[allTab[3]];
+	
+	svg.selectAll("aera")
+    .data(x)
 	.enter().append("path")
-	.attr("d", area1)
+	.attr("d", area)
 	.style("fill", "blue");
 	
+	
+}); 
 </script>
 	
 </html>
