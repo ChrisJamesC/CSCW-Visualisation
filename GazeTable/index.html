@@ -57,6 +57,7 @@ d3.csv("data/Week 2/Parrot/Parrot_EnergyTask_Part2.csv", function(rows) {
         .attr("xlink:href", "display-experimentCSCW-tableOnly.jpg")
         .attr("width", img_width)
         .attr("height", img_height);
+		
 
     /* Define Gradient */
 
@@ -66,8 +67,9 @@ d3.csv("data/Week 2/Parrot/Parrot_EnergyTask_Part2.csv", function(rows) {
         .attr("id", "gradientB_G")
 
     gradientB_G.append("svg:stop")
-        .attr("offset", "35%")
-        .attr("stop-color", "#0000FF")
+        .attr("offset", "50%")
+        .attr("stop-color", "rgb(0,0,255)")
+		//.attr("stop-opacity", 1);
 
     gradientB_G.append("svg:stop")
         .attr("offset", "95%")
@@ -78,20 +80,9 @@ d3.csv("data/Week 2/Parrot/Parrot_EnergyTask_Part2.csv", function(rows) {
 
     gradientR_G.append("svg:stop")
         .attr("offset", "70%")
-        .attr("stop-color", "#FF0000")
+        .attr("stop-color", "#FF0000");
 
     gradientR_G.append("svg:stop")
-        .attr("offset", "95%")
-        .attr("stop-color", "#006400");
-
-    var gradientY_G = defs.append("svg:linearGradient")
-        .attr("id", "gradientY_G")
-
-    gradientY_G.append("svg:stop")
-        .attr("offset", "20%")
-        .attr("stop-color", "#FFA500")
-
-    gradientY_G.append("svg:stop")
         .attr("offset", "95%")
         .attr("stop-color", "#006400");
 
@@ -128,6 +119,52 @@ d3.csv("data/Week 2/Parrot/Parrot_EnergyTask_Part2.csv", function(rows) {
         .attr("offset", "75%")
         .attr("stop-color", "#0000FF");
 
+	// PATH FOR TWO LINE TEST	
+	
+	//var mx = 0;
+	//var my = 3;
+	
+
+	var rx = positions[0].head.x / (positions[0].head.x+positions[3].head.x)
+	var ry = positions[0].head.y / (positions[0].head.y+positions[3].head.y)
+	
+	var mx = positions[0].head.x + rx*(positions[3].head.x - positions[0].head.x)
+	var my = positions[0].head.y + ry*(positions[3].head.y - positions[0].head.y)
+	
+	
+	var rx2 = positions[3].head.x / (positions[0].head.x+positions[3].head.x)
+	var ry2 = positions[3].head.y / (positions[0].head.y+positions[3].head.y)
+	
+	var mxR = positions[3].head.x + rx2*(positions[0].head.x - positions[3].head.x)
+	var myR = positions[3].head.y + ry2*(positions[0].head.y - positions[3].head.y)
+	
+
+	
+	
+    var gradientY_G = defs.append("svg:linearGradient")
+        .attr("id", "gradientY_G")
+
+    gradientY_G.append("svg:stop")
+        .attr("offset", "20%")
+        .attr("stop-color", "#FFA500")
+
+    gradientY_G.append("svg:stop")
+        .attr("offset", "95%")
+        .attr("stop-color", "#006400");		
+	
+	    // 0->3
+    svg.append("path")
+        .attr("d", "M"+positions[0].head.x+","+ positions[0].head.y +" L" + mx +","+ my)
+        .attr("stroke-width", (count.s0.s3 + count.s3.s0)/(2*max) *stroke_width_coeff )
+        .style("stroke", "Green");
+	
+	    //TEST 3 -> 0 
+	svg.append("path")
+        .attr("d", "M"+positions[3].head.x + "," + positions[3].head.y +" L" + mxR +","+ myR )
+        .attr("stroke-width", (count.s0.s3 + count.s3.s0)/(2*max) *stroke_width_coeff )
+        .style("stroke", "Orange");
+	
+		
     /* Draw relations between characters */
     // 0->1
     svg.append("path")
@@ -138,34 +175,29 @@ d3.csv("data/Week 2/Parrot/Parrot_EnergyTask_Part2.csv", function(rows) {
     // 0->2
     svg.append("path")
         .attr("d", "M"+positions[0].head.x+","+ positions[0].head.y +" L" + positions[2].head.x + "," + positions[2].head.y)
-        .attr("stroke-width", 10)
+        .attr("stroke-width", (count.s0.s2 + count.s2.s0)/(2*max) *stroke_width_coeff)
         .style("stroke", "url(#gradientR_G)");
 
-    // 0->3
-    svg.append("path")
-        .attr("d", "M"+positions[0].head.x+","+ positions[0].head.y +" L" + positions[3].head.x + "," + positions[3].head.y)
-        .attr("stroke-width", 10)
-        .style("stroke", "url(#gradientY_G)");
 
 
     // 1->2
     svg.append("path")
         .attr("d", "M"+positions[1].head.x+","+ positions[1].head.y +" L" + positions[2].head.x + "," + positions[2].head.y)
         //.attr("stroke", "black")
-        .attr("stroke-width", 15)
+        .attr("stroke-width", (count.s1.s2 + count.s1.s2)/(2*max) *stroke_width_coeff)
         .style("stroke", "url(#gradientR_B)");
 
 
     //1->3
     svg.append("path")
         .attr("d", "M"+positions[1].head.x+","+ positions[1].head.y +" L" + positions[3].head.x + "," + positions[3].head.y)
-        .attr("stroke-width", 15)
+        .attr("stroke-width", (count.s1.s3 + count.s1.s3)/(2*max) *stroke_width_coeff)
         .style("stroke", "url(#gradientY_B)");
 
     //2->3
     svg.append("path")
         .attr("d", "M"+positions[2].head.x+","+ positions[2].head.y +" L" + positions[3].head.x + "," + positions[3].head.y)
-        .attr("stroke-width", 15)
+        .attr("stroke-width", (count.s2.s3 + count.s2.s3)/(2*max) *stroke_width_coeff)
         .style("stroke", "url(#gradientY_R)");
 
 
