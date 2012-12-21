@@ -5,10 +5,7 @@ function getMaxValTime(){
 		txtFile.send('');
 
 		if (txtFile.readyState === 4) {
-			console.log("ready to parse");
 			if (txtFile.status === 200) {
-				console.log("file found");
-			  
 				lines = txtFile.responseText.split("\n");
 				var lineSplit =[] ;
 				

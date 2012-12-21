@@ -23,30 +23,31 @@
   </body>
   
  <script src="d3.v2.js"></script>
-
+ <script src="getMaxValTime.js"></script>
  
 <script type="text/javascript">
 var title = '<?php $file = $_GET["file"]; echo addslashes($file); ?>';
 var dataFile = "dataFiles/"+title+".csv";
+var maxValTime = getMaxValTime();
 
 	d3.csv(dataFile, function(file) {
 	
 	var threshold = 0
 	var allTab=[[[0,threshold]],[[0,threshold]],[[0,threshold]],[[0,threshold]]];
 	var data = [];
+	var addVal = 2;
+	var subVal = 4;
 	
 	file.forEach(function(dat){
 		data.push([dat.tStart, dat.time, dat.subject.replace(/\r/g, '')]);
 	});
 	
 	function add(tab, i){
-		//allTab[tab].push([parseFloat(data[i][0]),allTab[tab][allTab[tab].length-1][1]]);
-		allTab[tab].push([parseFloat(data[i][0]),parseFloat(allTab[tab][i][1])+parseFloat(data[i][1])/2]);
+		allTab[tab].push([parseFloat(data[i][0]),parseFloat(allTab[tab][i][1])+parseFloat(data[i][1])/addVal]);
 	}
 	
 	function substract(tab,  i){
-	//allTab[tab].push([parseFloat(data[i][0]),allTab[tab][allTab[tab].length-1][1]]);
-		var valTemp = parseFloat(allTab[tab][i][1])-parseFloat(data[i][1])/3;
+		var valTemp = parseFloat(allTab[tab][i][1])-parseFloat(data[i][1])/subVal;
 		if(valTemp < threshold){
 				allTab[tab].push([parseFloat(data[i][0]),threshold]);
 		}else{
@@ -92,38 +93,107 @@ var dataFile = "dataFiles/"+title+".csv";
 				subToAll(1,2,0,i);
 				break;
 			default:
-			console.log("default");
 				addSilenceToAll(i);
 				break;
 		}
 	}
+
+	var data=[];
+	for(var i = 1; i< allTab[0].length;i++){
+		data.push({key:"s3", tStart:allTab[3][i][0], time:allTab[3][i][1]});
+		data.push({key:"s2", tStart:allTab[2][i][0], time:allTab[2][i][1]});
+		data.push({key:"s1", tStart:allTab[1][i][0], time:allTab[1][i][1]});
+		data.push({key:"s0", tStart : allTab[0][i][0], time:allTab[0][i][1]});
+	}
+
+	var w =1000;
+	var h = 240;
+	var hSvg = 280;
+	var leftMargin = 0;
 	
-	var w =8000,
-	h = 600;
+	var z = d3.scale.category20c();
+	var x = d3.time.scale()
+    .range([0, w]);
+
+	var y = d3.scale.linear()
+    .range([h, 0]);
 	
+	var nest = d3.nest()
+    .key(function(d) { return d.key; });
+	
+	var stack = d3.layout.stack()
+    .offset("expand")
+    .values(function(d) { return d.values; })
+    .x(function(d) { return d.tStart; })
+    .y(function(d) { return d.time; });
+	
+	var layers = stack(nest.entries(data))
+	var area = d3.svg.area()
+    .x(function(d) { return x(d.tStart); })
+    .y0(function(d) { return y(d.y0); })
+    .y1(function(d) { return y(d.y0 + d.y); });
+	
+	x.domain(d3.extent(data, function(d) { return d.tStart; }));
+	y.domain([0, d3.max(data, function(d) { return d.y0 + d.y; })]);
+  
 	var svg = d3.select("body").append("svg:svg")
     .attr("width", w)
-    .attr("height", h);
-	
-	var area = d3.svg.area()
-	.x(function(d) {return d[0]; })
-	.y0(-h)
-    .y1(function(d) { return d[1]; })
-	.interpolate("basis");
-      	
-	var line = d3.svg.line()
-    .x(function(d) {return d[0]; })
-    .y(function(d) { return d[1]; });
-  
-	var x =[allTab[3]];
+    .attr("height", hSvg);
 	
 	svg.selectAll("aera")
-    .data(x)
-	.enter().append("path")
-	.attr("d", area)
-	.style("fill", "blue");
+		.data(layers)
+		.enter().append("path")
+		.attr("d", function(d) { return area(d.values); })
+		.style("fill", "blue")
+		.style("fill", function(d, i) { switch(i%4)
+						{
+							case 3:
+							return "rgba(0, 0, 255, 0.5)";
+							break;
+							case 2:
+							return "rgba(0, 255, 0, 0.5)";
+							break;
+							case 1:
+							return "rgba(255, 0, 0, 0.5)";
+							break;
+							case 0:
+							return "rgba(255,192,203, 0.5)";
+							break;
+							default:
+							return "white";
+							break;
+						} });
+						
+	var maxValTime = getMaxValTime();
 	
+	var xScale = d3.scale.linear()
+                    .domain([0, maxValTime/60])
+					.range([leftMargin,w]);
 	
+					
+	var xAxis = d3.svg.axis()
+				.scale(xScale)
+				.ticks(maxValTime/60);
+				
+	svg.append("g")
+	.attr("class", "axis")  //Assign "axis" class
+	.attr("transform", "translate(0, 245)")
+    .call(xAxis);
+		
+	svg.append("text")
+    .attr("class", "x label")
+    .attr("text-anchor", "end")
+    .attr("x", w/2)
+    .attr("y", 280)
+    .text("Time (minutes)");
+	
+	svg.append("text")
+    .attr("class", "x label")
+    .attr("text-anchor", "end")
+    .attr("x", w/2)
+    .attr("y", 30)
+    .text(title);
+						
 }); 
 </script>
 	
