@@ -33,7 +33,7 @@
 	var leftMargin = 0;
 	
 	var w =1000,
-		h = 250,
+		h = 600,
 		maxValTime = getMaxValTime();
 		
 	var xScale = d3.scale.linear()
@@ -54,6 +54,8 @@
 		var yS1 = 90;
 		var yS2 = 120;
 		var yS3 = 150;
+		var yS4 = 180;
+		var isFive = false;
 			
 	d3.csv(dataFile, function(file) {
 
@@ -92,6 +94,10 @@
 							case "s3":
 							return yS3;
 							break;
+							case "s4":
+							isFive = true;
+							return yS4;
+							break;
 							default:
 							return -300;
 							
@@ -114,6 +120,9 @@
 							case "s3":
 							return "rgba(255,192,203, 0.5)";
 							break;
+							case "s4":
+							return "rgba(150, 75, 0, 0.5)";
+							break;
 							default:
 							return "white";
 							break;
@@ -133,23 +142,34 @@
 							case "s3":
 							return "rgb(255,20,147)";
 							break;
+							case "s4":
+							return "rgb(61, 43, 31)";
+							break;
 							default:
 							return "white";
 							break;
 						}
 						});
-	}); 
+	var hAxis;
+	
+	if(isFive){
+		hAxis=200;
+		
+	}else{
+		hAxis=170;
+		
+	}
 	
 	svg.append("g")
 	.attr("class", "axis")  //Assign "axis" class
-	.attr("transform", "translate(0, 200)")
+	.attr("transform", "translate(0, "+hAxis+")")
     .call(xAxis);
 		
 	svg.append("text")
     .attr("class", "x label")
     .attr("text-anchor", "end")
     .attr("x", w/2)
-    .attr("y", 240)
+    .attr("y", hAxis+40)
     .text("Time (minutes)");
 	
 	svg.append("text")
@@ -158,9 +178,8 @@
     .attr("x", w/2)
     .attr("y", 30)
     .text(title);
+	}); 
 	
-	
-;
   </script>
 	
 </html>

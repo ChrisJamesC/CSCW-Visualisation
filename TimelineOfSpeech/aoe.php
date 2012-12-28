@@ -139,12 +139,11 @@ var maxValTime = getMaxValTime();
 	var svg = d3.select("body").append("svg:svg")
     .attr("width", w)
     .attr("height", hSvg);
-	
+
 	svg.selectAll("aera")
 		.data(layers)
 		.enter().append("path")
 		.attr("d", function(d) { return area(d.values); })
-		.style("fill", "blue")
 		.style("fill", function(d, i) { switch(i%4)
 						{
 							case 3:
