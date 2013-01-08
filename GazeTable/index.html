@@ -10,8 +10,12 @@
 <script>
 //var source = "data/Week 2/Parrot/Parrot_EnergyTask_Part2.csv"
 //var source = "data/Week 3/Parrot/Parrot_NeurologyTask_Part1.csv"
-var source = "data/Week 3/Hamster/Hamster_NeurologyTask.csv"
+//var source = "data/Week 3/Hamster/Hamster_NeurologyTask.csv"
+var source = "data/all.csv"
+
 d3.csv(source, function(rows) {
+    console.log(rows)
+
     var count = {
         s0:{tool:0, wb:0, s0:0, s1:0, s2:0, s3:0},
         s1:{tool:0, wb:0, s0:0, s1:0, s2:0, s3:0},
@@ -19,11 +23,12 @@ d3.csv(source, function(rows) {
         s3:{tool:0, wb:0, s0:0, s1:0, s2:0, s3:0}
     }
     rows.forEach(function(row){
+        console.log(row.subject)
         count[row.subject][row.target] = count[row.subject][row.target] + parseFloat(row.time)
     })
 
     var max=0;
-    var stroke_width_coeff = 15;
+    var stroke_width_coeff = 25;
 
     //Compute max
     _.each(count, function(subject){_.each(subject, function(target){if(target>max)max =target;})})
