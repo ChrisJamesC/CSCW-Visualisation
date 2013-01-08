@@ -113,10 +113,11 @@ var maxValTime = getMaxValTime();
 		data.push({key:"s0", tStart : allTab[0][i][0], time:allTab[0][i][1]});
 	}
 
-	var w =1000;
+	
 	var h = 240;
 	var hSvg = 280;
-	var leftMargin = 0;
+	var leftMargin = 30;
+	var w =1000+leftMargin;
 	
 	var z = d3.scale.category20c();
 	var x = d3.time.scale()
@@ -136,7 +137,7 @@ var maxValTime = getMaxValTime();
 	
 	var layers = stack(nest.entries(data))
 	var area = d3.svg.area()
-    .x(function(d) { return x(d.tStart); })
+    .x(function(d) { return x(d.tStart)+leftMargin; })
     .y0(function(d) { return y(d.y0); })
     .y1(function(d) { return y(d.y0 + d.y); });
 	
@@ -144,7 +145,7 @@ var maxValTime = getMaxValTime();
 	y.domain([0, d3.max(data, function(d) { return d.y0 + d.y; })]);
   
 	var svg = d3.select("body").append("svg:svg")
-    .attr("width", w)
+    .attr("width", w+leftMargin)
     .attr("height", hSvg);
 	
 	svg.selectAll("aera")
@@ -177,7 +178,7 @@ var maxValTime = getMaxValTime();
 	
 	var xScale = d3.scale.linear()
                     .domain([0, maxValTime/60])
-					.range([leftMargin,w]);
+					.range([leftMargin,w+leftMargin]);
 	
 					
 	var xAxis = d3.svg.axis()
@@ -195,6 +196,17 @@ var maxValTime = getMaxValTime();
     .attr("x", w/2)
     .attr("y", 280)
     .text("Time (minutes)");
+	
+	color = ["blue","lightgreen", "red", "rgb(255,192,203)","rgb(150, 75, 0)"];
+	for(var i=0; i< 5; i++){
+		svg.append("text")
+		.attr("class", "x label")
+		.attr("text-anchor", "end")
+		.attr("x", 20)
+		.attr("y", 50+i*40)
+		.style("fill", color[i])
+		.text("s"+i);
+	}
 	
 	svg.append("text")
     .attr("class", "x label")
