@@ -113,10 +113,11 @@ var maxValTime = getMaxValTime();
 		data.push({key:"s0", tStart : allTab[0][i][0], time:allTab[0][i][1]});
 	}
 
-	var w =1000;
+
 	var h = 240;
 	var hSvg = 600;
-	var leftMargin = 0;
+	var leftMargin = 30;
+	var w =1000+leftMargin;
 	
 	var z = d3.scale.category20c();
 	var x = d3.time.scale()
@@ -136,7 +137,7 @@ var maxValTime = getMaxValTime();
 	
 	var layers = stack(nest.entries(data))
 	var area = d3.svg.area()
-    .x(function(d) { return x(d.tStart); })
+    .x(function(d) { return x(d.tStart)+leftMargin; })
     .y0(function(d) { return y(d.y0); })
     .y1(function(d) { return y(d.y0 + d.y); });
 	
@@ -144,7 +145,7 @@ var maxValTime = getMaxValTime();
 	y.domain([0, d3.max(data, function(d) { return d.y0 + d.y; })]);
   
 	var svg = d3.select("body").append("svg:svg")
-    .attr("width", w)
+    .attr("width", w+leftMargin)
     .attr("height", hSvg);
 	
 	svg.selectAll("aera")
@@ -177,7 +178,7 @@ var maxValTime = getMaxValTime();
 	
 	var xScale = d3.scale.linear()
                     .domain([0, maxValTime/60])
-					.range([leftMargin,w]);
+					.range([leftMargin,w+leftMargin]);
 	
 					
 	var xAxis = d3.svg.axis()
@@ -189,11 +190,10 @@ var maxValTime = getMaxValTime();
 /////////////////  ELLIPSE ///////////////////
 var tem = 220;
 var yS0 = tem+60;
-		var yS1 = tem+90;
-		var yS2 = tem+120;
-		var yS3 =tem+ 150;
-		var yS4 = tem+ 180;
-		var isFive = false;
+		var yS1 = tem+80;
+		var yS2 = tem+100;
+		var yS3 =tem+ 120;
+		var yS4 = tem+ 140;
 		
 		
 var data = [file[0]]; 
@@ -232,7 +232,6 @@ var data = [file[0]];
 							return yS3;
 							break;
 							case "s4":
-							isFive = true;
 							return yS4;
 							default:
 							return -300;
@@ -241,7 +240,7 @@ var data = [file[0]];
 						}
 						})
 		.attr("rx", function(d){return (d.time/2)*w/maxValTime;})
-		.attr("ry", function(d){return (d.time/4)*w/maxValTime;})
+		.attr("ry", function(d){return (d.time/3)*w/maxValTime;})
 		.style("fill", function(d){switch(d.subject)
 						{
 							case "s0":
@@ -286,15 +285,8 @@ var data = [file[0]];
 							break;
 						}
 						});	
-		var hAxis;
-	
-	if(isFive){
-		hAxis=420;
+		var hAxis=380;
 		
-	}else{
-		hAxis=390;
-		
-	}
 	
 	svg.append("g")
 	.attr("class", "axis")  //Assign "axis" class
@@ -307,6 +299,28 @@ var data = [file[0]];
     .attr("x", w/2)
     .attr("y", hAxis+40)
     .text("Time (minutes)");
+	
+	color = ["blue","lightgreen", "red", "rgb(255,192,203)","rgb(150, 75, 0)"];
+	
+	for(var i=0; i< 5; i++){
+		svg.append("text")
+		.attr("class", "x label")
+		.attr("text-anchor", "end")
+		.attr("x", 20)
+		.attr("y", 50+i*40)
+		.style("fill", color[i])
+		.text("s"+i);
+	}
+	
+	for(var i=0; i< 5; i++){
+		svg.append("text")
+		.attr("class", "x label")
+		.attr("text-anchor", "end")
+		.attr("x", 20)
+		.attr("y", tem+65+i*20)
+		.style("fill", color[i])
+		.text("s"+i);
+	}
 	
 	svg.append("text")
     .attr("class", "x label")

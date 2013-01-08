@@ -30,7 +30,7 @@
 	var title = '<?php $file = $_GET["file"]; echo addslashes($file); ?>';
 	var dataFile = "dataFiles/"+title+".csv";
 	console.log(dataFile);
-	var leftMargin = 0;
+	var leftMargin = 30;
 	
 	var w =1000,
 		h = 600,
@@ -38,7 +38,7 @@
 		
 	var xScale = d3.scale.linear()
                     .domain([0, maxValTime/60])
-					.range([leftMargin,w]);
+					.range([leftMargin,w+leftMargin]);
 	
 					
 	var xAxis = d3.svg.axis()
@@ -51,10 +51,10 @@
 		.attr("height", h);
 		
 		var yS0 = 60;
-		var yS1 = 90;
-		var yS2 = 120;
-		var yS3 = 150;
-		var yS4 = 180;
+		var yS1 = 80;
+		var yS2 = 100;
+		var yS3 = 120;
+		var yS4 = 140;
 		var isFive = false;
 			
 	d3.csv(dataFile, function(file) {
@@ -105,7 +105,7 @@
 						}
 						})
 		.attr("rx", function(d){return (d.time/2)*w/maxValTime;})
-		.attr("ry", function(d){return (d.time/4)*w/maxValTime;})
+		.attr("ry", function(d){return (d.time/3)*w/maxValTime;})
 		.style("fill", function(d){switch(d.subject)
 						{
 							case "s0":
@@ -153,13 +153,13 @@
 	var hAxis;
 	
 	if(isFive){
-		hAxis=200;
+		hAxis=160;
 		
 	}else{
-		hAxis=170;
+		hAxis=140;
 		
 	}
-	
+	var ypos = 40+ (w+leftMargin)/2
 	svg.append("g")
 	.attr("class", "axis")  //Assign "axis" class
 	.attr("transform", "translate(0, "+hAxis+")")
@@ -168,14 +168,31 @@
 	svg.append("text")
     .attr("class", "x label")
     .attr("text-anchor", "end")
-    .attr("x", w/2)
+    .attr("x", ypos)
     .attr("y", hAxis+40)
     .text("Time (minutes)");
+	
+	color = ["blue","lightgreen", "red", "rgb(255,192,203)","rgb(150, 75, 0)"];
+	var j;
+	if(isFive){
+		j = 5;
+	}else{
+		j = 4;
+	}
+	for(var i=0; i< j; i++){
+		svg.append("text")
+		.attr("class", "x label")
+		.attr("text-anchor", "end")
+		.attr("x", 20)
+		.attr("y", 65+i*20)
+		.style("fill", color[i])
+		.text("s"+i);
+	}
 	
 	svg.append("text")
     .attr("class", "x label")
     .attr("text-anchor", "end")
-    .attr("x", w/2)
+    .attr("x", 20+ypos)
     .attr("y", 30)
     .text(title);
 	}); 
