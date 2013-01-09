@@ -75,17 +75,18 @@
         var chart = nv.models.scatterChart()
             .showDistX(false)
             .showDistY(false)
-            //.height(500)
             .useVoronoi(true)
-            //.tooltip(true)
             .tooltips(true)
+            .showLegend("trolilol")
             .tooltipContent(function(role, x, y, data){return data.point.team + " - Subject " + data.point.position})
             .color(d3.scale.category10().range());
 
 
 
-        chart.xAxis.tickFormat(d3.format('.02f')).axisLabel('LDA1')
-        chart.yAxis.tickFormat(d3.format('.02f')).axisLabel('LDA2')
+        chart.xAxis.tickFormat(d3.format('.02f')).axisLabel('LDA1 = (+)Age, (+)Being Male, (+)Write w/ Ipad, (-)Page switches')
+        chart.yAxis.tickFormat(d3.format('.02f')).axisLabel('LDA2 = (+)Write w/Keyboard, (+)Explicit search actions, (-)Total Actions')
+
+        chart.legend.tickFormat("haha!")
 
         d3.select('#test1 svg')
             .datum(data)
