@@ -46,6 +46,7 @@
 
   d3.csv("../ressources/visualization3csv-xy_lda12-size_actions.csv", function(rows) {
     //Format A
+    console.log(rows);
     var data = [];
     var roles = ['Organize', 'Time', 'Leader', 'Search', 'None']
 
@@ -56,6 +57,8 @@
         });
     }
 
+    console.log(data);
+
     rows.forEach(function(row){
         data.forEach(function(d){
             if(d.key == row.role){
@@ -63,35 +66,28 @@
                     x: parseFloat(row.x),
                     y: parseFloat(row.y),
                     size: parseFloat(row.size),
-                    shape: 'circle',
-                    team: row.team,
-                    position: row.position
+                    shape: 'circle'
                 })
             }
         })
     })
 
+    //console.log(data)
     nv.addGraph(function() {
         var chart = nv.models.scatterChart()
-            .showDistX(false)
-            .showDistY(false)
+            .showDistX(true)
+            .showDistY(true)
+            //.height(500)
             .useVoronoi(true)
-            .tooltips(true)
-            .showLegend("trolilol")
-            .tooltipContent(function(role, x, y, data){return data.point.team + " - Subject " + data.point.position})
             .color(d3.scale.category10().range());
 
-
-
-        chart.xAxis.tickFormat(d3.format('.02f')).axisLabel('LDA1 = (+)Age, (+)Being Male, (+)Write w/ Ipad, (-)Page switches')
-        chart.yAxis.tickFormat(d3.format('.02f')).axisLabel('LDA2 = (+)Write w/Keyboard, (+)Explicit search actions, (-)Total Actions')
-
-        chart.legend.tickFormat("haha!")
+        chart.xAxis.tickFormat(d3.format('.02f'))
+        chart.yAxis.tickFormat(d3.format('.02f'))
 
         d3.select('#test1 svg')
             .datum(data)
             .transition().duration(500)
-                .call(chart);
+            .call(chart);
 
         nv.utils.windowResize(chart.update);
         return chart;
@@ -100,5 +96,4 @@
 
 </script>
 
-</body>
 </html>
