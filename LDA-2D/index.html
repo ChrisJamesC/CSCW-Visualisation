@@ -75,11 +75,16 @@
     //console.log(data)
     nv.addGraph(function() {
         var chart = nv.models.scatterChart()
-            .showDistX(true)
-            .showDistY(true)
+            .showDistX(false)
+            .showDistY(false)
             //.height(500)
             .useVoronoi(true)
+            //.tooltip(true)
+            .tooltips(true)
+            .tooltipContent(function(d){return "lol"})
             .color(d3.scale.category10().range());
+
+
 
         chart.xAxis.tickFormat(d3.format('.02f')).axisLabel('LDA1')
         chart.yAxis.tickFormat(d3.format('.02f')).axisLabel('LDA2')
@@ -87,7 +92,7 @@
         d3.select('#test1 svg')
             .datum(data)
             .transition().duration(500)
-            .call(chart);
+                .call(chart);
 
         nv.utils.windowResize(chart.update);
         return chart;
