@@ -33,7 +33,7 @@ var maxValTime = getMaxValTime();
 	d3.csv(dataFile, function(file) {
 	
 	var threshold = 0
-	var allTab=[[[0,threshold]],[[0,threshold]],[[0,threshold]],[[0,threshold]]];
+	var allTab=[[[0,threshold]],[[0,threshold]],[[0,threshold]],[[0,threshold]],[[0,threshold]]];
 	var data = [];
 	var addVal = 2;
 	var subVal = 4;
@@ -55,10 +55,11 @@ var maxValTime = getMaxValTime();
 		}
 	}
 	
-	function subToAll(tab1, tab2, tab3, i){
+	function subToAll(tab1, tab2, tab3, tab4, i){
 		substract(tab1, i);
 		substract(tab2, i);
 		substract(tab3, i);
+		substract(tab4, i);
 	}
 	
 	function addSilence(tab, i){
@@ -70,6 +71,7 @@ var maxValTime = getMaxValTime();
 		addSilence(1,i);
 		addSilence(2,i);
 		addSilence(3,i);
+		addSilence(4,i);
 	}
 	
 	
@@ -78,19 +80,23 @@ var maxValTime = getMaxValTime();
 		{
 			case "s0":
 				add(0,i);
-				subToAll(1,2,3,i);
+				subToAll(1,2,3,4,i);
 				break;
 			case "s1":
 				add(1,i);
-				subToAll(0,2,3,i);
+				subToAll(0,2,3,4,i);
 				break;
 			case "s2":
 				add(2,i);
-				subToAll(1,0,3,i);
+				subToAll(1,0,3,4,i);
 				break;
 			case "s3":
 				add(3,i);
-				subToAll(1,2,0,i);
+				subToAll(1,2,0,4,i);
+				break;
+			case "s4":
+				add(4,i);
+				subToAll(1,2,0,3,i);
 				break;
 			default:
 				addSilenceToAll(i);
@@ -100,12 +106,14 @@ var maxValTime = getMaxValTime();
 
 	var data=[];
 	for(var i = 1; i< allTab[0].length;i++){
+		data.push({key:"s4", tStart:allTab[4][i][0], time:allTab[4][i][1]});
 		data.push({key:"s3", tStart:allTab[3][i][0], time:allTab[3][i][1]});
 		data.push({key:"s2", tStart:allTab[2][i][0], time:allTab[2][i][1]});
 		data.push({key:"s1", tStart:allTab[1][i][0], time:allTab[1][i][1]});
 		data.push({key:"s0", tStart : allTab[0][i][0], time:allTab[0][i][1]});
 	}
 
+	
 	var h = 240;
 	var hSvg = 280;
 	var leftMargin = 30;
@@ -139,30 +147,32 @@ var maxValTime = getMaxValTime();
 	var svg = d3.select("body").append("svg:svg")
     .attr("width", w+leftMargin)
     .attr("height", hSvg);
-
+	
 	svg.selectAll("aera")
 		.data(layers)
 		.enter().append("path")
 		.attr("d", function(d) { return area(d.values); })
-		.style("fill", function(d, i) { switch(i%4)
+		.style("fill", function(d, i) { switch(i%5)
 						{
-							case 3:
+							case 4: 
 							return "rgba(0, 0, 255, 0.5)";
 							break;
-							case 2:
+							case 3:
 							return "rgba(0, 255, 0, 0.5)";
 							break;
-							case 1:
+							case 2:
 							return "rgba(255, 0, 0, 0.5)";
 							break;
-							case 0:
+							case 1:
 							return "rgba(255,192,203, 0.5)";
+							break;
+							case 0:
+							return "rgba(150, 75, 0, 0.5)";
 							break;
 							default:
 							return "white";
 							break;
 						} });
-		
 						
 	var maxValTime = getMaxValTime();
 	
@@ -187,18 +197,17 @@ var maxValTime = getMaxValTime();
     .attr("y", 280)
     .text("Time (minutes)");
 	
-	color = ["blue","lightgreen", "red", "rgb(255,192,203)"];
-	for(var i=0; i< 4; i++){
+	color = ["blue","lightgreen", "red", "rgb(255,192,203)","rgb(150, 75, 0)"];
+	for(var i=0; i< 5; i++){
 		svg.append("text")
 		.attr("class", "x label")
 		.attr("text-anchor", "end")
 		.attr("x", 20)
-		.attr("y", 50+i*50)
+		.attr("y", 50+i*40)
 		.style("fill", color[i])
 		.text("s"+i);
 	}
-
-
+	
 	svg.append("text")
     .attr("class", "x label")
     .attr("text-anchor", "end")

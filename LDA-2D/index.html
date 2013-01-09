@@ -46,7 +46,6 @@
 
   d3.csv("../ressources/visualization3csv-xy_lda12-size_actions.csv", function(rows) {
     //Format A
-    console.log(rows);
     var data = [];
     var roles = ['Organize', 'Time', 'Leader', 'Search', 'None']
 
@@ -57,8 +56,6 @@
         });
     }
 
-    console.log(data);
-
     rows.forEach(function(row){
         data.forEach(function(d){
             if(d.key == row.role){
@@ -66,20 +63,26 @@
                     x: parseFloat(row.x),
                     y: parseFloat(row.y),
                     size: parseFloat(row.size),
-                    shape: 'circle'
+                    shape: 'circle',
+                    team: row.team,
+                    position: row.position
                 })
             }
         })
     })
 
-    //console.log(data)
     nv.addGraph(function() {
         var chart = nv.models.scatterChart()
-            .showDistX(true)
-            .showDistY(true)
+            .showDistX(false)
+            .showDistY(false)
             //.height(500)
             .useVoronoi(true)
+            //.tooltip(true)
+            .tooltips(true)
+            .tooltipContent(function(role, x, y, data){return data.point.team + " - Subject " + data.point.position})
             .color(d3.scale.category10().range());
+
+
 
         chart.xAxis.tickFormat(d3.format('.02f')).axisLabel('LDA1')
         chart.yAxis.tickFormat(d3.format('.02f')).axisLabel('LDA2')
@@ -87,7 +90,7 @@
         d3.select('#test1 svg')
             .datum(data)
             .transition().duration(500)
-            .call(chart);
+                .call(chart);
 
         nv.utils.windowResize(chart.update);
         return chart;
@@ -96,4 +99,5 @@
 
 </script>
 
+</body>
 </html>

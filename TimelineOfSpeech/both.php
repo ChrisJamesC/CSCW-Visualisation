@@ -106,8 +106,9 @@ var maxValTime = getMaxValTime();
 		data.push({key:"s0", tStart : allTab[0][i][0], time:allTab[0][i][1]});
 	}
 
+	
 	var h = 240;
-	var hSvg = 280;
+	var hSvg = 600;
 	var leftMargin = 30;
 	var w =1000+leftMargin;
 	
@@ -139,7 +140,7 @@ var maxValTime = getMaxValTime();
 	var svg = d3.select("body").append("svg:svg")
     .attr("width", w+leftMargin)
     .attr("height", hSvg);
-
+	
 	svg.selectAll("aera")
 		.data(layers)
 		.enter().append("path")
@@ -162,7 +163,6 @@ var maxValTime = getMaxValTime();
 							return "white";
 							break;
 						} });
-		
 						
 	var maxValTime = getMaxValTime();
 	
@@ -174,20 +174,133 @@ var maxValTime = getMaxValTime();
 	var xAxis = d3.svg.axis()
 				.scale(xScale)
 				.ticks(maxValTime/60);
-				
+			
+	
+	
+/////////////////  ELLIPSE ///////////////////
+var tem = 220;
+var yS0 = tem+60;
+		var yS1 = tem+80;
+		var yS2 = tem+100;
+		var yS3 =tem+ 120;
+		var yS4 = tem+ 140;
+		var isFive = false;
+		
+		
+var data = [file[0]]; 
+		var j=0;
+		var first = true;
+		file.forEach(function(dat){
+		if(!first){
+			if(dat.subject === data[j].subject){
+				data[j].time = parseFloat(data[j].time)+parseFloat(dat.time);
+			}else{
+				data.push(dat);
+				j++;
+			}
+		}else{
+			first= false;
+		}
+		});
+			console.log(data);
+
+		svg.selectAll("ellipse")
+		.data(data)
+		.enter().append("ellipse")
+		.attr("cx", function(d){return (leftMargin + (parseFloat(d.tStart)+ parseFloat(d.time/2))*w/maxValTime);})
+		.attr("cy", function(d){switch(d.subject)
+						{
+							case "s0":
+							return yS0;
+							break;
+							case "s1":
+							return yS1;
+							break;
+							case "s2":
+							return yS2;
+							break;
+							case "s3":
+							return yS3;
+							break;
+							case "s4":
+							isFive = true;
+							return yS4;
+							default:
+							return -300;
+							
+							break;
+						}
+						})
+		.attr("rx", function(d){return (d.time/2)*w/maxValTime;})
+		.attr("ry", function(d){return (d.time/3)*w/maxValTime;})
+		.style("fill", function(d){switch(d.subject)
+						{
+							case "s0":
+							return "rgba(0, 0, 255, 0.5)";
+							break;
+							case "s1":
+							return "rgba(0, 255, 0, 0.5)";
+							break;
+							case "s2":
+							return "rgba(255, 0, 0, 0.5)";
+							break;
+							case "s3":
+							return "rgba(255,192,203, 0.5)";
+							break;
+							case "s4":
+							return "rgba(150, 75, 0, 0.5)";
+							break;
+							default:
+							return "white";
+							break;
+						}
+						})
+		.style("stroke", function(d){switch(d.subject)
+						{
+							case "s0":
+							return "darkblue";
+							break;
+							case "s1":
+							return "darkgreen";
+							break;
+							case "s2":
+							return "darkred";
+							break;
+							case "s3":
+							return "rgb(255,20,147)";
+							break;
+							case "s4":
+							return "rgb(61, 43, 31)";
+							break;
+							default:
+							return "white";
+							break;
+						}
+						});	
+		var hAxis;
+	
+	if(isFive){
+		hAxis=420;
+		
+	}else{
+		hAxis=360;
+		
+	}
+	
 	svg.append("g")
 	.attr("class", "axis")  //Assign "axis" class
-	.attr("transform", "translate(0, 245)")
+	.attr("transform", "translate(0, "+hAxis+")")
     .call(xAxis);
 		
 	svg.append("text")
     .attr("class", "x label")
     .attr("text-anchor", "end")
     .attr("x", w/2)
-    .attr("y", 280)
+    .attr("y", hAxis+40)
     .text("Time (minutes)");
 	
 	color = ["blue","lightgreen", "red", "rgb(255,192,203)"];
+	
 	for(var i=0; i< 4; i++){
 		svg.append("text")
 		.attr("class", "x label")
@@ -197,15 +310,23 @@ var maxValTime = getMaxValTime();
 		.style("fill", color[i])
 		.text("s"+i);
 	}
-
-
+	
+	for(var i=0; i< 4; i++){
+		svg.append("text")
+		.attr("class", "x label")
+		.attr("text-anchor", "end")
+		.attr("x", 20)
+		.attr("y", tem+65+i*20)
+		.style("fill", color[i])
+		.text("s"+i);
+	}
+	
 	svg.append("text")
     .attr("class", "x label")
     .attr("text-anchor", "end")
     .attr("x", w/2)
     .attr("y", 30)
     .text(title);
-						
 }); 
 </script>
 	
