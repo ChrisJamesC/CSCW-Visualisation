@@ -1,0 +1,1180 @@
+default		00:00:05.746	5.746	00:00:13.485	13.485	00:00:07.739	7.739	Well, First requiery is the average growth
+default		00:00:13.485	13.485	00:00:16.101	16.101	00:00:02.616	2.616	It should be 4 billion on the average
+default		00:00:16.101	16.101	00:00:17.528	17.528	00:00:01.427	1.427	Yeah, so...
+default		00:00:18.085	18.085	00:00:22.065	22.065	00:00:03.980	3.98	we just get the difference of each year average
+default		00:00:22.266	22.266	00:00:22.323	22.323	00:00:00.057	0.057	Umm
+default		00:00:23.493	23.493	00:00:24.406	24.406	00:00:00.913	0.913	First we
+default		00:00:24.406	24.406	00:00:28.210	28.21	00:00:03.804	3.804	Because those are shortage for 3 years
+default		00:00:28.350	28.35	00:00:31.720	31.72	00:00:03.370	3.37	It changes nearly for 5 million
+default		00:00:31.860	31.86	00:00:32.350	32.35	00:00:00.490	0.49	Yes
+default		00:00:33.970	33.97	00:00:35.200	35.2	00:00:01.230	1.23	5, 3 , 4 , 4
+default		00:00:38.023	38.023	00:00:39.390	39.39	00:00:01.367	1.367	and then...
+default		00:00:42.270	42.27	00:00:44.510	44.51	00:00:02.240	2.24	till 2016...
+default		00:00:44.940	44.94	00:00:48.050	48.05	00:00:03.110	3.11	15
+default		00:00:48.110	48.11	00:00:51.500	51.5	00:00:03.390	3.39	yeah, 15
+default		00:00:51.745	51.745	00:00:53.330	53.33	00:00:01.585	1.585	So, should we write these?
+default		00:00:59.300	59.3	00:01:02.883	62.883	00:00:03.583	3.583	Actually it's better to use the text instead of sticky notes
+default		00:01:12.371	72.371	00:01:13.413	73.413	00:00:01.042	1.042	
+default		00:01:18.636	78.636	00:01:23.925	83.925	00:00:05.289	5.289	And we put the average increase in shortage
+default		00:01:24.975	84.975	00:01:31.073	91.073	00:00:06.098	6.098	We should first calculate the amount of ...
+default		00:01:32.075	92.075	00:01:34.108	94.108	00:00:02.033	2.033	
+default		00:01:36.798	96.798	00:01:40.601	100.601	00:00:03.803	3.803	
+default		00:01:40.768	100.768	00:01:42.886	102.886	00:00:02.118	2.118	So we are finished with this phase
+default		00:01:43.686	103.686	00:01:44.516	104.516	00:00:00.830	0.83	no
+default		00:01:45.163	105.163	00:01:49.056	109.056	00:00:03.893	3.893	We should do all the calculations
+default		00:01:49.586	109.586	00:01:49.690	109.69	00:00:00.104	0.104	
+default		00:01:52.405	112.405	00:01:57.586	117.586	00:00:05.181	5.181	Probably we should set up first ...
+default		00:01:58.875	118.875	00:01:59.440	119.44	00:00:00.565	0.565	
+default		00:02:00.643	120.643	00:02:09.790	129.79	00:00:09.147	9.147	The ... you mean? because it's second phase. First we have to finish this and then the second phase wouldbe ...
+default		00:02:10.013	130.013	00:02:10.185	130.185	00:00:00.172	0.172	
+default		00:02:11.233	131.233	00:02:15.726	135.726	00:00:04.493	4.493	Here we have to minus this one from this one
+default		00:02:16.168	136.168	00:02:20.631	140.631	00:00:04.463	4.463	...function....and ...
+default		00:02:21.103	141.103	00:02:22.855	142.855	00:00:01.752	1.752	
+default		00:02:23.181	143.181	00:02:38.416	158.416	00:00:15.235	15.235	Here we have 2 kind of  costs, the one which class you like to have and we have how much we can probably make from each class
+default		00:02:38.913	158.913	00:02:43.565	163.565	00:00:04.652	4.652	We have to know ...
+default		00:02:43.730	163.73	00:02:52.100	172.1	00:00:08.370	8.37	so it's minus multliplyinghe capacity and then minus production cost
+default		00:02:52.290	172.29	00:03:01.700	181.7	00:00:09.410	9.41	And also this, yeah, the construction cost is to be multiplied by ...
+default		00:03:03.440	183.44	00:03:03.810	183.81	00:00:00.370	0.37	yeah
+default		00:03:03.870	183.87	00:03:10.710	190.71	00:00:06.840	6.84	I think this is different, you know because this one is power. kilowatts
+default		00:03:12.526	192.526	00:03:29.450	209.45	00:00:16.924	16.924	we need to know how much kilowatts per hour people consume then we have to multiply that with the operation cost, selling cost - operation cost
+default		00:03:31.465	211.465	00:03:37.000	217.0	00:00:05.535	5.535	that is -1....
+default		00:03:39.950	219.95	00:03:42.848	222.848	00:00:02.898	2.898	For one kilowat per hour
+default		00:03:43.290	223.29	00:03:44.841	224.841	00:00:01.551	1.551	yeah, that's for one kilowat per hour
+default		00:03:46.900	226.9	00:03:51.110	231.11	00:00:04.210	4.21	which is .... multiply...
+default		00:03:58.486	238.486	00:04:02.660	242.66	00:00:04.174	4.174	see two million
+default		00:04:03.230	243.23	00:04:07.170	247.17	00:00:03.940	3.94	
+default		00:04:07.250	247.25	00:04:20.476	260.476	00:00:13.226	13.226	But there are different units, here is like ... kilowats per hour
+default		00:04:22.300	262.3	00:04:25.950	265.95	00:00:03.650	3.65	so it depends on how many actually you sell to get back
+default		00:04:26.180	266.18	00:04:26.670	266.67	00:00:00.490	0.49	yeah
+default		00:04:26.806	266.806	00:04:30.626	270.626	00:00:03.820	3.82	now it's just ... we can't use it as a number
+default		00:04:30.680	270.68	00:04:33.206	273.206	00:00:02.526	2.526	....
+default		00:04:33.886	273.886	00:04:37.373	277.373	00:00:03.487	3.487	I think it's how much you can produce
+default		00:05:03.326	303.326	00:05:07.576	307.576	00:00:04.250	4.25	and also here the shortage is in hour
+default		00:05:07.676	307.676	00:05:14.450	314.45	00:00:06.774	6.774	Forexample 2012 the same amount as 1
+default		00:05:15.300	315.3	00:05:19.060	319.06	00:00:03.760	3.76	.....
+default		00:05:19.290	319.29	00:05:34.750	334.75	00:00:15.460	15.46	we sell 80% hours, the time of as always. like for the year it's 1 year 80% percent of the year
+default		00:05:35.010	335.01	00:05:55.435	355.435	00:00:20.425	20.425	The profit depends on how many actually cells . Here we have to make sure the installed capacity meets the shortage. so the number time s for a nuclear .. would meet that 50 then the first criteria
+default		00:05:55.593	355.593	00:06:08.050	368.05	00:00:12.457	12.457	now we can just use the 0.8 like we have ... so we don't need more technology
+default		00:06:09.510	369.51	00:06:17.998	377.998	00:00:08.488	8.488	The other thing is we have to make sure that the whole shortage is met by first
+default		00:06:18.218	378.218	00:06:26.306	386.306	00:00:08.088	8.088	yes, the content send someone construction, it want s to know how many years later, it will get the profit back
+default		00:06:26.366	386.366	00:06:26.653	386.653	00:00:00.287	0.287	oh yeah?
+default		00:06:29.000	389.0	00:06:31.425	391.425	00:00:02.425	2.425	Like how many hours, he needs to sell to get back
+default		00:06:32.450	392.45	00:06:35.248	395.248	00:00:02.798	2.798	
+default		00:06:35.523	395.523	00:06:36.121	396.121	00:00:00.598	0.598	yes
+default		00:06:36.440	396.44	00:06:37.191	397.191	00:00:00.751	0.751	
+default		00:06:38.255	398.255	00:06:46.720	406.72	00:00:08.465	8.465	just first we calculate the profit and then ...
+default		00:06:46.900	406.9	00:06:49.300	409.3	00:00:02.400	2.4	Kilowatts per hour and
+default		00:06:57.760	417.76	00:07:02.078	422.078	00:00:04.318	4.318	so maybe in the meantime that he is writing womeone can calculate
+default		00:07:02.160	422.16	00:07:09.700	429.7	00:00:07.540	7.54	I need a pen
+default		00:07:09.948	429.948	00:07:18.390	438.39	00:00:08.442	8.442	how much is the construction cost just this one with this one
+default		00:07:19.046	439.046	00:07:39.230	459.23	00:00:20.184	20.184	I mean you have to ... it means how many hours it neeeds to sell to the customer to get the construction cost back
+default		00:07:39.410	459.41	00:07:46.340	466.34	00:00:06.930	6.93	the construction cost needs to be multiplied
+default		00:07:46.390	466.39	00:07:47.390	467.39	00:00:01.000	1.0	That's true
+default		00:07:47.480	467.48	00:07:50.330	470.33	00:00:02.850	2.85	so then yeah...
+default		00:07:50.480	470.48	00:07:54.360	474.36	00:00:03.880	3.88	with a company if it sells this amount it will get...
+default		00:07:54.470	474.47	00:08:05.290	485.29	00:00:10.820	10.82	That's only if you consider building only one type of energy system, because you might build one of each
+default		00:08:06.236	486.236	00:08:17.940	497.94	00:00:11.704	11.704	but we can get this number to choose , like how long to get your money back
+default		00:08:18.066	498.066	00:08:20.093	500.093	00:00:02.027	2.027	then we can consider
+default		00:08:20.100	500.1	00:08:22.686	502.686	00:00:02.586	2.586	this is just criteria
+default		00:08:24.706	504.706	00:08:31.466	511.466	00:00:06.760	6.76	later we can combine them
+default		00:08:34.751	514.751	00:08:35.995	515.995	00:00:01.244	1.244	I need a calculator
+default		00:08:36.806	516.806	00:08:38.935	518.935	00:00:02.129	2.129	maybe we can write this one here
+default		00:08:38.935	518.935	00:08:39.353	519.353	00:00:00.418	0.418	do you have?
+default		00:08:39.963	519.963	00:08:40.955	520.955	00:00:00.992	0.992	no, do you have?
+default		00:08:43.250	523.25	00:08:45.910	525.91	00:00:02.660	2.66	And now what should I write
+default		00:08:49.290	529.29	00:08:55.510	535.51	00:00:06.220	6.22	It's just how many hours to get back
+default		00:08:55.810	535.81	00:09:00.930	540.93	00:00:05.120	5.12	refund time
+default		00:09:04.730	544.73	00:09:15.540	555.54	00:00:10.810	10.81	sorry to interrupt, save content, by pictures?
+default		00:09:15.750	555.75	00:09:18.901	558.901	00:00:03.151	3.151	we are running out of time for the first phase
+default		00:09:20.173	560.173	00:09:27.251	567.251	00:00:07.078	7.078	So can you do?
+default		00:09:27.450	567.45	00:09:32.290	572.29	00:00:04.840	4.84	how to you ...
+default		00:09:32.460	572.46	00:09:33.760	573.76	00:00:01.300	1.3	how much is ...
+default		00:09:35.330	575.33	00:09:36.028	576.028	00:00:00.698	0.698	wait a minute
+default		00:09:43.410	583.41	00:09:47.070	587.07	00:00:03.660	3.66	Do you have any calculators on this ?
+default		00:09:50.600	590.6	00:09:56.240	596.24	00:00:05.640	5.64	It's 3...
+default		00:09:56.380	596.38	00:09:58.633	598.633	00:00:02.253	2.253	can you just write?
+default		00:10:05.420	605.42	00:10:06.341	606.341	00:00:00.921	0.921	I start from the bottom
+default		00:10:21.300	621.3	00:10:23.001	623.001	00:00:01.701	1.701	That's for the nuclear one
+default		00:10:29.435	629.435	00:10:30.598	630.598	00:00:01.163	1.163	40000
+default		00:10:34.096	634.096	00:10:37.350	637.35	00:00:03.254	3.254	4062.. 
+default		00:11:01.430	661.43	00:11:03.270	663.27	00:00:01.840	1.84	Is this a .?
+default		00:11:03.320	663.32	00:11:03.951	663.951	00:00:00.631	0.631	yeah
+default		00:11:04.630	664.63	00:11:10.730	670.73	00:00:06.100	6.1	It's .5 4625
+default		00:11:10.865	670.865	00:11:13.428	673.428	00:00:02.563	2.563	you have to ... that out
+default		00:11:15.558	675.558	00:11:21.730	681.73	00:00:06.172	6.172	and it should be million hours
+default		00:11:23.985	683.985	00:11:25.070	685.07	00:00:01.085	1.085	oh this is not easy
+default		00:11:33.745	693.745	00:11:44.870	704.87	00:00:11.125	11.125	The thing is that range varues alot for example ...
+default		00:11:44.916	704.916	00:11:47.170	707.17	00:00:02.254	2.254	Just choose the middle one
+default		00:11:48.850	708.85	00:11:53.701	713.701	00:00:04.851	4.851	I have the last one
+default		00:11:57.270	717.27	00:12:07.410	727.41	00:00:10.140	10.14	For the next one is 143. ...
+default		00:12:38.020	758.02	00:12:40.000	760.0	00:00:01.980	1.98	what is this?
+default		00:12:41.120	761.12	00:12:41.750	761.75	00:00:00.630	0.63	It's two
+default		00:12:43.821	763.821	00:12:46.653	766.653	00:00:02.832	2.832	7600
+default		00:13:05.266	785.266	00:13:09.185	789.185	00:00:03.919	3.919	that one is 9000
+default		00:13:30.046	810.046	00:13:32.060	812.06	00:00:02.014	2.014	The last one you already have?
+default		00:13:32.410	812.41	00:13:33.740	813.74	00:00:01.330	1.33	yes 36
+default		00:13:34.145	814.145	00:13:36.316	816.316	00:00:02.171	2.171	it's about before 87
+default		00:13:36.456	816.456	00:13:39.290	819.29	00:00:02.834	2.834	so it's 1000
+default		00:13:39.580	819.58	00:13:42.470	822.47	00:00:02.890	2.89	Maybe you should check, it's weired
+default		00:13:45.033	825.033	00:13:51.210	831.21	00:00:06.177	6.177	Oh this is hard to calculate
+default		00:14:16.375	856.375	00:14:17.588	857.588	00:00:01.213	1.213	36
+default		00:14:20.550	860.55	00:14:23.548	863.548	00:00:02.998	2.998	what is tidal?
+default		00:14:25.910	865.91	00:14:28.495	868.495	00:00:02.585	2.585	it's see .. up and down ..
+default		00:14:34.258	874.258	00:14:44.386	884.386	00:00:10.128	10.128	30 devided by two, then 0.2 250
+default		00:14:45.000	885.0	00:14:45.780	885.78	00:00:00.780	0.78	250
+default		00:14:45.991	885.991	00:14:46.841	886.841	00:00:00.850	0.85	yeah
+default		00:14:52.190	892.19	00:14:54.560	894.56	00:00:02.370	2.37	we don't have to use all the ...
+default		00:14:54.630	894.63	00:14:58.548	898.548	00:00:03.918	3.918	yes but we need to know
+default		00:14:58.570	898.57	00:15:06.090	906.09	00:00:07.520	7.52	it's multiplied by hours, it 620
+default		00:15:15.985	915.985	00:15:17.955	917.955	00:00:01.970	1.97	around 28
+default		00:15:26.980	926.98	00:15:34.320	934.32	00:00:07.340	7.34	I think we are doing the second phase
+default		00:16:12.690	972.69	00:16:16.400	976.4	00:00:03.710	3.71	I am going to search meanwhile...?
+default		00:16:16.618	976.618	00:16:16.921	976.921	00:00:00.303	0.303	yes
+default		00:16:19.760	979.76	00:16:22.823	982.823	00:00:03.063	3.063	So around 29
+default		00:16:29.330	989.33	00:16:37.923	997.923	00:00:08.593	8.593	Should we search for china regions for type of energies
+default		00:16:43.190	1003.19	00:16:50.250	1010.25	00:00:07.060	7.06	this is around 22000
+default		00:17:09.390	1029.39	00:17:17.620	1037.62	00:00:08.230	8.23	maybe we should like have a order column for which one is ..
+default		00:17:17.690	1037.69	00:17:28.300	1048.3	00:00:10.610	10.61	yes first editing that is related to the numbers
+default		00:17:29.440	1049.44	00:17:37.490	1057.49	00:00:08.050	8.05	Maybe you can modify these two columns ... instead of 
+default		00:17:51.900	1071.9	00:17:54.850	1074.85	00:00:02.950	2.95	I'm just trying to decide to polution
+default		00:17:55.115	1075.115	00:17:59.096	1079.096	00:00:03.981	3.981	which one do we prefer?
+default		00:18:03.328	1083.328	00:18:05.480	1085.48	00:00:02.152	2.152	solar energy and wind farm
+default		00:18:05.480	1085.48	00:18:08.890	1088.89	00:00:03.410	3.41	
+default		00:18:16.610	1096.61	00:18:19.480	1099.48	00:00:02.870	2.87	nuclear is dangerous isn't it?
+default		00:18:19.601	1099.601	00:18:23.208	1103.208	00:00:03.607	3.607	If you keep it safe, everything is fine
+default		00:18:23.450	1103.45	00:18:25.440	1105.44	00:00:01.990	1.99	but can we keep it safe?
+default		00:18:25.570	1105.57	00:18:38.600	1118.6	00:00:13.030	13.03	no, last time it caused disaster ... far from children...
+default		00:18:42.078	1122.078	00:18:45.695	1125.695	00:00:03.617	3.617	Because I know in Germny they have decided to stop
+default		00:18:45.720	1125.72	00:18:51.420	1131.42	00:00:05.700	5.7	yeah and also switzerland, they decide to abandon
+default		00:18:55.270	1135.27	00:18:58.010	1138.01	00:00:02.740	2.74	
+default		00:18:58.010	1138.01	00:19:05.300	1145.3	00:00:07.290	7.29	I think wind farm, solar energy and ...
+default		00:19:09.035	1149.035	00:19:09.525	1149.525	00:00:00.490	0.49	
+default		00:19:11.660	1151.66	00:19:18.673	1158.673	00:00:07.013	7.013	I think it is caused from the wave of the see
+default		00:19:18.673	1158.673	00:19:19.443	1159.443	00:00:00.770	0.77	oh really?
+default		00:19:21.890	1161.89	00:19:23.495	1163.495	00:00:01.605	1.605	yeah search for that
+default		00:19:27.561	1167.561	00:19:35.270	1175.27	00:00:07.709	7.709	You were right. it's using the change of the sea llevels
+default		00:19:35.270	1175.27	00:19:36.585	1176.585	00:00:01.315	1.315	should we create ?
+default		00:19:36.585	1176.585	00:19:37.273	1177.273	00:00:00.688	0.688	yes
+default		00:19:38.380	1178.38	00:19:42.111	1182.111	00:00:03.731	3.731	
+default		00:19:42.111	1182.111	00:19:44.735	1184.735	00:00:02.624	2.624	This one will be second
+default		00:19:47.995	1187.995	00:20:09.290	1209.29	00:00:21.295	21.295	We have like constraints. we are changing the sea level. It has to be in mountain ... we have like constraints coming along with this
+default		00:20:09.356	1209.356	00:20:11.530	1211.53	00:00:02.174	2.174	Do you have seas in china
+default		00:20:11.530	1211.53	00:20:13.980	1213.98	00:00:02.450	2.45	yeah around :))
+default		00:20:18.760	1218.76	00:20:51.100	1251.1	00:00:32.340	32.34	Hydroelectric should be ... and solar energy should be ...
+default		00:20:52.910	1252.91	00:21:07.670	1267.67	00:00:14.760	14.76	maybe we can say pros and coins for each option
+default		00:21:10.640	1270.64	00:21:16.390	1276.39	00:00:05.750	5.75	
+default		00:21:16.450	1276.45	00:21:17.980	1277.98	00:00:01.530	1.53	Let's create another row
+default		00:21:20.910	1280.91	00:21:24.810	1284.81	00:00:03.900	3.9	that have one 20 kilometers
+default		00:21:28.840	1288.84	00:21:39.070	1299.07	00:00:10.230	10.23	
+default		00:21:42.260	1302.26	00:21:49.360	1309.36	00:00:07.100	7.1	It's red like there should be ...
+default		00:21:49.445	1309.445	00:21:59.420	1319.42	00:00:09.975	9.975	the other 3 have really low risks
+default		00:21:59.596	1319.596	00:22:06.140	1326.14	00:00:06.544	6.544	30% of time we can just multiply that
+default		00:22:07.040	1327.04	00:22:14.403	1334.403	00:00:07.363	7.363	no! you need to use daylight
+default		00:22:21.325	1341.325	00:22:27.178	1347.178	00:00:05.853	5.853	70% . isn't that too much?
+default		00:22:27.595	1347.595	00:22:31.518	1351.518	00:00:03.923	3.923	Maybe you first ...
+default		00:23:05.225	1385.225	00:23:07.281	1387.281	00:00:02.056	2.056	tidal you have in ...
+default		00:23:09.061	1389.061	00:23:10.998	1390.998	00:00:01.937	1.937	
+default		00:23:10.998	1390.998	00:23:15.768	1395.768	00:00:04.770	4.77	You have a little bit in the morning and a little bit in the ...
+default		00:23:25.483	1405.483	00:23:34.491	1414.491	00:00:09.008	9.008	We are going to do the third 
+default		00:23:40.011	1420.011	00:23:47.825	1427.825	00:00:07.814	7.814	or we can search for places that
+default		00:23:47.825	1427.825	00:23:53.638	1433.638	00:00:05.813	5.813	Do we need to do that? It doesn't ask
+default		00:23:58.423	1438.423	00:24:05.783	1445.783	00:00:07.360	7.36	Basically you can always find a place in china
+default		00:24:05.783	1445.783	00:24:18.023	1458.023	00:00:12.240	12.24	You should consider the cost to trasfer the electricity
+default		00:24:18.023	1458.023	00:24:22.280	1462.28	00:00:04.257	4.257	How to spread
+default		00:24:24.840	1464.84	00:24:29.020	1469.02	00:00:04.180	4.18	For different areas we can use different types
+default		00:24:33.230	1473.23	00:24:39.200	1479.2	00:00:05.970	5.97	We don't need to say that...
+default		00:24:43.490	1483.49	00:24:45.345	1485.345	00:00:01.855	1.855	we need to decide
+default		00:24:45.805	1485.805	00:24:58.540	1498.54	00:00:12.735	12.735	and we should have a priority, which one we prefer
+default		00:24:58.871	1498.871	00:25:03.170	1503.17	00:00:04.299	4.299	You have to convince the governemetn, which is probabaly interested in
+default		00:25:06.580	1506.58	00:25:13.180	1513.18	00:00:06.600	6.6	nuclear , solar should be first 
+default		00:25:14.461	1514.461	00:25:19.705	1519.705	00:00:05.244	5.244	solar is probably ....
+default		00:25:22.360	1522.36	00:25:26.280	1526.28	00:00:03.920	3.92	For government we only have pollution?
+default		00:25:42.040	1542.04	00:25:54.350	1554.35	00:00:12.310	12.31	we have to consider somethings else, for example it is not available always
+default		00:25:57.790	1557.79	00:26:03.663	1563.663	00:00:05.873	5.873	That might be a factor for the government, how much space
+default		00:26:07.500	1567.5	00:26:14.810	1574.81	00:00:07.310	7.31	It's not simple, how much
+default		00:26:15.350	1575.35	00:26:19.100	1579.1	00:00:03.750	3.75	So we put them into a column
+default		00:26:31.080	1591.08	00:26:34.570	1594.57	00:00:03.490	3.49	And what is it that you are writing?
+default		00:26:34.830	1594.83	00:26:35.830	1595.83	00:00:01.000	1.0	....
+default		00:26:35.920	1595.92	00:26:39.381	1599.381	00:00:03.461	3.461	For the government is ...
+default		00:26:40.105	1600.105	00:26:47.760	1607.76	00:00:07.655	7.655	What is the difference between this one with ...
+default		00:26:47.841	1607.841	00:26:50.948	1610.948	00:00:03.107	3.107	Remeber to save this
+default		00:27:04.905	1624.905	00:27:15.655	1635.655	00:00:10.750	10.75	We are different ... more ...
+default		00:27:18.510	1638.51	00:27:28.175	1648.175	00:00:09.665	9.665	We should have a strategy for once 
+default		00:27:28.425	1648.425	00:27:42.306	1662.306	00:00:13.881	13.881	It is also that china is along the cost, maybe tidal?
+default		00:27:43.890	1663.89	00:27:48.770	1668.77	00:00:04.880	4.88	Yes for different area
+default		00:27:50.528	1670.528	00:27:57.970	1677.97	00:00:07.442	7.442	Maybe you can tell us about the regions
+default		00:28:03.950	1683.95	00:28:07.581	1687.581	00:00:03.631	3.631	For the nuclear it's dangerous for children
+default		00:28:08.690	1688.69	00:28:16.580	1696.58	00:00:07.890	7.89	You can find a place far from the city, for each province
+default		00:28:28.531	1708.531	00:28:31.345	1711.345	00:00:02.814	2.814	How do I show the map of China?
+default		00:28:45.241	1725.241	00:28:47.560	1727.56	00:00:02.319	2.319	for wind farm I think this part
+default		00:28:47.908	1727.908	00:28:50.078	1730.078	00:00:02.170	2.17	And also for solar
+default		00:28:52.145	1732.145	00:29:02.090	1742.09	00:00:09.945	9.945	and for tidal here, hydro around the river.
+default		00:29:02.176	1742.176	00:29:03.080	1743.08	00:00:00.904	0.904	and south
+default		00:29:28.235	1768.235	00:29:36.095	1776.095	00:00:07.860	7.86	We have a strategy, we want to replace 
+default		00:29:37.850	1777.85	00:29:42.783	1782.783	00:00:04.933	4.933	now we should spread the shortage among these types
+default		00:29:46.366	1786.366	00:29:51.310	1791.31	00:00:04.944	4.944	If the triangle is china, you say that
+default		00:29:51.515	1791.515	00:29:53.050	1793.05	00:00:01.535	1.535	Are we finished with the 2nd phasr?
+default		00:29:53.156	1793.156	00:29:54.020	1794.02	00:00:00.864	0.864	Yeah, the last minute
+default		00:30:00.615	1800.615	00:30:03.910	1803.91	00:00:03.295	3.295	we have to come up with a plan
+default		00:30:08.190	1808.19	00:30:12.790	1812.79	00:00:04.600	4.6	We have to make sure that the shortage is now covered
+default		00:30:13.630	1813.63	00:30:18.760	1818.76	00:00:05.130	5.13	So.. we don't want fossil
+default		00:30:23.481	1823.481	00:30:24.411	1824.411	00:00:00.930	0.93	cross them out
+default		00:30:42.946	1842.946	00:30:50.305	1850.305	00:00:07.359	7.359	Just take it to the end
+default		00:31:05.123	1865.123	00:31:08.145	1868.145	00:00:03.022	3.022	Maybe you can cross it to the end!
+default		00:31:30.870	1890.87	00:31:33.361	1893.361	00:00:02.491	2.491	How many do we need?
+default		00:31:34.565	1894.565	00:31:39.780	1899.78	00:00:05.215	5.215	Do we put solar energy and wind farm as the highest priority
+default		00:31:39.790	1899.79	00:31:40.480	1900.48	00:00:00.690	0.69	Yeah
+default		00:31:40.480	1900.48	00:31:41.450	1901.45	00:00:00.970	0.97	Yep
+default		00:31:42.653	1902.653	00:31:48.120	1908.12	00:00:05.467	5.467	This 500 and this is around 20
+default		00:31:48.120	1908.12	00:31:48.891	1908.891	00:00:00.771	0.771	2000
+default		00:31:53.950	1913.95	00:32:07.245	1927.245	00:00:13.295	13.295	I want to say...30 percent of this 30% of this, or 20 20 20....20 20 :))
+default		00:32:10.140	1930.14	00:32:13.683	1933.683	00:00:03.543	3.543	We  need to look at the numbers
+default		00:32:15.210	1935.21	00:32:19.520	1939.52	00:00:04.310	4.31	Just tell me one...How to spread the percentage
+default		00:32:21.250	1941.25	00:32:42.400	1962.4	00:00:21.150	21.15	Ummm
+default		00:32:44.210	1964.21	00:32:55.528	1975.528	00:00:11.318	11.318	So we just use the number of total shortage 50 percent devided by ... probably just 5.5
+default		00:32:55.528	1975.528	00:32:55.880	1975.88	00:00:00.352	0.352	OK
+default		00:32:56.273	1976.273	00:32:59.260	1979.26	00:00:02.987	2.987	Because the number is of total, so you could ...
+default		00:32:59.260	1979.26	00:33:01.620	1981.62	00:00:02.360	2.36	No, That one actually is 13
+default		00:33:01.620	1981.62	00:33:07.646	1987.646	00:00:06.026	6.026	Ahh.. yeah
+default		00:33:07.646	1987.646	00:33:15.690	1995.69	00:00:08.044	8.044	Because 25 is number we need to cover the whole shortage
+default		00:33:16.135	1996.135	00:33:18.971	1998.971	00:00:02.836	2.836	....that thing...
+default		00:33:18.971	1998.971	00:33:20.145	2000.145	00:00:01.174	1.174	How?
+default		00:33:20.145	2000.145	00:33:22.330	2002.33	00:00:02.185	2.185	13 or 20?
+default		00:33:23.675	2003.675	00:33:25.080	2005.08	00:00:01.405	1.405	13
+default		00:33:25.080	2005.08	00:33:29.548	2009.548	00:00:04.468	4.468	No, which is the last column
+default		00:33:32.498	2012.498	00:33:34.821	2014.821	00:00:02.323	2.323	So..can you just type it?
+default		00:33:36.520	2016.52	00:33:37.670	2017.67	00:00:01.150	1.15	It makes...
+default		00:33:37.770	2017.77	00:33:43.400	2023.4	00:00:05.630	5.63	So we will use 13 nuclear
+default		00:33:43.400	2023.4	00:33:48.681	2028.681	00:00:05.281	5.281	And the other just for 15 percent
+default		00:33:48.681	2028.681	00:33:55.423	2035.423	00:00:06.742	6.742	The others will cover like 4.5
+default		00:33:55.423	2035.423	00:33:56.455	2036.455	00:00:01.032	1.032	quarter
+default		00:33:59.445	2039.445	00:34:04.043	2044.043	00:00:04.598	4.598	Just use that number and ...
+default		00:34:04.043	2044.043	00:34:08.453	2048.453	00:00:04.410	4.41	500 and ... 20%
+default		00:34:08.453	2048.453	00:34:11.300	2051.3	00:00:02.847	2.847	Sorry 200.5
+default		00:34:11.300	2051.3	00:34:14.550	2054.55	00:00:03.250	3.25	75
+default		00:34:14.550	2054.55	00:34:17.143	2057.143	00:00:02.593	2.593	It's 74.5 ...
+default		00:34:19.003	2059.003	00:34:21.206	2061.206	00:00:02.203	2.203	I'm not a calculator
+default		00:34:21.206	2061.206	00:34:22.460	2062.46	00:00:01.254	1.254	divided by 4
+default		00:34:22.460	2062.46	00:34:23.666	2063.666	00:00:01.206	1.206	Just give me a number
+default		00:34:23.666	2063.666	00:34:24.578	2064.578	00:00:00.912	0.912	yeah
+default		00:34:24.578	2064.578	00:34:28.295	2068.295	00:00:03.717	3.717	We want some ...
+default		00:34:28.295	2068.295	00:34:32.330	2072.33	00:00:04.035	4.035	It's not devided by 4, it's devided by ...
+default		00:34:32.330	2072.33	00:34:34.040	2074.04	00:00:01.710	1.71	50 devided by ...
+default		00:34:34.040	2074.04	00:34:36.795	2076.795	00:00:02.755	2.755	We completly forgot about the refund
+default		00:34:36.795	2076.795	00:34:38.730	2078.73	00:00:01.935	1.935	Ah right....
+default		00:34:42.680	2082.68	00:34:44.455	2084.455	00:00:01.775	1.775	So, it's 63
+default		00:34:44.455	2084.455	00:34:46.050	2086.05	00:00:01.595	1.595	How much time do we have?
+default		00:34:46.050	2086.05	00:34:47.980	2087.98	00:00:01.930	1.93	No, It's in the wrong column
+default		00:34:47.980	2087.98	00:34:49.418	2089.418	00:00:01.438	1.438	Okay
+default		00:34:52.810	2092.81	00:34:54.910	2094.91	00:00:02.100	2.1	I'll do it
+default		00:35:03.350	2103.35	00:35:05.370	2105.37	00:00:02.020	2.02	157
+default		00:35:05.370	2105.37	00:35:06.890	2106.89	00:00:01.520	1.52	He devided ... eeh
+default		00:35:06.890	2106.89	00:35:11.400	2111.4	00:00:04.510	4.51	But you have to devide it by 0.5 for the ...
+default		00:35:15.015	2115.015	00:35:18.330	2118.33	00:00:03.315	3.315	but devided by 2.5 is actually gonna make it bigger
+default		00:35:18.330	2118.33	00:35:23.446	2123.446	00:00:05.116	5.116	Yeah, because we ....
+default		00:35:23.446	2123.446	00:35:27.120	2127.12	00:00:03.674	3.674	I think it's devided by .. devide by ...
+default		00:35:29.270	2129.27	00:35:32.935	2132.935	00:00:03.665	3.665	250 devided by 25
+default		00:35:32.935	2132.935	00:35:34.435	2134.435	00:00:01.500	1.5	Then devided by...
+default		00:35:34.435	2134.435	00:35:35.728	2135.728	00:00:01.293	1.293	8
+default		00:35:35.728	2135.728	00:35:38.081	2138.081	00:00:02.353	2.353	6.5
+default		00:35:48.055	2148.055	00:35:49.083	2149.083	00:00:01.028	1.028	1.90
+default		00:36:04.300	2164.3	00:36:05.121	2165.121	00:00:00.821	0.821	8?
+default		00:36:05.121	2165.121	00:36:05.823	2165.823	00:00:00.702	0.702	yeah
+default		00:36:12.465	2172.465	00:36:15.046	2175.046	00:00:02.581	2.581	27000
+default		00:36:15.046	2175.046	00:36:16.226	2176.226	00:00:01.180	1.18	Thousand?!
+default		00:36:16.226	2176.226	00:36:17.601	2177.601	00:00:01.375	1.375	yeah 500
+default		00:36:17.601	2177.601	00:36:20.675	2180.675	00:00:03.074	3.074	That number is too large
+default		00:36:20.675	2180.675	00:36:25.270	2185.27	00:00:04.595	4.595	Probably we should modify this. We are going too many
+default		00:36:25.270	2185.27	00:36:28.301	2188.301	00:00:03.031	3.031	We don't have equal parts
+default		00:36:28.301	2188.301	00:36:32.930	2192.93	00:00:04.629	4.629	Maybe it's worse, if we ...
+default		00:36:32.940	2192.94	00:36:34.675	2194.675	00:00:01.735	1.735	Actually we can just ...
+default		00:36:34.675	2194.675	00:36:36.343	2196.343	00:00:01.668	1.668	Eliminate the ...
+default		00:36:36.343	2196.343	00:36:38.900	2198.9	00:00:02.557	2.557	Or this one, we can...
+default		00:36:40.838	2200.838	00:36:50.881	2210.881	00:00:10.043	10.043	200 and ... for the rest we can compensate with ... hydro
+default		00:36:50.881	2210.881	00:36:53.328	2213.328	00:00:02.447	2.447	or we can just cross it off
+default		00:36:53.328	2213.328	00:36:54.453	2214.453	00:00:01.125	1.125	yeah
+default		00:36:54.453	2214.453	00:37:02.220	2222.22	00:00:07.767	7.767	It's like it's producing 2 energy for each class
+default		00:37:03.248	2223.248	00:37:12.350	2232.35	00:00:09.102	9.102	Or we can just with all the rest make the 50 that is missing and keep hydro for future
+default		00:37:12.350	2232.35	00:37:16.546	2236.546	00:00:04.196	4.196	So if it increases, we also have a lot
+default		00:37:16.546	2236.546	00:37:19.970	2239.97	00:00:03.424	3.424	So we will be building more than the ...
+default		00:37:19.970	2239.97	00:37:22.110	2242.11	00:00:02.140	2.14	yeah, that makes sense
+default		00:37:22.110	2242.11	00:37:26.220	2246.22	00:00:04.110	4.11	So I just add a new ...
+default		00:37:26.220	2246.22	00:37:34.763	2254.763	00:00:08.543	8.543	But does it cover, because you are increasing by less than 10 percent
+default		00:37:34.763	2254.763	00:37:37.313	2257.313	00:00:02.550	2.55	And that should be counted
+default		00:37:37.313	2257.313	00:37:39.365	2259.365	00:00:02.052	2.052	What is percentage of this one?
+default		00:37:39.365	2259.365	00:37:44.168	2264.168	00:00:04.803	4.803	12.5 percent
+default		00:37:44.168	2264.168	00:37:47.343	2267.343	00:00:03.175	3.175	You can increase that by ...
+default		00:37:47.343	2267.343	00:37:56.986	2276.986	00:00:09.643	9.643	You have to increase by 13 / 4
+default		00:37:59.065	2279.065	00:38:03.063	2283.063	00:00:03.998	3.998	You can just type this
+default		00:38:03.063	2283.063	00:38:06.868	2286.868	00:00:03.805	3.805	I think you should not add nuclear. It's not that good
+default		00:38:06.868	2286.868	00:38:08.336	2288.336	00:00:01.468	1.468	Can you give me a number?
+default		00:38:08.336	2288.336	00:38:12.750	2292.75	00:00:04.414	4.414	Or just 100!
+default		00:38:12.750	2292.75	00:38:19.725	2299.725	00:00:06.975	6.975	We have to double it to ...
+default		00:38:19.725	2299.725	00:38:27.911	2307.911	00:00:08.186	8.186	If we have 14 ,..., we cover 16 millions
+default		00:38:27.911	2307.911	00:38:29.140	2309.14	00:00:01.229	1.229	Which one?
+default		00:38:29.140	2309.14	00:38:34.650	2314.65	00:00:05.510	5.51	With 14, 36 and 196
+default		00:38:34.650	2314.65	00:38:36.596	2316.596	00:00:01.946	1.946	Oh, it's ok right now
+default		00:38:38.340	2318.34	00:38:42.940	2322.94	00:00:04.600	4.6	That covers 16 and we only have to cover 15, so we have ...
+default		00:38:43.650	2323.65	00:38:47.590	2327.59	00:00:03.940	3.94	But we have too much capacity...companies
+default		00:38:49.450	2329.45	00:38:52.565	2332.565	00:00:03.115	3.115	We just saving for a couple of years ahead
+default		00:38:52.565	2332.565	00:38:58.038	2338.038	00:00:05.473	5.473	Can you check the time? We have ten minutes left
+default		00:38:58.038	2338.038	00:39:02.568	2342.568	00:00:04.530	4.53	Now let's convince the companies
+default		00:39:02.568	2342.568	00:39:10.603	2350.603	00:00:08.035	8.035	Maybe government can pay them, because ...
+default		00:39:22.450	2362.45	00:39:24.600	2364.6	00:00:02.150	2.15	We have 7 minutes
+default		00:39:24.600	2364.6	00:39:28.761	2368.761	00:00:04.161	4.161	Oh, yours is not working?
+default		00:39:34.958	2374.958	00:39:40.695	2380.695	00:00:05.737	5.737	We can add it ..
+default		00:39:40.695	2380.695	00:39:44.781	2384.781	00:00:04.086	4.086	Companies prefer tidal, but we have 
+default		00:39:44.781	2384.781	00:39:45.830	2385.83	00:00:01.049	1.049	what?
+default		00:39:45.830	2385.83	00:39:47.200	2387.2	00:00:01.370	1.37	tidal energy
+default		00:39:47.200	2387.2	00:39:48.133	2388.133	00:00:00.933	0.933	yes
+default		00:39:48.133	2388.133	00:39:54.071	2394.071	00:00:05.938	5.938	But considering the shortage
+default		00:40:01.431	2401.431	00:40:08.578	2408.578	00:00:07.147	7.147	But maybe we can start building tidals, so we can ...
+default		00:40:21.026	2421.026	00:40:25.960	2425.96	00:00:04.934	4.934	Number of the tidal is too large...
+default		00:40:36.041	2436.041	00:40:44.703	2444.703	00:00:08.662	8.662	How about we just calculate how money we need to invest for
+default		00:40:46.746	2446.746	00:40:53.340	2453.34	00:00:06.594	6.594	That's like give the investor a sense how much money
+default		00:40:53.340	2453.34	00:40:55.913	2455.913	00:00:02.573	2.573	How can we calculate that?
+default		00:40:55.913	2455.913	00:41:01.485	2461.485	00:00:05.572	5.572	That's construction cost
+default		00:41:01.485	2461.485	00:41:07.545	2467.545	00:00:06.060	6.06	It said that we don't need to consider about the fund
+default		00:41:07.545	2467.545	00:41:10.563	2470.563	00:00:03.018	3.018	okay
+default		00:41:10.563	2470.563	00:41:12.993	2472.993	00:00:02.430	2.43	Then we need to consider
+default		00:41:15.231	2475.231	00:41:16.851	2476.851	00:00:01.620	1.62	environemnt and ..
+default		00:41:16.851	2476.851	00:41:19.200	2479.2	00:00:02.349	2.349	cost/benefit
+default		00:41:19.200	2479.2	00:41:21.540	2481.54	00:00:02.340	2.34	we didn't consider the cost benefit
+default		00:41:21.540	2481.54	00:41:25.646	2485.646	00:00:04.106	4.106	yeah, but this one
+default		00:41:25.646	2485.646	00:41:30.623	2490.623	00:00:04.977	4.977	we are basically taking the one that...
+default		00:41:30.623	2490.623	00:41:38.178	2498.178	00:00:07.555	7.555	This one is very bad
+default		00:41:38.178	2498.178	00:41:53.280	2513.28	00:00:15.102	15.102	considering the percentage of functional time and also the number of ...
+default		00:41:53.280	2513.28	00:42:01.711	2521.711	00:00:08.431	8.431	That's currently without considering the construction cost... we are just considering the shortage...
+default		00:42:01.711	2521.711	00:42:04.396	2524.396	00:00:02.685	2.685	yeah we need an intitial investment
+default		00:42:04.396	2524.396	00:42:13.571	2533.571	00:00:09.175	9.175	Ah.. we can actually change this one to nine and then this ...
+default		00:42:19.570	2539.57	00:42:24.028	2544.028	00:00:04.458	4.458	I think government is happy now, but the companies might not be happy
+default		00:42:29.380	2549.38	00:42:40.348	2560.348	00:00:10.968	10.968	Then we can say that if you follow this plan goverment will reduce your taxes
+default		00:42:46.051	2566.051	00:42:51.141	2571.141	00:00:05.090	5.09	We can not decide on behalf of goverment
+default		00:42:51.141	2571.141	00:43:00.323	2580.323	00:00:09.182	9.182	And we persuade the government to reduce taxes
+default		00:43:12.456	2592.456	00:43:21.050	2601.05	00:00:08.594	8.594	I'm not sure we can use that as a solution
+default		00:43:23.220	2603.22	00:43:26.300	2606.3	00:00:03.080	3.08	But if we can, that's the best solution
+default		00:43:30.950	2610.95	00:43:34.230	2614.23	00:00:03.280	3.28	I guess we are running out of time
+default		00:43:34.230	2614.23	00:43:38.218	2618.218	00:00:03.988	3.988	We have 2 minutes
+default		00:43:38.218	2618.218	00:43:42.980	2622.98	00:00:04.762	4.762	Maybe this does not work
+default		00:43:46.060	2626.06	00:43:49.940	2629.94	00:00:03.880	3.88	Yeah, we have 2 minutes
+default		00:43:52.350	2632.35	00:43:54.286	2634.286	00:00:01.936	1.936	So, we are finished?
+default		00:43:54.286	2634.286	00:43:56.866	2636.866	00:00:02.580	2.58	so, maybe we can ... yeah :)
+subject		00:00:05.746	5.746	00:00:13.485	13.485	00:00:07.739	7.739	s2
+subject		00:00:13.485	13.485	00:00:16.101	16.101	00:00:02.616	2.616	s0
+subject		00:00:16.101	16.101	00:00:17.528	17.528	00:00:01.427	1.427	s2
+subject		00:00:18.085	18.085	00:00:22.065	22.065	00:00:03.980	3.98	s2
+subject		00:00:22.266	22.266	00:00:22.323	22.323	00:00:00.057	0.057	s1
+subject		00:00:23.493	23.493	00:00:24.406	24.406	00:00:00.913	0.913	s2
+subject		00:00:24.406	24.406	00:00:28.210	28.21	00:00:03.804	3.804	s0
+subject		00:00:28.350	28.35	00:00:31.720	31.72	00:00:03.370	3.37	s1
+subject		00:00:31.860	31.86	00:00:32.350	32.35	00:00:00.490	0.49	s0
+subject		00:00:33.970	33.97	00:00:35.200	35.2	00:00:01.230	1.23	s0
+subject		00:00:38.023	38.023	00:00:39.390	39.39	00:00:01.367	1.367	s0
+subject		00:00:42.270	42.27	00:00:44.510	44.51	00:00:02.240	2.24	s2
+subject		00:00:44.940	44.94	00:00:48.050	48.05	00:00:03.110	3.11	s0
+subject		00:00:48.110	48.11	00:00:51.500	51.5	00:00:03.390	3.39	s2
+subject		00:00:51.745	51.745	00:00:53.330	53.33	00:00:01.585	1.585	s1
+subject		00:00:59.300	59.3	00:01:02.883	62.883	00:00:03.583	3.583	s3
+subject		00:01:12.371	72.371	00:01:13.413	73.413	00:00:01.042	1.042	
+subject		00:01:18.636	78.636	00:01:23.925	83.925	00:00:05.289	5.289	s0
+subject		00:01:24.975	84.975	00:01:31.073	91.073	00:00:06.098	6.098	s1
+subject		00:01:40.768	100.768	00:01:42.886	102.886	00:00:02.118	2.118	s2
+subject		00:01:43.686	103.686	00:01:44.516	104.516	00:00:00.830	0.83	s1
+subject		00:01:45.163	105.163	00:01:49.056	109.056	00:00:03.893	3.893	s1
+subject		00:01:49.586	109.586	00:01:49.690	109.69	00:00:00.104	0.104	s0
+subject		00:01:52.405	112.405	00:01:57.586	117.586	00:00:05.181	5.181	s2
+subject		00:02:00.643	120.643	00:02:09.790	129.79	00:00:09.147	9.147	s1
+subject		00:02:11.233	131.233	00:02:15.726	135.726	00:00:04.493	4.493	s1
+subject		00:02:16.168	136.168	00:02:20.631	140.631	00:00:04.463	4.463	s1
+subject		00:02:23.181	143.181	00:02:38.416	158.416	00:00:15.235	15.235	s2
+subject		00:02:38.913	158.913	00:02:43.565	163.565	00:00:04.652	4.652	s1
+subject		00:02:43.730	163.73	00:02:52.100	172.1	00:00:08.370	8.37	s0
+subject		00:02:52.290	172.29	00:03:01.700	181.7	00:00:09.410	9.41	s2
+subject		00:03:03.440	183.44	00:03:03.810	183.81	00:00:00.370	0.37	s0
+subject		00:03:03.870	183.87	00:03:10.710	190.71	00:00:06.840	6.84	s2
+subject		00:03:12.526	192.526	00:03:29.450	209.45	00:00:16.924	16.924	s1
+subject		00:03:31.465	211.465	00:03:37.000	217.0	00:00:05.535	5.535	s0
+subject		00:03:39.950	219.95	00:03:42.848	222.848	00:00:02.898	2.898	s2
+subject		00:03:43.290	223.29	00:03:44.841	224.841	00:00:01.551	1.551	s1
+subject		00:03:46.900	226.9	00:03:51.110	231.11	00:00:04.210	4.21	s3
+subject		00:03:58.486	238.486	00:04:02.660	242.66	00:00:04.174	4.174	s0
+subject		00:04:07.250	247.25	00:04:20.476	260.476	00:00:13.226	13.226	s2
+subject		00:04:22.300	262.3	00:04:25.950	265.95	00:00:03.650	3.65	s2
+subject		00:04:26.180	266.18	00:04:26.670	266.67	00:00:00.490	0.49	s1
+subject		00:04:26.806	266.806	00:04:30.626	270.626	00:00:03.820	3.82	s2
+subject		00:04:30.680	270.68	00:04:33.206	273.206	00:00:02.526	2.526	s1
+subject		00:04:33.886	273.886	00:04:37.373	277.373	00:00:03.487	3.487	s2
+subject		00:05:03.326	303.326	00:05:07.576	307.576	00:00:04.250	4.25	s2
+subject		00:05:07.676	307.676	00:05:14.450	314.45	00:00:06.774	6.774	s3
+subject		00:05:19.290	319.29	00:05:34.750	334.75	00:00:15.460	15.46	s0
+subject		00:05:35.010	335.01	00:05:55.435	355.435	00:00:20.425	20.425	s2
+subject		00:05:55.593	355.593	00:06:08.050	368.05	00:00:12.457	12.457	s2
+subject		00:06:09.510	369.51	00:06:17.998	377.998	00:00:08.488	8.488	s3
+subject		00:06:18.218	378.218	00:06:26.306	386.306	00:00:08.088	8.088	s1
+subject		00:06:26.366	386.366	00:06:26.653	386.653	00:00:00.287	0.287	s2
+subject		00:06:29.000	389.0	00:06:31.425	391.425	00:00:02.425	2.425	s2
+subject		00:06:35.523	395.523	00:06:36.121	396.121	00:00:00.598	0.598	s1
+subject		00:06:38.255	398.255	00:06:46.720	406.72	00:00:08.465	8.465	s0
+subject		00:06:46.900	406.9	00:06:49.300	409.3	00:00:02.400	2.4	s1
+subject		00:06:57.760	417.76	00:07:02.078	422.078	00:00:04.318	4.318	s1
+subject		00:07:02.160	422.16	00:07:09.700	429.7	00:00:07.540	7.54	s2
+subject		00:07:09.948	429.948	00:07:18.390	438.39	00:00:08.442	8.442	s2
+subject		00:07:19.046	439.046	00:07:39.230	459.23	00:00:20.184	20.184	s1
+subject		00:07:39.410	459.41	00:07:46.340	466.34	00:00:06.930	6.93	s2
+subject		00:07:46.390	466.39	00:07:47.390	467.39	00:00:01.000	1.0	s1
+subject		00:07:47.480	467.48	00:07:50.330	470.33	00:00:02.850	2.85	s2
+subject		00:07:50.480	470.48	00:07:54.360	474.36	00:00:03.880	3.88	s1
+subject		00:07:54.470	474.47	00:08:05.290	485.29	00:00:10.820	10.82	s3
+subject		00:08:06.236	486.236	00:08:17.940	497.94	00:00:11.704	11.704	s2
+subject		00:08:18.066	498.066	00:08:20.093	500.093	00:00:02.027	2.027	s1
+subject		00:08:20.100	500.1	00:08:22.686	502.686	00:00:02.586	2.586	s2
+subject		00:08:24.706	504.706	00:08:31.466	511.466	00:00:06.760	6.76	s2
+subject		00:08:34.751	514.751	00:08:35.995	515.995	00:00:01.244	1.244	s2
+subject		00:08:36.806	516.806	00:08:38.935	518.935	00:00:02.129	2.129	s1
+subject		00:08:38.935	518.935	00:08:39.353	519.353	00:00:00.418	0.418	s3
+subject		00:08:39.963	519.963	00:08:40.955	520.955	00:00:00.992	0.992	s2
+subject		00:08:43.250	523.25	00:08:45.910	525.91	00:00:02.660	2.66	s0
+subject		00:08:49.290	529.29	00:08:55.510	535.51	00:00:06.220	6.22	s2
+subject		00:08:55.810	535.81	00:09:00.930	540.93	00:00:05.120	5.12	s1
+subject		00:09:04.730	544.73	00:09:15.540	555.54	00:00:10.810	10.81	s3
+subject		00:09:15.750	555.75	00:09:18.901	558.901	00:00:03.151	3.151	s0
+subject		00:09:20.173	560.173	00:09:27.251	567.251	00:00:07.078	7.078	s0
+subject		00:09:27.450	567.45	00:09:32.290	572.29	00:00:04.840	4.84	s2
+subject		00:09:32.460	572.46	00:09:33.760	573.76	00:00:01.300	1.3	s0
+subject		00:09:35.330	575.33	00:09:36.028	576.028	00:00:00.698	0.698	s2
+subject		00:09:43.410	583.41	00:09:47.070	587.07	00:00:03.660	3.66	s1
+subject		00:09:50.600	590.6	00:09:56.240	596.24	00:00:05.640	5.64	s2
+subject		00:09:56.380	596.38	00:09:58.633	598.633	00:00:02.253	2.253	s0
+subject		00:10:05.420	605.42	00:10:06.341	606.341	00:00:00.921	0.921	s1
+subject		00:10:21.300	621.3	00:10:23.001	623.001	00:00:01.701	1.701	s3
+subject		00:10:29.435	629.435	00:10:30.598	630.598	00:00:01.163	1.163	s3
+subject		00:10:34.096	634.096	00:10:37.350	637.35	00:00:03.254	3.254	s3
+subject		00:11:01.430	661.43	00:11:03.270	663.27	00:00:01.840	1.84	s3
+subject		00:11:03.320	663.32	00:11:03.951	663.951	00:00:00.631	0.631	s2
+subject		00:11:04.630	664.63	00:11:10.730	670.73	00:00:06.100	6.1	s3
+subject		00:11:10.865	670.865	00:11:13.428	673.428	00:00:02.563	2.563	s3
+subject		00:11:15.558	675.558	00:11:21.730	681.73	00:00:06.172	6.172	s2
+subject		00:11:23.985	683.985	00:11:25.070	685.07	00:00:01.085	1.085	s1
+subject		00:11:33.745	693.745	00:11:44.870	704.87	00:00:11.125	11.125	s2
+subject		00:11:44.916	704.916	00:11:47.170	707.17	00:00:02.254	2.254	s0
+subject		00:11:48.850	708.85	00:11:53.701	713.701	00:00:04.851	4.851	s1
+subject		00:11:57.270	717.27	00:12:07.410	727.41	00:00:10.140	10.14	s3
+subject		00:12:38.020	758.02	00:12:40.000	760.0	00:00:01.980	1.98	s3
+subject		00:12:41.120	761.12	00:12:41.750	761.75	00:00:00.630	0.63	s2
+subject		00:12:43.821	763.821	00:12:46.653	766.653	00:00:02.832	2.832	s3
+subject		00:13:05.266	785.266	00:13:09.185	789.185	00:00:03.919	3.919	s2
+subject		00:13:30.046	810.046	00:13:32.060	812.06	00:00:02.014	2.014	s2
+subject		00:13:32.410	812.41	00:13:33.740	813.74	00:00:01.330	1.33	s1
+subject		00:13:34.145	814.145	00:13:36.316	816.316	00:00:02.171	2.171	s3
+subject		00:13:36.456	816.456	00:13:39.290	819.29	00:00:02.834	2.834	s2
+subject		00:13:39.580	819.58	00:13:42.470	822.47	00:00:02.890	2.89	s1
+subject		00:13:45.033	825.033	00:13:51.210	831.21	00:00:06.177	6.177	s2
+subject		00:14:16.375	856.375	00:14:17.588	857.588	00:00:01.213	1.213	s2
+subject		00:14:20.550	860.55	00:14:23.548	863.548	00:00:02.998	2.998	s2
+subject		00:14:25.910	865.91	00:14:28.495	868.495	00:00:02.585	2.585	s1
+subject		00:14:34.258	874.258	00:14:44.386	884.386	00:00:10.128	10.128	s2
+subject		00:14:45.000	885.0	00:14:45.780	885.78	00:00:00.780	0.78	s3
+subject		00:14:45.991	885.991	00:14:46.841	886.841	00:00:00.850	0.85	s2
+subject		00:14:52.190	892.19	00:14:54.560	894.56	00:00:02.370	2.37	s1
+subject		00:14:54.630	894.63	00:14:58.548	898.548	00:00:03.918	3.918	s0
+subject		00:14:58.570	898.57	00:15:06.090	906.09	00:00:07.520	7.52	s2
+subject		00:15:15.985	915.985	00:15:17.955	917.955	00:00:01.970	1.97	s2
+subject		00:15:26.980	926.98	00:15:34.320	934.32	00:00:07.340	7.34	s1
+subject		00:16:12.690	972.69	00:16:16.400	976.4	00:00:03.710	3.71	s3
+subject		00:16:16.618	976.618	00:16:16.921	976.921	00:00:00.303	0.303	s2
+subject		00:16:19.760	979.76	00:16:22.823	982.823	00:00:03.063	3.063	s2
+subject		00:16:29.330	989.33	00:16:37.923	997.923	00:00:08.593	8.593	s1
+subject		00:16:43.190	1003.19	00:16:50.250	1010.25	00:00:07.060	7.06	s2
+subject		00:17:09.390	1029.39	00:17:17.620	1037.62	00:00:08.230	8.23	s2
+subject		00:17:17.690	1037.69	00:17:28.300	1048.3	00:00:10.610	10.61	s1
+subject		00:17:29.440	1049.44	00:17:37.490	1057.49	00:00:08.050	8.05	s2
+subject		00:17:51.900	1071.9	00:17:54.850	1074.85	00:00:02.950	2.95	s0
+subject		00:17:55.115	1075.115	00:17:59.096	1079.096	00:00:03.981	3.981	s2
+subject		00:18:03.328	1083.328	00:18:05.480	1085.48	00:00:02.152	2.152	s2
+subject		00:18:05.480	1085.48	00:18:08.890	1088.89	00:00:03.410	3.41	
+subject		00:18:16.610	1096.61	00:18:19.480	1099.48	00:00:02.870	2.87	s1
+subject		00:18:19.601	1099.601	00:18:23.208	1103.208	00:00:03.607	3.607	s0
+subject		00:18:23.450	1103.45	00:18:25.440	1105.44	00:00:01.990	1.99	s1
+subject		00:18:25.570	1105.57	00:18:38.600	1118.6	00:00:13.030	13.03	s0
+subject		00:18:42.078	1122.078	00:18:45.695	1125.695	00:00:03.617	3.617	s1
+subject		00:18:45.720	1125.72	00:18:51.420	1131.42	00:00:05.700	5.7	s2
+subject		00:18:55.270	1135.27	00:18:58.010	1138.01	00:00:02.740	2.74	
+subject		00:18:58.010	1138.01	00:19:05.300	1145.3	00:00:07.290	7.29	s2
+subject		00:19:09.035	1149.035	00:19:09.525	1149.525	00:00:00.490	0.49	
+subject		00:19:11.660	1151.66	00:19:18.673	1158.673	00:00:07.013	7.013	s1
+subject		00:19:18.673	1158.673	00:19:19.443	1159.443	00:00:00.770	0.77	s2
+subject		00:19:21.890	1161.89	00:19:23.495	1163.495	00:00:01.605	1.605	s1
+subject		00:19:27.561	1167.561	00:19:35.270	1175.27	00:00:07.709	7.709	s2
+subject		00:19:35.270	1175.27	00:19:36.585	1176.585	00:00:01.315	1.315	s3
+subject		00:19:36.585	1176.585	00:19:37.273	1177.273	00:00:00.688	0.688	s2
+subject		00:19:38.380	1178.38	00:19:42.111	1182.111	00:00:03.731	3.731	
+subject		00:19:42.111	1182.111	00:19:44.735	1184.735	00:00:02.624	2.624	s0
+subject		00:19:47.995	1187.995	00:20:09.290	1209.29	00:00:21.295	21.295	s2
+subject		00:20:09.356	1209.356	00:20:11.530	1211.53	00:00:02.174	2.174	s1
+subject		00:20:11.530	1211.53	00:20:13.980	1213.98	00:00:02.450	2.45	s3
+subject		00:20:18.760	1218.76	00:20:51.100	1251.1	00:00:32.340	32.34	s0
+subject		00:20:52.910	1252.91	00:21:07.670	1267.67	00:00:14.760	14.76	s1
+subject		00:21:10.640	1270.64	00:21:16.390	1276.39	00:00:05.750	5.75	
+subject		00:21:16.450	1276.45	00:21:17.980	1277.98	00:00:01.530	1.53	s2
+subject		00:21:20.910	1280.91	00:21:24.810	1284.81	00:00:03.900	3.9	s3
+subject		00:21:28.840	1288.84	00:21:39.070	1299.07	00:00:10.230	10.23	
+subject		00:21:42.260	1302.26	00:21:49.360	1309.36	00:00:07.100	7.1	s0
+subject		00:21:49.445	1309.445	00:21:59.420	1319.42	00:00:09.975	9.975	s2
+subject		00:21:59.596	1319.596	00:22:06.140	1326.14	00:00:06.544	6.544	s0
+subject		00:22:07.040	1327.04	00:22:14.403	1334.403	00:00:07.363	7.363	s2
+subject		00:22:21.325	1341.325	00:22:27.178	1347.178	00:00:05.853	5.853	s3
+subject		00:22:27.595	1347.595	00:22:31.518	1351.518	00:00:03.923	3.923	s3
+subject		00:23:05.225	1385.225	00:23:07.281	1387.281	00:00:02.056	2.056	s0
+subject		00:23:09.061	1389.061	00:23:10.998	1390.998	00:00:01.937	1.937	
+subject		00:23:10.998	1390.998	00:23:15.768	1395.768	00:00:04.770	4.77	s3
+subject		00:23:25.483	1405.483	00:23:34.491	1414.491	00:00:09.008	9.008	s2
+subject		00:23:40.011	1420.011	00:23:47.825	1427.825	00:00:07.814	7.814	s2
+subject		00:23:47.825	1427.825	00:23:53.638	1433.638	00:00:05.813	5.813	s1
+subject		00:23:58.423	1438.423	00:24:05.783	1445.783	00:00:07.360	7.36	s2
+subject		00:24:05.783	1445.783	00:24:18.023	1458.023	00:00:12.240	12.24	s2
+subject		00:24:18.023	1458.023	00:24:22.280	1462.28	00:00:04.257	4.257	s0
+subject		00:24:24.840	1464.84	00:24:29.020	1469.02	00:00:04.180	4.18	s0
+subject		00:24:33.230	1473.23	00:24:39.200	1479.2	00:00:05.970	5.97	s1
+subject		00:24:43.490	1483.49	00:24:45.345	1485.345	00:00:01.855	1.855	s3
+subject		00:24:45.805	1485.805	00:24:58.540	1498.54	00:00:12.735	12.735	s2
+subject		00:24:58.871	1498.871	00:25:03.170	1503.17	00:00:04.299	4.299	s1
+subject		00:25:06.580	1506.58	00:25:13.180	1513.18	00:00:06.600	6.6	s0
+subject		00:25:14.461	1514.461	00:25:19.705	1519.705	00:00:05.244	5.244	s3
+subject		00:25:22.360	1522.36	00:25:26.280	1526.28	00:00:03.920	3.92	s1
+subject		00:25:42.040	1542.04	00:25:54.350	1554.35	00:00:12.310	12.31	s3
+subject		00:25:57.790	1557.79	00:26:03.663	1563.663	00:00:05.873	5.873	s1
+subject		00:26:07.500	1567.5	00:26:14.810	1574.81	00:00:07.310	7.31	s3
+subject		00:26:15.350	1575.35	00:26:19.100	1579.1	00:00:03.750	3.75	s0
+subject		00:26:31.080	1591.08	00:26:34.570	1594.57	00:00:03.490	3.49	s1
+subject		00:26:34.830	1594.83	00:26:35.830	1595.83	00:00:01.000	1.0	s0
+subject		00:26:35.920	1595.92	00:26:39.381	1599.381	00:00:03.461	3.461	s1
+subject		00:26:40.105	1600.105	00:26:47.760	1607.76	00:00:07.655	7.655	s2
+subject		00:26:47.841	1607.841	00:26:50.948	1610.948	00:00:03.107	3.107	s1
+subject		00:27:04.905	1624.905	00:27:15.655	1635.655	00:00:10.750	10.75	s3
+subject		00:27:18.510	1638.51	00:27:28.175	1648.175	00:00:09.665	9.665	s2
+subject		00:27:28.425	1648.425	00:27:42.306	1662.306	00:00:13.881	13.881	s3
+subject		00:27:43.890	1663.89	00:27:48.770	1668.77	00:00:04.880	4.88	s2
+subject		00:27:50.528	1670.528	00:27:57.970	1677.97	00:00:07.442	7.442	s1
+subject		00:28:03.950	1683.95	00:28:07.581	1687.581	00:00:03.631	3.631	s1
+subject		00:28:08.690	1688.69	00:28:16.580	1696.58	00:00:07.890	7.89	s0
+subject		00:28:28.531	1708.531	00:28:31.345	1711.345	00:00:02.814	2.814	s2
+subject		00:28:45.241	1725.241	00:28:47.560	1727.56	00:00:02.319	2.319	s0
+subject		00:28:47.908	1727.908	00:28:50.078	1730.078	00:00:02.170	2.17	s2
+subject		00:28:52.145	1732.145	00:29:02.090	1742.09	00:00:09.945	9.945	s0
+subject		00:29:02.176	1742.176	00:29:03.080	1743.08	00:00:00.904	0.904	s3
+subject		00:29:28.235	1768.235	00:29:36.095	1776.095	00:00:07.860	7.86	s2
+subject		00:29:37.850	1777.85	00:29:42.783	1782.783	00:00:04.933	4.933	s1
+subject		00:29:46.366	1786.366	00:29:51.310	1791.31	00:00:04.944	4.944	s3
+subject		00:29:51.515	1791.515	00:29:53.050	1793.05	00:00:01.535	1.535	s1
+subject		00:29:53.156	1793.156	00:29:54.020	1794.02	00:00:00.864	0.864	s0
+subject		00:30:00.615	1800.615	00:30:03.910	1803.91	00:00:03.295	3.295	s2
+subject		00:30:08.190	1808.19	00:30:12.790	1812.79	00:00:04.600	4.6	s1
+subject		00:30:13.630	1813.63	00:30:18.760	1818.76	00:00:05.130	5.13	s2
+subject		00:30:23.481	1823.481	00:30:24.411	1824.411	00:00:00.930	0.93	s2
+subject		00:30:42.946	1842.946	00:30:50.305	1850.305	00:00:07.359	7.359	s0
+subject		00:31:05.123	1865.123	00:31:08.145	1868.145	00:00:03.022	3.022	s1
+subject		00:31:30.870	1890.87	00:31:33.361	1893.361	00:00:02.491	2.491	s0
+subject		00:31:34.565	1894.565	00:31:39.780	1899.78	00:00:05.215	5.215	s0
+subject		00:31:39.790	1899.79	00:31:40.480	1900.48	00:00:00.690	0.69	s3
+subject		00:31:40.480	1900.48	00:31:41.450	1901.45	00:00:00.970	0.97	s1
+subject		00:31:42.653	1902.653	00:31:48.120	1908.12	00:00:05.467	5.467	s0
+subject		00:31:48.120	1908.12	00:31:48.891	1908.891	00:00:00.771	0.771	s1
+subject		00:31:53.950	1913.95	00:32:07.245	1927.245	00:00:13.295	13.295	s0
+subject		00:32:10.140	1930.14	00:32:13.683	1933.683	00:00:03.543	3.543	s2
+subject		00:32:15.210	1935.21	00:32:19.520	1939.52	00:00:04.310	4.31	s0
+subject		00:32:21.250	1941.25	00:32:42.400	1962.4	00:00:21.150	21.15	s1
+subject		00:32:44.210	1964.21	00:32:55.528	1975.528	00:00:11.318	11.318	s2
+subject		00:32:55.528	1975.528	00:32:55.880	1975.88	00:00:00.352	0.352	s1
+subject		00:32:56.273	1976.273	00:32:59.260	1979.26	00:00:02.987	2.987	s2
+subject		00:32:59.260	1979.26	00:33:01.620	1981.62	00:00:02.360	2.36	s0
+subject		00:33:01.620	1981.62	00:33:07.646	1987.646	00:00:06.026	6.026	s2
+subject		00:33:07.646	1987.646	00:33:15.690	1995.69	00:00:08.044	8.044	s2
+subject		00:33:16.135	1996.135	00:33:18.971	1998.971	00:00:02.836	2.836	s2
+subject		00:33:18.971	1998.971	00:33:20.145	2000.145	00:00:01.174	1.174	s0
+subject		00:33:20.145	2000.145	00:33:22.330	2002.33	00:00:02.185	2.185	s0
+subject		00:33:23.675	2003.675	00:33:25.080	2005.08	00:00:01.405	1.405	s2
+subject		00:33:25.080	2005.08	00:33:29.548	2009.548	00:00:04.468	4.468	s2
+subject		00:33:32.498	2012.498	00:33:34.821	2014.821	00:00:02.323	2.323	s0
+subject		00:33:36.520	2016.52	00:33:37.670	2017.67	00:00:01.150	1.15	s1
+subject		00:33:37.770	2017.77	00:33:43.400	2023.4	00:00:05.630	5.63	s1
+subject		00:33:43.400	2023.4	00:33:48.681	2028.681	00:00:05.281	5.281	s0
+subject		00:33:48.681	2028.681	00:33:55.423	2035.423	00:00:06.742	6.742	s2
+subject		00:33:55.423	2035.423	00:33:56.455	2036.455	00:00:01.032	1.032	s3
+subject		00:33:59.445	2039.445	00:34:04.043	2044.043	00:00:04.598	4.598	s2
+subject		00:34:04.043	2044.043	00:34:08.453	2048.453	00:00:04.410	4.41	s0
+subject		00:34:08.453	2048.453	00:34:11.300	2051.3	00:00:02.847	2.847	s1
+subject		00:34:11.300	2051.3	00:34:14.550	2054.55	00:00:03.250	3.25	s3
+subject		00:34:14.550	2054.55	00:34:17.143	2057.143	00:00:02.593	2.593	s1
+subject		00:34:19.003	2059.003	00:34:21.206	2061.206	00:00:02.203	2.203	s0
+subject		00:34:21.206	2061.206	00:34:22.460	2062.46	00:00:01.254	1.254	s3
+subject		00:34:22.460	2062.46	00:34:23.666	2063.666	00:00:01.206	1.206	s0
+subject		00:34:23.666	2063.666	00:34:24.578	2064.578	00:00:00.912	0.912	s2
+subject		00:34:24.578	2064.578	00:34:28.295	2068.295	00:00:03.717	3.717	s3
+subject		00:34:28.295	2068.295	00:34:32.330	2072.33	00:00:04.035	4.035	s3
+subject		00:34:32.330	2072.33	00:34:34.040	2074.04	00:00:01.710	1.71	s3
+subject		00:34:34.040	2074.04	00:34:36.795	2076.795	00:00:02.755	2.755	s2
+subject		00:34:36.795	2076.795	00:34:38.730	2078.73	00:00:01.935	1.935	s2
+subject		00:34:42.680	2082.68	00:34:44.455	2084.455	00:00:01.775	1.775	s3
+subject		00:34:44.455	2084.455	00:34:46.050	2086.05	00:00:01.595	1.595	s1
+subject		00:34:46.050	2086.05	00:34:47.980	2087.98	00:00:01.930	1.93	s2
+subject		00:34:47.980	2087.98	00:34:49.418	2089.418	00:00:01.438	1.438	s1
+subject		00:34:52.810	2092.81	00:34:54.910	2094.91	00:00:02.100	2.1	s2
+subject		00:35:03.350	2103.35	00:35:05.370	2105.37	00:00:02.020	2.02	s3
+subject		00:35:05.370	2105.37	00:35:06.890	2106.89	00:00:01.520	1.52	s1
+subject		00:35:06.890	2106.89	00:35:11.400	2111.4	00:00:04.510	4.51	s2
+subject		00:35:15.015	2115.015	00:35:18.330	2118.33	00:00:03.315	3.315	s3
+subject		00:35:18.330	2118.33	00:35:23.446	2123.446	00:00:05.116	5.116	s2
+subject		00:35:23.446	2123.446	00:35:27.120	2127.12	00:00:03.674	3.674	s2
+subject		00:35:29.270	2129.27	00:35:32.935	2132.935	00:00:03.665	3.665	s3
+subject		00:35:32.935	2132.935	00:35:34.435	2134.435	00:00:01.500	1.5	s2
+subject		00:35:34.435	2134.435	00:35:35.728	2135.728	00:00:01.293	1.293	s3
+subject		00:35:35.728	2135.728	00:35:38.081	2138.081	00:00:02.353	2.353	s1
+subject		00:35:48.055	2148.055	00:35:49.083	2149.083	00:00:01.028	1.028	s3
+subject		00:36:04.300	2164.3	00:36:05.121	2165.121	00:00:00.821	0.821	s0
+subject		00:36:05.121	2165.121	00:36:05.823	2165.823	00:00:00.702	0.702	s3
+subject		00:36:12.465	2172.465	00:36:15.046	2175.046	00:00:02.581	2.581	s3
+subject		00:36:15.046	2175.046	00:36:16.226	2176.226	00:00:01.180	1.18	s0
+subject		00:36:16.226	2176.226	00:36:17.601	2177.601	00:00:01.375	1.375	s3
+subject		00:36:17.601	2177.601	00:36:20.675	2180.675	00:00:03.074	3.074	s2
+subject		00:36:20.675	2180.675	00:36:25.270	2185.27	00:00:04.595	4.595	s2
+subject		00:36:25.270	2185.27	00:36:28.301	2188.301	00:00:03.031	3.031	s1
+subject		00:36:28.301	2188.301	00:36:32.930	2192.93	00:00:04.629	4.629	s1
+subject		00:36:32.940	2192.94	00:36:34.675	2194.675	00:00:01.735	1.735	s0
+subject		00:36:34.675	2194.675	00:36:36.343	2196.343	00:00:01.668	1.668	s1
+subject		00:36:36.343	2196.343	00:36:38.900	2198.9	00:00:02.557	2.557	s0
+subject		00:36:40.838	2200.838	00:36:50.881	2210.881	00:00:10.043	10.043	s0
+subject		00:36:50.881	2210.881	00:36:53.328	2213.328	00:00:02.447	2.447	s2
+subject		00:36:53.328	2213.328	00:36:54.453	2214.453	00:00:01.125	1.125	s1
+subject		00:36:54.453	2214.453	00:37:02.220	2222.22	00:00:07.767	7.767	s2
+subject		00:37:03.248	2223.248	00:37:12.350	2232.35	00:00:09.102	9.102	s3
+subject		00:37:12.350	2232.35	00:37:16.546	2236.546	00:00:04.196	4.196	s3
+subject		00:37:16.546	2236.546	00:37:19.970	2239.97	00:00:03.424	3.424	s3
+subject		00:37:19.970	2239.97	00:37:22.110	2242.11	00:00:02.140	2.14	s2
+subject		00:37:22.110	2242.11	00:37:26.220	2246.22	00:00:04.110	4.11	s0
+subject		00:37:26.220	2246.22	00:37:34.763	2254.763	00:00:08.543	8.543	s2
+subject		00:37:34.763	2254.763	00:37:37.313	2257.313	00:00:02.550	2.55	s2
+subject		00:37:37.313	2257.313	00:37:39.365	2259.365	00:00:02.052	2.052	s0
+subject		00:37:39.365	2259.365	00:37:44.168	2264.168	00:00:04.803	4.803	s2
+subject		00:37:44.168	2264.168	00:37:47.343	2267.343	00:00:03.175	3.175	s2
+subject		00:37:47.343	2267.343	00:37:56.986	2276.986	00:00:09.643	9.643	s2
+subject		00:37:59.065	2279.065	00:38:03.063	2283.063	00:00:03.998	3.998	s2
+subject		00:38:03.063	2283.063	00:38:06.868	2286.868	00:00:03.805	3.805	s1
+subject		00:38:06.868	2286.868	00:38:08.336	2288.336	00:00:01.468	1.468	s0
+subject		00:38:08.336	2288.336	00:38:12.750	2292.75	00:00:04.414	4.414	s0
+subject		00:38:12.750	2292.75	00:38:19.725	2299.725	00:00:06.975	6.975	s2
+subject		00:38:19.725	2299.725	00:38:27.911	2307.911	00:00:08.186	8.186	s3
+subject		00:38:27.911	2307.911	00:38:29.140	2309.14	00:00:01.229	1.229	s2
+subject		00:38:29.140	2309.14	00:38:34.650	2314.65	00:00:05.510	5.51	s3
+subject		00:38:34.650	2314.65	00:38:36.596	2316.596	00:00:01.946	1.946	s2
+subject		00:38:38.340	2318.34	00:38:42.940	2322.94	00:00:04.600	4.6	s3
+subject		00:38:43.650	2323.65	00:38:47.590	2327.59	00:00:03.940	3.94	s0
+subject		00:38:49.450	2329.45	00:38:52.565	2332.565	00:00:03.115	3.115	s3
+subject		00:38:52.565	2332.565	00:38:58.038	2338.038	00:00:05.473	5.473	s0
+subject		00:38:58.038	2338.038	00:39:02.568	2342.568	00:00:04.530	4.53	s1
+subject		00:39:02.568	2342.568	00:39:10.603	2350.603	00:00:08.035	8.035	s1
+subject		00:39:22.450	2362.45	00:39:24.600	2364.6	00:00:02.150	2.15	s0
+subject		00:39:24.600	2364.6	00:39:28.761	2368.761	00:00:04.161	4.161	s1
+subject		00:39:34.958	2374.958	00:39:40.695	2380.695	00:00:05.737	5.737	s0
+subject		00:39:40.695	2380.695	00:39:44.781	2384.781	00:00:04.086	4.086	s1
+subject		00:39:44.781	2384.781	00:39:45.830	2385.83	00:00:01.049	1.049	s0
+subject		00:39:45.830	2385.83	00:39:47.200	2387.2	00:00:01.370	1.37	s1
+subject		00:39:47.200	2387.2	00:39:48.133	2388.133	00:00:00.933	0.933	s0
+subject		00:39:48.133	2388.133	00:39:54.071	2394.071	00:00:05.938	5.938	s0
+subject		00:40:01.431	2401.431	00:40:08.578	2408.578	00:00:07.147	7.147	s3
+subject		00:40:21.026	2421.026	00:40:25.960	2425.96	00:00:04.934	4.934	s0
+subject		00:40:36.041	2436.041	00:40:44.703	2444.703	00:00:08.662	8.662	s2
+subject		00:40:46.746	2446.746	00:40:53.340	2453.34	00:00:06.594	6.594	s2
+subject		00:40:53.340	2453.34	00:40:55.913	2455.913	00:00:02.573	2.573	s1
+subject		00:40:55.913	2455.913	00:41:01.485	2461.485	00:00:05.572	5.572	s2
+subject		00:41:01.485	2461.485	00:41:07.545	2467.545	00:00:06.060	6.06	s0
+subject		00:41:07.545	2467.545	00:41:10.563	2470.563	00:00:03.018	3.018	s2
+subject		00:41:10.563	2470.563	00:41:12.993	2472.993	00:00:02.430	2.43	s2
+subject		00:41:15.231	2475.231	00:41:16.851	2476.851	00:00:01.620	1.62	s0
+subject		00:41:16.851	2476.851	00:41:19.200	2479.2	00:00:02.349	2.349	s1
+subject		00:41:19.200	2479.2	00:41:21.540	2481.54	00:00:02.340	2.34	s2
+subject		00:41:21.540	2481.54	00:41:25.646	2485.646	00:00:04.106	4.106	s3
+subject		00:41:25.646	2485.646	00:41:30.623	2490.623	00:00:04.977	4.977	s3
+subject		00:41:30.623	2490.623	00:41:38.178	2498.178	00:00:07.555	7.555	s0
+subject		00:41:38.178	2498.178	00:41:53.280	2513.28	00:00:15.102	15.102	s0
+subject		00:41:53.280	2513.28	00:42:01.711	2521.711	00:00:08.431	8.431	s3
+subject		00:42:01.711	2521.711	00:42:04.396	2524.396	00:00:02.685	2.685	s2
+subject		00:42:04.396	2524.396	00:42:13.571	2533.571	00:00:09.175	9.175	s3
+subject		00:42:19.570	2539.57	00:42:24.028	2544.028	00:00:04.458	4.458	s1
+subject		00:42:29.380	2549.38	00:42:40.348	2560.348	00:00:10.968	10.968	s0
+subject		00:42:46.051	2566.051	00:42:51.141	2571.141	00:00:05.090	5.09	s1
+subject		00:42:51.141	2571.141	00:43:00.323	2580.323	00:00:09.182	9.182	s0
+subject		00:43:12.456	2592.456	00:43:21.050	2601.05	00:00:08.594	8.594	s1
+subject		00:43:23.220	2603.22	00:43:26.300	2606.3	00:00:03.080	3.08	s1
+subject		00:43:30.950	2610.95	00:43:34.230	2614.23	00:00:03.280	3.28	s0
+subject		00:43:34.230	2614.23	00:43:38.218	2618.218	00:00:03.988	3.988	s1
+subject		00:43:38.218	2618.218	00:43:42.980	2622.98	00:00:04.762	4.762	s1
+subject		00:43:46.060	2626.06	00:43:49.940	2629.94	00:00:03.880	3.88	s0
+subject		00:43:52.350	2632.35	00:43:54.286	2634.286	00:00:01.936	1.936	s1
+subject		00:43:54.286	2634.286	00:43:56.866	2636.866	00:00:02.580	2.58	s2
+content		00:00:05.746	5.746	00:00:13.485	13.485	00:00:07.739	7.739	task
+content		00:00:13.485	13.485	00:00:16.101	16.101	00:00:02.616	2.616	task
+content		00:00:16.101	16.101	00:00:17.528	17.528	00:00:01.427	1.427	interaction
+content		00:00:18.085	18.085	00:00:22.065	22.065	00:00:03.980	3.98	task
+content		00:00:22.266	22.266	00:00:22.323	22.323	00:00:00.057	0.057	interaction
+content		00:00:23.493	23.493	00:00:24.406	24.406	00:00:00.913	0.913	task
+content		00:00:24.406	24.406	00:00:28.210	28.21	00:00:03.804	3.804	task
+content		00:00:28.350	28.35	00:00:31.720	31.72	00:00:03.370	3.37	task
+content		00:00:31.860	31.86	00:00:32.350	32.35	00:00:00.490	0.49	interaction
+content		00:00:33.970	33.97	00:00:35.200	35.2	00:00:01.230	1.23	task
+content		00:00:38.023	38.023	00:00:39.390	39.39	00:00:01.367	1.367	interaction
+content		00:00:42.270	42.27	00:00:44.510	44.51	00:00:02.240	2.24	task
+content		00:00:44.940	44.94	00:00:48.050	48.05	00:00:03.110	3.11	task
+content		00:00:48.110	48.11	00:00:51.500	51.5	00:00:03.390	3.39	interaction
+content		00:00:51.745	51.745	00:00:53.330	53.33	00:00:01.585	1.585	task
+content		00:00:59.300	59.3	00:01:02.883	62.883	00:00:03.583	3.583	org.wb
+content		00:01:18.636	78.636	00:01:23.925	83.925	00:00:05.289	5.289	org.wb
+content		00:01:24.975	84.975	00:01:31.073	91.073	00:00:06.098	6.098	task
+content		00:01:32.075	92.075	00:01:34.108	94.108	00:00:02.033	2.033	
+content		00:01:40.768	100.768	00:01:42.886	102.886	00:00:02.118	2.118	org.task
+content		00:01:43.686	103.686	00:01:44.516	104.516	00:00:00.830	0.83	org.task
+content		00:01:45.163	105.163	00:01:49.056	109.056	00:00:03.893	3.893	org.task
+content		00:01:49.586	109.586	00:01:49.690	109.69	00:00:00.104	0.104	
+content		00:01:52.405	112.405	00:01:57.586	117.586	00:00:05.181	5.181	task
+content		00:02:00.643	120.643	00:02:09.790	129.79	00:00:09.147	9.147	org.task
+content		00:02:10.013	130.013	00:02:10.185	130.185	00:00:00.172	0.172	
+content		00:02:11.233	131.233	00:02:15.726	135.726	00:00:04.493	4.493	task
+content		00:02:16.168	136.168	00:02:20.631	140.631	00:00:04.463	4.463	task
+content		00:02:23.181	143.181	00:02:38.416	158.416	00:00:15.235	15.235	task
+content		00:02:38.913	158.913	00:02:43.565	163.565	00:00:04.652	4.652	task
+content		00:02:43.730	163.73	00:02:52.100	172.1	00:00:08.370	8.37	task
+content		00:02:52.290	172.29	00:03:01.700	181.7	00:00:09.410	9.41	task
+content		00:03:03.440	183.44	00:03:03.810	183.81	00:00:00.370	0.37	interaction
+content		00:03:03.870	183.87	00:03:10.710	190.71	00:00:06.840	6.84	task
+content		00:03:12.526	192.526	00:03:29.450	209.45	00:00:16.924	16.924	task
+content		00:03:31.465	211.465	00:03:37.000	217.0	00:00:05.535	5.535	task
+content		00:03:39.950	219.95	00:03:42.848	222.848	00:00:02.898	2.898	task
+content		00:03:43.290	223.29	00:03:44.841	224.841	00:00:01.551	1.551	task
+content		00:03:46.900	226.9	00:03:51.110	231.11	00:00:04.210	4.21	task
+content		00:03:58.486	238.486	00:04:02.660	242.66	00:00:04.174	4.174	task
+content		00:04:07.250	247.25	00:04:20.476	260.476	00:00:13.226	13.226	task
+content		00:04:22.300	262.3	00:04:25.950	265.95	00:00:03.650	3.65	task
+content		00:04:26.180	266.18	00:04:26.670	266.67	00:00:00.490	0.49	interaction
+content		00:04:26.806	266.806	00:04:30.626	270.626	00:00:03.820	3.82	task
+content		00:04:30.680	270.68	00:04:33.206	273.206	00:00:02.526	2.526	task
+content		00:04:33.886	273.886	00:04:37.373	277.373	00:00:03.487	3.487	task
+content		00:05:03.326	303.326	00:05:07.576	307.576	00:00:04.250	4.25	task
+content		00:05:07.676	307.676	00:05:14.450	314.45	00:00:06.774	6.774	org.dol
+content		00:05:19.290	319.29	00:05:34.750	334.75	00:00:15.460	15.46	task
+content		00:05:35.010	335.01	00:05:55.435	355.435	00:00:20.425	20.425	task
+content		00:05:55.593	355.593	00:06:08.050	368.05	00:00:12.457	12.457	task
+content		00:06:09.510	369.51	00:06:17.998	377.998	00:00:08.488	8.488	task
+content		00:06:18.218	378.218	00:06:26.306	386.306	00:00:08.088	8.088	task
+content		00:06:26.366	386.366	00:06:26.653	386.653	00:00:00.287	0.287	task
+content		00:06:29.000	389.0	00:06:31.425	391.425	00:00:02.425	2.425	task
+content		00:06:35.523	395.523	00:06:36.121	396.121	00:00:00.598	0.598	interaction
+content		00:06:38.255	398.255	00:06:46.720	406.72	00:00:08.465	8.465	org.task
+content		00:06:46.900	406.9	00:06:49.300	409.3	00:00:02.400	2.4	task
+content		00:06:57.760	417.76	00:07:02.078	422.078	00:00:04.318	4.318	org.dol
+content		00:07:02.160	422.16	00:07:09.700	429.7	00:00:07.540	7.54	tech
+content		00:07:09.948	429.948	00:07:18.390	438.39	00:00:08.442	8.442	task
+content		00:07:19.046	439.046	00:07:39.230	459.23	00:00:20.184	20.184	task
+content		00:07:39.410	459.41	00:07:46.340	466.34	00:00:06.930	6.93	task
+content		00:07:46.390	466.39	00:07:47.390	467.39	00:00:01.000	1.0	task
+content		00:07:47.480	467.48	00:07:50.330	470.33	00:00:02.850	2.85	task
+content		00:07:50.480	470.48	00:07:54.360	474.36	00:00:03.880	3.88	task
+content		00:07:54.470	474.47	00:08:05.290	485.29	00:00:10.820	10.82	task
+content		00:08:06.236	486.236	00:08:17.940	497.94	00:00:11.704	11.704	task
+content		00:08:18.066	498.066	00:08:20.093	500.093	00:00:02.027	2.027	task
+content		00:08:20.100	500.1	00:08:22.686	502.686	00:00:02.586	2.586	task
+content		00:08:24.706	504.706	00:08:31.466	511.466	00:00:06.760	6.76	org.wb
+content		00:08:34.751	514.751	00:08:35.995	515.995	00:00:01.244	1.244	tech
+content		00:08:36.806	516.806	00:08:38.935	518.935	00:00:02.129	2.129	org.wb
+content		00:08:38.935	518.935	00:08:39.353	519.353	00:00:00.418	0.418	tech
+content		00:08:39.963	519.963	00:08:40.955	520.955	00:00:00.992	0.992	tech
+content		00:08:43.250	523.25	00:08:45.910	525.91	00:00:02.660	2.66	task
+content		00:08:49.290	529.29	00:08:55.510	535.51	00:00:06.220	6.22	task
+content		00:08:55.810	535.81	00:09:00.930	540.93	00:00:05.120	5.12	task
+content		00:09:04.730	544.73	00:09:15.540	555.54	00:00:10.810	10.81	tech
+content		00:09:15.750	555.75	00:09:18.901	558.901	00:00:03.151	3.151	org.task
+content		00:09:20.173	560.173	00:09:27.251	567.251	00:00:07.078	7.078	org.dol
+content		00:09:27.450	567.45	00:09:32.290	572.29	00:00:04.840	4.84	tech
+content		00:09:32.460	572.46	00:09:33.760	573.76	00:00:01.300	1.3	task
+content		00:09:35.330	575.33	00:09:36.028	576.028	00:00:00.698	0.698	interaction
+content		00:09:43.410	583.41	00:09:47.070	587.07	00:00:03.660	3.66	tech
+content		00:09:50.600	590.6	00:09:56.240	596.24	00:00:05.640	5.64	task
+content		00:09:56.380	596.38	00:09:58.633	598.633	00:00:02.253	2.253	org.task
+content		00:10:05.420	605.42	00:10:06.341	606.341	00:00:00.921	0.921	org.dol
+content		00:10:21.300	621.3	00:10:23.001	623.001	00:00:01.701	1.701	org.wb
+content		00:10:29.435	629.435	00:10:30.598	630.598	00:00:01.163	1.163	org.wb
+content		00:10:34.096	634.096	00:10:37.350	637.35	00:00:03.254	3.254	org.wb
+content		00:11:01.430	661.43	00:11:03.270	663.27	00:00:01.840	1.84	org.wb
+content		00:11:03.320	663.32	00:11:03.951	663.951	00:00:00.631	0.631	org.wb
+content		00:11:04.630	664.63	00:11:10.730	670.73	00:00:06.100	6.1	org.wb
+content		00:11:10.865	670.865	00:11:13.428	673.428	00:00:02.563	2.563	org.wb
+content		00:11:15.558	675.558	00:11:21.730	681.73	00:00:06.172	6.172	org.wb
+content		00:11:23.985	683.985	00:11:25.070	685.07	00:00:01.085	1.085	tech
+content		00:11:33.745	693.745	00:11:44.870	704.87	00:00:11.125	11.125	task
+content		00:11:44.916	704.916	00:11:47.170	707.17	00:00:02.254	2.254	task
+content		00:11:48.850	708.85	00:11:53.701	713.701	00:00:04.851	4.851	org.wb
+content		00:11:57.270	717.27	00:12:07.410	727.41	00:00:10.140	10.14	org.wb
+content		00:12:38.020	758.02	00:12:40.000	760.0	00:00:01.980	1.98	org.wb
+content		00:12:41.120	761.12	00:12:41.750	761.75	00:00:00.630	0.63	org.wb
+content		00:12:43.821	763.821	00:12:46.653	766.653	00:00:02.832	2.832	org.wb
+content		00:13:05.266	785.266	00:13:09.185	789.185	00:00:03.919	3.919	task
+content		00:13:30.046	810.046	00:13:32.060	812.06	00:00:02.014	2.014	org.dol
+content		00:13:32.410	812.41	00:13:33.740	813.74	00:00:01.330	1.33	task
+content		00:13:34.145	814.145	00:13:36.316	816.316	00:00:02.171	2.171	org.wb
+content		00:13:36.456	816.456	00:13:39.290	819.29	00:00:02.834	2.834	task
+content		00:13:39.580	819.58	00:13:42.470	822.47	00:00:02.890	2.89	org.dol
+content		00:13:45.033	825.033	00:13:51.210	831.21	00:00:06.177	6.177	task
+content		00:14:16.375	856.375	00:14:17.588	857.588	00:00:01.213	1.213	org.wb
+content		00:14:20.550	860.55	00:14:23.548	863.548	00:00:02.998	2.998	task
+content		00:14:25.910	865.91	00:14:28.495	868.495	00:00:02.585	2.585	task
+content		00:14:34.258	874.258	00:14:44.386	884.386	00:00:10.128	10.128	task
+content		00:14:45.000	885.0	00:14:45.780	885.78	00:00:00.780	0.78	org.wb
+content		00:14:45.991	885.991	00:14:46.841	886.841	00:00:00.850	0.85	org.wb
+content		00:14:52.190	892.19	00:14:54.560	894.56	00:00:02.370	2.37	task
+content		00:14:54.630	894.63	00:14:58.548	898.548	00:00:03.918	3.918	task
+content		00:14:58.570	898.57	00:15:06.090	906.09	00:00:07.520	7.52	org.wb
+content		00:15:15.985	915.985	00:15:17.955	917.955	00:00:01.970	1.97	org.wb
+content		00:15:26.980	926.98	00:15:34.320	934.32	00:00:07.340	7.34	org.task
+content		00:16:12.690	972.69	00:16:16.400	976.4	00:00:03.710	3.71	org.dol
+content		00:16:16.618	976.618	00:16:16.921	976.921	00:00:00.303	0.303	interaction
+content		00:16:19.760	979.76	00:16:22.823	982.823	00:00:03.063	3.063	org.wb
+content		00:16:29.330	989.33	00:16:37.923	997.923	00:00:08.593	8.593	org.task
+content		00:16:43.190	1003.19	00:16:50.250	1010.25	00:00:07.060	7.06	org.wb
+content		00:17:09.390	1029.39	00:17:17.620	1037.62	00:00:08.230	8.23	org.wb
+content		00:17:17.690	1037.69	00:17:28.300	1048.3	00:00:10.610	10.61	org.task
+content		00:17:29.440	1049.44	00:17:37.490	1057.49	00:00:08.050	8.05	org.wb
+content		00:17:51.900	1071.9	00:17:54.850	1074.85	00:00:02.950	2.95	task
+content		00:17:55.115	1075.115	00:17:59.096	1079.096	00:00:03.981	3.981	task
+content		00:18:03.328	1083.328	00:18:05.480	1085.48	00:00:02.152	2.152	task
+content		00:18:05.480	1085.48	00:18:08.890	1088.89	00:00:03.410	3.41	
+content		00:18:16.610	1096.61	00:18:19.480	1099.48	00:00:02.870	2.87	task
+content		00:18:19.601	1099.601	00:18:23.208	1103.208	00:00:03.607	3.607	task
+content		00:18:23.450	1103.45	00:18:25.440	1105.44	00:00:01.990	1.99	task
+content		00:18:25.570	1105.57	00:18:38.600	1118.6	00:00:13.030	13.03	task
+content		00:18:42.078	1122.078	00:18:45.695	1125.695	00:00:03.617	3.617	task
+content		00:18:45.720	1125.72	00:18:51.420	1131.42	00:00:05.700	5.7	task
+content		00:18:55.270	1135.27	00:18:58.010	1138.01	00:00:02.740	2.74	
+content		00:18:58.010	1138.01	00:19:05.300	1145.3	00:00:07.290	7.29	task
+content		00:19:09.035	1149.035	00:19:09.525	1149.525	00:00:00.490	0.49	
+content		00:19:11.660	1151.66	00:19:18.673	1158.673	00:00:07.013	7.013	task
+content		00:19:18.673	1158.673	00:19:19.443	1159.443	00:00:00.770	0.77	interaction
+content		00:19:21.890	1161.89	00:19:23.495	1163.495	00:00:01.605	1.605	org.dol
+content		00:19:27.561	1167.561	00:19:35.270	1175.27	00:00:07.709	7.709	task
+content		00:19:35.270	1175.27	00:19:36.585	1176.585	00:00:01.315	1.315	org.wb
+content		00:19:36.585	1176.585	00:19:37.273	1177.273	00:00:00.688	0.688	interaction
+content		00:19:38.380	1178.38	00:19:42.111	1182.111	00:00:03.731	3.731	
+content		00:19:42.111	1182.111	00:19:44.735	1184.735	00:00:02.624	2.624	task
+content		00:19:47.995	1187.995	00:20:09.290	1209.29	00:00:21.295	21.295	task
+content		00:20:09.356	1209.356	00:20:11.530	1211.53	00:00:02.174	2.174	task
+content		00:20:11.530	1211.53	00:20:13.980	1213.98	00:00:02.450	2.45	task
+content		00:20:18.760	1218.76	00:20:51.100	1251.1	00:00:32.340	32.34	task
+content		00:20:52.910	1252.91	00:21:07.670	1267.67	00:00:14.760	14.76	org.task
+content		00:21:10.640	1270.64	00:21:16.390	1276.39	00:00:05.750	5.75	
+content		00:21:16.450	1276.45	00:21:17.980	1277.98	00:00:01.530	1.53	org.wb
+content		00:21:20.910	1280.91	00:21:24.810	1284.81	00:00:03.900	3.9	task
+content		00:21:28.840	1288.84	00:21:39.070	1299.07	00:00:10.230	10.23	
+content		00:21:42.260	1302.26	00:21:49.360	1309.36	00:00:07.100	7.1	task
+content		00:21:49.445	1309.445	00:21:59.420	1319.42	00:00:09.975	9.975	task
+content		00:21:59.596	1319.596	00:22:06.140	1326.14	00:00:06.544	6.544	task
+content		00:22:07.040	1327.04	00:22:14.403	1334.403	00:00:07.363	7.363	task
+content		00:22:21.325	1341.325	00:22:27.178	1347.178	00:00:05.853	5.853	task
+content		00:22:27.595	1347.595	00:22:31.518	1351.518	00:00:03.923	3.923	task
+content		00:23:05.225	1385.225	00:23:07.281	1387.281	00:00:02.056	2.056	task
+content		00:23:09.061	1389.061	00:23:10.998	1390.998	00:00:01.937	1.937	
+content		00:23:10.998	1390.998	00:23:15.768	1395.768	00:00:04.770	4.77	task
+content		00:23:25.483	1405.483	00:23:34.491	1414.491	00:00:09.008	9.008	org.task
+content		00:23:40.011	1420.011	00:23:47.825	1427.825	00:00:07.814	7.814	org.task
+content		00:23:47.825	1427.825	00:23:53.638	1433.638	00:00:05.813	5.813	org.task
+content		00:23:58.423	1438.423	00:24:05.783	1445.783	00:00:07.360	7.36	task
+content		00:24:05.783	1445.783	00:24:18.023	1458.023	00:00:12.240	12.24	task
+content		00:24:18.023	1458.023	00:24:22.280	1462.28	00:00:04.257	4.257	task
+content		00:24:24.840	1464.84	00:24:29.020	1469.02	00:00:04.180	4.18	task
+content		00:24:33.230	1473.23	00:24:39.200	1479.2	00:00:05.970	5.97	org.task
+content		00:24:43.490	1483.49	00:24:45.345	1485.345	00:00:01.855	1.855	org.task
+content		00:24:45.805	1485.805	00:24:58.540	1498.54	00:00:12.735	12.735	org.task
+content		00:24:58.871	1498.871	00:25:03.170	1503.17	00:00:04.299	4.299	task
+content		00:25:06.580	1506.58	00:25:13.180	1513.18	00:00:06.600	6.6	task
+content		00:25:14.461	1514.461	00:25:19.705	1519.705	00:00:05.244	5.244	task
+content		00:25:22.360	1522.36	00:25:26.280	1526.28	00:00:03.920	3.92	task
+content		00:25:42.040	1542.04	00:25:54.350	1554.35	00:00:12.310	12.31	task
+content		00:25:57.790	1557.79	00:26:03.663	1563.663	00:00:05.873	5.873	task
+content		00:26:07.500	1567.5	00:26:14.810	1574.81	00:00:07.310	7.31	task
+content		00:26:15.350	1575.35	00:26:19.100	1579.1	00:00:03.750	3.75	org.wb
+content		00:26:31.080	1591.08	00:26:34.570	1594.57	00:00:03.490	3.49	org.wb
+content		00:26:34.830	1594.83	00:26:35.830	1595.83	00:00:01.000	1.0	org.wb
+content		00:26:35.920	1595.92	00:26:39.381	1599.381	00:00:03.461	3.461	task
+content		00:26:40.105	1600.105	00:26:47.760	1607.76	00:00:07.655	7.655	task
+content		00:26:47.841	1607.841	00:26:50.948	1610.948	00:00:03.107	3.107	org.dol
+content		00:27:04.905	1624.905	00:27:15.655	1635.655	00:00:10.750	10.75	task
+content		00:27:18.510	1638.51	00:27:28.175	1648.175	00:00:09.665	9.665	org.task
+content		00:27:28.425	1648.425	00:27:42.306	1662.306	00:00:13.881	13.881	task
+content		00:27:43.890	1663.89	00:27:48.770	1668.77	00:00:04.880	4.88	task
+content		00:27:50.528	1670.528	00:27:57.970	1677.97	00:00:07.442	7.442	org.dol
+content		00:28:03.950	1683.95	00:28:07.581	1687.581	00:00:03.631	3.631	task
+content		00:28:08.690	1688.69	00:28:16.580	1696.58	00:00:07.890	7.89	task
+content		00:28:28.531	1708.531	00:28:31.345	1711.345	00:00:02.814	2.814	tech
+content		00:28:45.241	1725.241	00:28:47.560	1727.56	00:00:02.319	2.319	task
+content		00:28:47.908	1727.908	00:28:50.078	1730.078	00:00:02.170	2.17	task
+content		00:28:52.145	1732.145	00:29:02.090	1742.09	00:00:09.945	9.945	task
+content		00:29:02.176	1742.176	00:29:03.080	1743.08	00:00:00.904	0.904	task
+content		00:29:28.235	1768.235	00:29:36.095	1776.095	00:00:07.860	7.86	task
+content		00:29:37.850	1777.85	00:29:42.783	1782.783	00:00:04.933	4.933	org.task
+content		00:29:46.366	1786.366	00:29:51.310	1791.31	00:00:04.944	4.944	org.wb
+content		00:29:51.515	1791.515	00:29:53.050	1793.05	00:00:01.535	1.535	org.task
+content		00:29:53.156	1793.156	00:29:54.020	1794.02	00:00:00.864	0.864	org.task
+content		00:30:00.615	1800.615	00:30:03.910	1803.91	00:00:03.295	3.295	org.task
+content		00:30:08.190	1808.19	00:30:12.790	1812.79	00:00:04.600	4.6	org.task
+content		00:30:13.630	1813.63	00:30:18.760	1818.76	00:00:05.130	5.13	task
+content		00:30:23.481	1823.481	00:30:24.411	1824.411	00:00:00.930	0.93	org.wb
+content		00:30:42.946	1842.946	00:30:50.305	1850.305	00:00:07.359	7.359	tech
+content		00:31:05.123	1865.123	00:31:08.145	1868.145	00:00:03.022	3.022	tech
+content		00:31:30.870	1890.87	00:31:33.361	1893.361	00:00:02.491	2.491	task
+content		00:31:34.565	1894.565	00:31:39.780	1899.78	00:00:05.215	5.215	task
+content		00:31:39.790	1899.79	00:31:40.480	1900.48	00:00:00.690	0.69	task
+content		00:31:40.480	1900.48	00:31:41.450	1901.45	00:00:00.970	0.97	task
+content		00:31:42.653	1902.653	00:31:48.120	1908.12	00:00:05.467	5.467	task
+content		00:31:48.120	1908.12	00:31:48.891	1908.891	00:00:00.771	0.771	task
+content		00:31:53.950	1913.95	00:32:07.245	1927.245	00:00:13.295	13.295	task
+content		00:32:10.140	1930.14	00:32:13.683	1933.683	00:00:03.543	3.543	task
+content		00:32:15.210	1935.21	00:32:19.520	1939.52	00:00:04.310	4.31	org.dol
+content		00:32:21.250	1941.25	00:32:42.400	1962.4	00:00:21.150	21.15	interaction
+content		00:32:44.210	1964.21	00:32:55.528	1975.528	00:00:11.318	11.318	task
+content		00:32:55.528	1975.528	00:32:55.880	1975.88	00:00:00.352	0.352	interaction
+content		00:32:56.273	1976.273	00:32:59.260	1979.26	00:00:02.987	2.987	task
+content		00:32:59.260	1979.26	00:33:01.620	1981.62	00:00:02.360	2.36	task
+content		00:33:01.620	1981.62	00:33:07.646	1987.646	00:00:06.026	6.026	task
+content		00:33:07.646	1987.646	00:33:15.690	1995.69	00:00:08.044	8.044	task
+content		00:33:16.135	1996.135	00:33:18.971	1998.971	00:00:02.836	2.836	task
+content		00:33:18.971	1998.971	00:33:20.145	2000.145	00:00:01.174	1.174	task
+content		00:33:20.145	2000.145	00:33:22.330	2002.33	00:00:02.185	2.185	task
+content		00:33:23.675	2003.675	00:33:25.080	2005.08	00:00:01.405	1.405	task
+content		00:33:25.080	2005.08	00:33:29.548	2009.548	00:00:04.468	4.468	org.wb
+content		00:33:32.498	2012.498	00:33:34.821	2014.821	00:00:02.323	2.323	org.dol
+content		00:33:36.520	2016.52	00:33:37.670	2017.67	00:00:01.150	1.15	task
+content		00:33:37.770	2017.77	00:33:43.400	2023.4	00:00:05.630	5.63	task
+content		00:33:43.400	2023.4	00:33:48.681	2028.681	00:00:05.281	5.281	task
+content		00:33:48.681	2028.681	00:33:55.423	2035.423	00:00:06.742	6.742	task
+content		00:33:55.423	2035.423	00:33:56.455	2036.455	00:00:01.032	1.032	task
+content		00:33:59.445	2039.445	00:34:04.043	2044.043	00:00:04.598	4.598	task
+content		00:34:04.043	2044.043	00:34:08.453	2048.453	00:00:04.410	4.41	task
+content		00:34:08.453	2048.453	00:34:11.300	2051.3	00:00:02.847	2.847	task
+content		00:34:11.300	2051.3	00:34:14.550	2054.55	00:00:03.250	3.25	task
+content		00:34:14.550	2054.55	00:34:17.143	2057.143	00:00:02.593	2.593	task
+content		00:34:19.003	2059.003	00:34:21.206	2061.206	00:00:02.203	2.203	interaction
+content		00:34:21.206	2061.206	00:34:22.460	2062.46	00:00:01.254	1.254	task
+content		00:34:22.460	2062.46	00:34:23.666	2063.666	00:00:01.206	1.206	org.dol
+content		00:34:23.666	2063.666	00:34:24.578	2064.578	00:00:00.912	0.912	interaction
+content		00:34:24.578	2064.578	00:34:28.295	2068.295	00:00:03.717	3.717	task
+content		00:34:28.295	2068.295	00:34:32.330	2072.33	00:00:04.035	4.035	task
+content		00:34:32.330	2072.33	00:34:34.040	2074.04	00:00:01.710	1.71	task
+content		00:34:34.040	2074.04	00:34:36.795	2076.795	00:00:02.755	2.755	org.task
+content		00:34:36.795	2076.795	00:34:38.730	2078.73	00:00:01.935	1.935	interaction
+content		00:34:42.680	2082.68	00:34:44.455	2084.455	00:00:01.775	1.775	task
+content		00:34:44.455	2084.455	00:34:46.050	2086.05	00:00:01.595	1.595	org.task
+content		00:34:46.050	2086.05	00:34:47.980	2087.98	00:00:01.930	1.93	org.wb
+content		00:34:47.980	2087.98	00:34:49.418	2089.418	00:00:01.438	1.438	interaction
+content		00:34:52.810	2092.81	00:34:54.910	2094.91	00:00:02.100	2.1	org.dol
+content		00:35:03.350	2103.35	00:35:05.370	2105.37	00:00:02.020	2.02	task
+content		00:35:05.370	2105.37	00:35:06.890	2106.89	00:00:01.520	1.52	task
+content		00:35:06.890	2106.89	00:35:11.400	2111.4	00:00:04.510	4.51	task
+content		00:35:15.015	2115.015	00:35:18.330	2118.33	00:00:03.315	3.315	task
+content		00:35:18.330	2118.33	00:35:23.446	2123.446	00:00:05.116	5.116	task
+content		00:35:23.446	2123.446	00:35:27.120	2127.12	00:00:03.674	3.674	task
+content		00:35:29.270	2129.27	00:35:32.935	2132.935	00:00:03.665	3.665	task
+content		00:35:32.935	2132.935	00:35:34.435	2134.435	00:00:01.500	1.5	task
+content		00:35:34.435	2134.435	00:35:35.728	2135.728	00:00:01.293	1.293	task
+content		00:35:35.728	2135.728	00:35:38.081	2138.081	00:00:02.353	2.353	task
+content		00:35:48.055	2148.055	00:35:49.083	2149.083	00:00:01.028	1.028	task
+content		00:36:04.300	2164.3	00:36:05.121	2165.121	00:00:00.821	0.821	task
+content		00:36:05.121	2165.121	00:36:05.823	2165.823	00:00:00.702	0.702	task
+content		00:36:12.465	2172.465	00:36:15.046	2175.046	00:00:02.581	2.581	task
+content		00:36:15.046	2175.046	00:36:16.226	2176.226	00:00:01.180	1.18	task
+content		00:36:16.226	2176.226	00:36:17.601	2177.601	00:00:01.375	1.375	task
+content		00:36:17.601	2177.601	00:36:20.675	2180.675	00:00:03.074	3.074	task
+content		00:36:20.675	2180.675	00:36:25.270	2185.27	00:00:04.595	4.595	task
+content		00:36:25.270	2185.27	00:36:28.301	2188.301	00:00:03.031	3.031	task
+content		00:36:28.301	2188.301	00:36:32.930	2192.93	00:00:04.629	4.629	task
+content		00:36:32.940	2192.94	00:36:34.675	2194.675	00:00:01.735	1.735	task
+content		00:36:34.675	2194.675	00:36:36.343	2196.343	00:00:01.668	1.668	task
+content		00:36:36.343	2196.343	00:36:38.900	2198.9	00:00:02.557	2.557	task
+content		00:36:40.838	2200.838	00:36:50.881	2210.881	00:00:10.043	10.043	task
+content		00:36:50.881	2210.881	00:36:53.328	2213.328	00:00:02.447	2.447	task
+content		00:36:53.328	2213.328	00:36:54.453	2214.453	00:00:01.125	1.125	task
+content		00:36:54.453	2214.453	00:37:02.220	2222.22	00:00:07.767	7.767	task
+content		00:37:03.248	2223.248	00:37:12.350	2232.35	00:00:09.102	9.102	task
+content		00:37:12.350	2232.35	00:37:16.546	2236.546	00:00:04.196	4.196	task
+content		00:37:16.546	2236.546	00:37:19.970	2239.97	00:00:03.424	3.424	task
+content		00:37:19.970	2239.97	00:37:22.110	2242.11	00:00:02.140	2.14	task
+content		00:37:22.110	2242.11	00:37:26.220	2246.22	00:00:04.110	4.11	org.dol
+content		00:37:26.220	2246.22	00:37:34.763	2254.763	00:00:08.543	8.543	task
+content		00:37:34.763	2254.763	00:37:37.313	2257.313	00:00:02.550	2.55	task
+content		00:37:37.313	2257.313	00:37:39.365	2259.365	00:00:02.052	2.052	task
+content		00:37:39.365	2259.365	00:37:44.168	2264.168	00:00:04.803	4.803	task
+content		00:37:44.168	2264.168	00:37:47.343	2267.343	00:00:03.175	3.175	task
+content		00:37:47.343	2267.343	00:37:56.986	2276.986	00:00:09.643	9.643	task
+content		00:37:59.065	2279.065	00:38:03.063	2283.063	00:00:03.998	3.998	org.wb
+content		00:38:03.063	2283.063	00:38:06.868	2286.868	00:00:03.805	3.805	task
+content		00:38:06.868	2286.868	00:38:08.336	2288.336	00:00:01.468	1.468	org.dol
+content		00:38:08.336	2288.336	00:38:12.750	2292.75	00:00:04.414	4.414	task
+content		00:38:12.750	2292.75	00:38:19.725	2299.725	00:00:06.975	6.975	task
+content		00:38:19.725	2299.725	00:38:27.911	2307.911	00:00:08.186	8.186	task
+content		00:38:27.911	2307.911	00:38:29.140	2309.14	00:00:01.229	1.229	task
+content		00:38:29.140	2309.14	00:38:34.650	2314.65	00:00:05.510	5.51	task
+content		00:38:34.650	2314.65	00:38:36.596	2316.596	00:00:01.946	1.946	task
+content		00:38:38.340	2318.34	00:38:42.940	2322.94	00:00:04.600	4.6	task
+content		00:38:43.650	2323.65	00:38:47.590	2327.59	00:00:03.940	3.94	task
+content		00:38:49.450	2329.45	00:38:52.565	2332.565	00:00:03.115	3.115	task
+content		00:38:52.565	2332.565	00:38:58.038	2338.038	00:00:05.473	5.473	org.task
+content		00:38:58.038	2338.038	00:39:02.568	2342.568	00:00:04.530	4.53	org.task
+content		00:39:02.568	2342.568	00:39:10.603	2350.603	00:00:08.035	8.035	task
+content		00:39:22.450	2362.45	00:39:24.600	2364.6	00:00:02.150	2.15	org.task
+content		00:39:24.600	2364.6	00:39:28.761	2368.761	00:00:04.161	4.161	tech
+content		00:39:34.958	2374.958	00:39:40.695	2380.695	00:00:05.737	5.737	task
+content		00:39:40.695	2380.695	00:39:44.781	2384.781	00:00:04.086	4.086	task
+content		00:39:44.781	2384.781	00:39:45.830	2385.83	00:00:01.049	1.049	task
+content		00:39:45.830	2385.83	00:39:47.200	2387.2	00:00:01.370	1.37	task
+content		00:39:47.200	2387.2	00:39:48.133	2388.133	00:00:00.933	0.933	task
+content		00:39:48.133	2388.133	00:39:54.071	2394.071	00:00:05.938	5.938	task
+content		00:40:01.431	2401.431	00:40:08.578	2408.578	00:00:07.147	7.147	task
+content		00:40:21.026	2421.026	00:40:25.960	2425.96	00:00:04.934	4.934	task
+content		00:40:36.041	2436.041	00:40:44.703	2444.703	00:00:08.662	8.662	org.task
+content		00:40:46.746	2446.746	00:40:53.340	2453.34	00:00:06.594	6.594	task
+content		00:40:53.340	2453.34	00:40:55.913	2455.913	00:00:02.573	2.573	task
+content		00:40:55.913	2455.913	00:41:01.485	2461.485	00:00:05.572	5.572	task
+content		00:41:01.485	2461.485	00:41:07.545	2467.545	00:00:06.060	6.06	org.task
+content		00:41:07.545	2467.545	00:41:10.563	2470.563	00:00:03.018	3.018	task
+content		00:41:10.563	2470.563	00:41:12.993	2472.993	00:00:02.430	2.43	org.task
+content		00:41:15.231	2475.231	00:41:16.851	2476.851	00:00:01.620	1.62	org.task
+content		00:41:16.851	2476.851	00:41:19.200	2479.2	00:00:02.349	2.349	org.task
+content		00:41:19.200	2479.2	00:41:21.540	2481.54	00:00:02.340	2.34	org.task
+content		00:41:21.540	2481.54	00:41:25.646	2485.646	00:00:04.106	4.106	org.task
+content		00:41:25.646	2485.646	00:41:30.623	2490.623	00:00:04.977	4.977	org.task
+content		00:41:30.623	2490.623	00:41:38.178	2498.178	00:00:07.555	7.555	task
+content		00:41:38.178	2498.178	00:41:53.280	2513.28	00:00:15.102	15.102	task
+content		00:41:53.280	2513.28	00:42:01.711	2521.711	00:00:08.431	8.431	org.task
+content		00:42:01.711	2521.711	00:42:04.396	2524.396	00:00:02.685	2.685	task
+content		00:42:04.396	2524.396	00:42:13.571	2533.571	00:00:09.175	9.175	task
+content		00:42:19.570	2539.57	00:42:24.028	2544.028	00:00:04.458	4.458	task
+content		00:42:29.380	2549.38	00:42:40.348	2560.348	00:00:10.968	10.968	task
+content		00:42:46.051	2566.051	00:42:51.141	2571.141	00:00:05.090	5.09	task
+content		00:42:51.141	2571.141	00:43:00.323	2580.323	00:00:09.182	9.182	task
+content		00:43:12.456	2592.456	00:43:21.050	2601.05	00:00:08.594	8.594	task
+content		00:43:23.220	2603.22	00:43:26.300	2606.3	00:00:03.080	3.08	task
+content		00:43:30.950	2610.95	00:43:34.230	2614.23	00:00:03.280	3.28	org.task
+content		00:43:34.230	2614.23	00:43:38.218	2618.218	00:00:03.988	3.988	org.task
+content		00:43:38.218	2618.218	00:43:42.980	2622.98	00:00:04.762	4.762	tech
+content		00:43:46.060	2626.06	00:43:49.940	2629.94	00:00:03.880	3.88	org.task
+content		00:43:52.350	2632.35	00:43:54.286	2634.286	00:00:01.936	1.936	org.task
+content		00:43:54.286	2634.286	00:43:56.866	2636.866	00:00:02.580	2.58	org.task
+gaze.s0		00:13:30.026	810.026	00:13:33.756	813.756	00:00:03.730	3.73	
+gaze.s0		00:13:33.756	813.756	00:13:37.663	817.663	00:00:03.907	3.907	
+gaze.s0		00:13:37.663	817.663	00:13:38.533	818.533	00:00:00.870	0.87	
+gaze.s0		00:13:38.533	818.533	00:13:46.630	826.63	00:00:08.097	8.097	
+gaze.s0		00:13:46.630	826.63	00:13:47.925	827.925	00:00:01.295	1.295	
+gaze.s0		00:13:47.925	827.925	00:13:48.755	828.755	00:00:00.830	0.83	
+gaze.s0		00:13:48.755	828.755	00:13:49.416	829.416	00:00:00.661	0.661	
+gaze.s0		00:13:49.416	829.416	00:13:49.786	829.786	00:00:00.370	0.37	
+gaze.s0		00:13:49.786	829.786	00:13:51.236	831.236	00:00:01.450	1.45	
+gaze.s0		00:20:52.920	1252.92	00:20:55.660	1255.66	00:00:02.740	2.74	
+gaze.s0		00:20:55.670	1255.67	00:21:00.850	1260.85	00:00:05.180	5.18	
+gaze.s0		00:21:00.850	1260.85	00:21:07.690	1267.69	00:00:06.840	6.84	
+gaze.s0.target		00:13:30.026	810.026	00:13:33.756	813.756	00:00:03.730	3.73	wb
+gaze.s0.target		00:13:33.756	813.756	00:13:37.663	817.663	00:00:03.907	3.907	s2
+gaze.s0.target		00:13:37.663	817.663	00:13:38.533	818.533	00:00:00.870	0.87	tool
+gaze.s0.target		00:13:38.533	818.533	00:13:46.630	826.63	00:00:08.097	8.097	wb
+gaze.s0.target		00:13:46.630	826.63	00:13:47.925	827.925	00:00:01.295	1.295	s2
+gaze.s0.target		00:13:47.925	827.925	00:13:48.755	828.755	00:00:00.830	0.83	tool
+gaze.s0.target		00:13:48.755	828.755	00:13:49.416	829.416	00:00:00.661	0.661	wb
+gaze.s0.target		00:13:49.416	829.416	00:13:49.786	829.786	00:00:00.370	0.37	s3
+gaze.s0.target		00:13:49.786	829.786	00:13:51.236	831.236	00:00:01.450	1.45	tool
+gaze.s0.target		00:20:52.920	1252.92	00:20:55.660	1255.66	00:00:02.740	2.74	tool
+gaze.s0.target		00:20:55.670	1255.67	00:21:00.850	1260.85	00:00:05.180	5.18	s1
+gaze.s0.target		00:21:00.850	1260.85	00:21:07.690	1267.69	00:00:06.840	6.84	wb
+gaze.s1		00:13:29.999	809.999	00:13:32.069	812.069	00:00:02.070	2.07	
+gaze.s1		00:13:32.069	812.069	00:13:32.949	812.949	00:00:00.880	0.88	
+gaze.s1		00:13:32.949	812.949	00:13:34.109	814.109	00:00:01.160	1.16	
+gaze.s1		00:13:34.109	814.109	00:13:43.209	823.209	00:00:09.100	9.1	
+gaze.s1		00:13:43.209	823.209	00:13:44.449	824.449	00:00:01.240	1.24	
+gaze.s1		00:13:44.449	824.449	00:13:45.409	825.409	00:00:00.960	0.96	
+gaze.s1		00:13:45.409	825.409	00:13:47.529	827.529	00:00:02.120	2.12	
+gaze.s1		00:13:47.529	827.529	00:13:50.639	830.639	00:00:03.110	3.11	
+gaze.s1		00:13:50.639	830.639	00:13:51.279	831.279	00:00:00.640	0.64	
+gaze.s1		00:20:52.930	1252.93	00:21:07.690	1267.69	00:00:14.760	14.76	
+gaze.s1.target		00:13:29.999	809.999	00:13:32.069	812.069	00:00:02.070	2.07	wb
+gaze.s1.target		00:13:32.069	812.069	00:13:32.949	812.949	00:00:00.880	0.88	tool
+gaze.s1.target		00:13:32.949	812.949	00:13:34.109	814.109	00:00:01.160	1.16	wb
+gaze.s1.target		00:13:34.109	814.109	00:13:43.209	823.209	00:00:09.100	9.1	s2
+gaze.s1.target		00:13:43.209	823.209	00:13:44.449	824.449	00:00:01.240	1.24	tool
+gaze.s1.target		00:13:44.449	824.449	00:13:45.409	825.409	00:00:00.960	0.96	wb
+gaze.s1.target		00:13:45.409	825.409	00:13:47.529	827.529	00:00:02.120	2.12	s2
+gaze.s1.target		00:13:47.529	827.529	00:13:50.639	830.639	00:00:03.110	3.11	tool
+gaze.s1.target		00:13:50.639	830.639	00:13:51.279	831.279	00:00:00.640	0.64	s2
+gaze.s1.target		00:20:52.930	1252.93	00:21:07.690	1267.69	00:00:14.760	14.76	wb
+gaze.s2		00:13:30.031	810.031	00:13:30.551	810.551	00:00:00.520	0.52	
+gaze.s2		00:13:30.551	810.551	00:13:33.161	813.161	00:00:02.610	2.61	
+gaze.s2		00:13:33.161	813.161	00:13:33.891	813.891	00:00:00.730	0.73	
+gaze.s2		00:13:33.891	813.891	00:13:34.931	814.931	00:00:01.040	1.04	
+gaze.s2		00:13:34.931	814.931	00:13:36.251	816.251	00:00:01.320	1.32	
+gaze.s2		00:13:36.251	816.251	00:13:38.831	818.831	00:00:02.580	2.58	
+gaze.s2		00:13:38.831	818.831	00:13:39.931	819.931	00:00:01.100	1.1	
+gaze.s2		00:13:39.931	819.931	00:13:51.291	831.291	00:00:11.360	11.36	
+gaze.s2		00:20:52.950	1252.95	00:20:59.040	1259.04	00:00:06.090	6.09	
+gaze.s2		00:20:59.040	1259.04	00:21:00.860	1260.86	00:00:01.820	1.82	
+gaze.s2		00:21:00.860	1260.86	00:21:07.700	1267.7	00:00:06.840	6.84	
+gaze.s2.target		00:13:30.031	810.031	00:13:30.551	810.551	00:00:00.520	0.52	wb
+gaze.s2.target		00:13:30.551	810.551	00:13:33.161	813.161	00:00:02.610	2.61	s1
+gaze.s2.target		00:13:33.161	813.161	00:13:33.891	813.891	00:00:00.730	0.73	wb
+gaze.s2.target		00:13:33.891	813.891	00:13:34.931	814.931	00:00:01.040	1.04	tool
+gaze.s2.target		00:13:34.931	814.931	00:13:36.251	816.251	00:00:01.320	1.32	wb
+gaze.s2.target		00:13:36.251	816.251	00:13:38.831	818.831	00:00:02.580	2.58	tool
+gaze.s2.target		00:13:38.831	818.831	00:13:39.931	819.931	00:00:01.100	1.1	s1
+gaze.s2.target		00:13:39.931	819.931	00:13:51.291	831.291	00:00:11.360	11.36	tool
+gaze.s2.target		00:20:52.950	1252.95	00:20:59.040	1259.04	00:00:06.090	6.09	s1
+gaze.s2.target		00:20:59.040	1259.04	00:21:00.860	1260.86	00:00:01.820	1.82	wb
+gaze.s2.target		00:21:00.860	1260.86	00:21:07.700	1267.7	00:00:06.840	6.84	tool
+gaze.s3		00:13:30.001	810.001	00:13:32.671	812.671	00:00:02.670	2.67	
+gaze.s3		00:13:32.671	812.671	00:13:35.571	815.571	00:00:02.900	2.9	
+gaze.s3		00:13:35.571	815.571	00:13:37.001	817.001	00:00:01.430	1.43	
+gaze.s3		00:13:37.001	817.001	00:13:46.951	826.951	00:00:09.950	9.95	
+gaze.s3		00:13:46.951	826.951	00:13:48.561	828.561	00:00:01.610	1.61	
+gaze.s3		00:13:48.561	828.561	00:13:49.971	829.971	00:00:01.410	1.41	
+gaze.s3		00:13:49.971	829.971	00:13:51.291	831.291	00:00:01.320	1.32	
+gaze.s3		00:20:52.950	1252.95	00:21:01.320	1261.32	00:00:08.370	8.37	
+gaze.s3		00:21:01.320	1261.32	00:21:07.740	1267.74	00:00:06.420	6.42	
+gaze.s3.target		00:13:30.001	810.001	00:13:32.671	812.671	00:00:02.670	2.67	tool
+gaze.s3.target		00:13:32.671	812.671	00:13:35.571	815.571	00:00:02.900	2.9	wb
+gaze.s3.target		00:13:35.571	815.571	00:13:37.001	817.001	00:00:01.430	1.43	tool
+gaze.s3.target		00:13:37.001	817.001	00:13:46.951	826.951	00:00:09.950	9.95	wb
+gaze.s3.target		00:13:46.951	826.951	00:13:48.561	828.561	00:00:01.610	1.61	s0
+gaze.s3.target		00:13:48.561	828.561	00:13:49.971	829.971	00:00:01.410	1.41	wb
+gaze.s3.target		00:13:49.971	829.971	00:13:51.291	831.291	00:00:01.320	1.32	tool
+gaze.s3.target		00:20:52.950	1252.95	00:21:01.320	1261.32	00:00:08.370	8.37	s1
+gaze.s3.target		00:21:01.320	1261.32	00:21:07.740	1267.74	00:00:06.420	6.42	wb
+act.s0		00:13:46.580	826.58	00:13:47.120	827.12	00:00:00.540	0.54	
+act.s0		00:21:01.350	1261.35	00:21:07.770	1267.77	00:00:06.420	6.42	
+act.s0.category		00:13:46.580	826.58	00:13:47.120	827.12	00:00:00.540	0.54	talk
+act.s0.category		00:21:01.350	1261.35	00:21:07.770	1267.77	00:00:06.420	6.42	draw.type
+act.s1		00:13:32.680	812.68	00:13:34.620	814.62	00:00:01.940	1.94	
+act.s1		00:13:39.960	819.96	00:13:41.780	821.78	00:00:01.820	1.82	
+act.s1		00:20:52.960	1252.96	00:21:07.780	1267.78	00:00:14.820	14.82	
+act.s1.category		00:13:32.680	812.68	00:13:34.620	814.62	00:00:01.940	1.94	talk
+act.s1.category		00:13:39.960	819.96	00:13:41.780	821.78	00:00:01.820	1.82	talk
+act.s1.category		00:20:52.960	1252.96	00:21:07.780	1267.78	00:00:14.820	14.82	talk
+act.s2		00:13:30.070	810.07	00:13:32.710	812.71	00:00:02.640	2.64	
+act.s2		00:13:36.200	816.2	00:13:40.016	820.016	00:00:03.816	3.816	
+act.s2		00:13:40.016	820.016	00:13:45.136	825.136	00:00:05.120	5.12	
+act.s2		00:13:45.136	825.136	00:13:51.320	831.32	00:00:06.184	6.184	
+act.s2.category		00:13:30.070	810.07	00:13:32.710	812.71	00:00:02.640	2.64	talk
+act.s2.category		00:13:36.200	816.2	00:13:40.016	820.016	00:00:03.816	3.816	talk
+act.s2.category		00:13:40.016	820.016	00:13:45.136	825.136	00:00:05.120	5.12	draw.type
+act.s2.category		00:13:45.136	825.136	00:13:51.320	831.32	00:00:06.184	6.184	talk
+act.s3		00:13:34.600	814.6	00:13:36.240	816.24	00:00:01.640	1.64	
+act.s3		00:13:40.020	820.02	00:13:41.740	821.74	00:00:01.720	1.72	
+act.s3		00:13:47.210	827.21	00:13:50.630	830.63	00:00:03.420	3.42	
+act.s3.category		00:13:34.600	814.6	00:13:36.240	816.24	00:00:01.640	1.64	talk
+act.s3.category		00:13:40.020	820.02	00:13:41.740	821.74	00:00:01.720	1.72	talk
+act.s3.category		00:13:47.210	827.21	00:13:50.630	830.63	00:00:03.420	3.42	talk
+gesture.s1		00:13:39.028	819.028	00:13:39.768	819.768	00:00:00.740	0.74	
+gesture.s1		00:13:40.528	820.528	00:13:41.328	821.328	00:00:00.800	0.8	
+gesture.s1.category		00:13:39.028	819.028	00:13:39.768	819.768	00:00:00.740	0.74	deictic
+gesture.s1.category		00:13:40.528	820.528	00:13:41.328	821.328	00:00:00.800	0.8	metaphorical
+gesture.s3		00:13:34.828	814.828	00:13:36.088	816.088	00:00:01.260	1.26	
+gesture.s3.category		00:13:34.828	814.828	00:13:36.088	816.088	00:00:01.260	1.26	deictic
