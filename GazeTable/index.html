@@ -10,8 +10,15 @@
 <script>
 //var source = "data/Week 2/Parrot/Parrot_EnergyTask_Part2.csv"
 //var source = "data/Week 3/Parrot/Parrot_NeurologyTask_Part1.csv"
-var source = "data/Week 3/Hamster/Hamster_NeurologyTask.csv"
+//var source = "data/Week 3/Hamster/Hamster_NeurologyTask.csv"
+//var source = "data/all.csv"
+
+//
+var source = "data/week 2/Hamster/Hamster_EnergyTask.csv"
+
 d3.csv(source, function(rows) {
+
+
     var count = {
         s0:{tool:0, wb:0, s0:0, s1:0, s2:0, s3:0},
         s1:{tool:0, wb:0, s0:0, s1:0, s2:0, s3:0},
@@ -21,9 +28,9 @@ d3.csv(source, function(rows) {
     rows.forEach(function(row){
         count[row.subject][row.target] = count[row.subject][row.target] + parseFloat(row.time)
     })
-
+    //console.log(count)
     var max=0;
-    var stroke_width_coeff = 15;
+    var stroke_width_coeff = 25;
 
     //Compute max
     _.each(count, function(subject){_.each(subject, function(target){if(target>max)max =target;})})
@@ -91,7 +98,7 @@ d3.csv(source, function(rows) {
     /* Draw relations to iPads */
     _.each(positions,function(pos){
         svg.append("path")
-                .attr("d", "M"+pos.head.x+","+ pos.head.y +" L" + (screen.x+screen.width/2) + "," + (screen.y+screen.height/2))
+                .attr("d", "M"+pos.head.x+","+ pos.head.y +" L" + (pos.tool.x+tool_w/2) + "," + (pos.tool.y+tool_h/2))
                 .attr("stroke", pos.color)
                 .attr("stroke-width", function(){return count[pos.id].tool /max * stroke_width_coeff})
                 .attr("stroke-opacity", "50%")
@@ -100,7 +107,7 @@ d3.csv(source, function(rows) {
     /* Draw relations to Screen */
     _.each(positions,function(pos){
         svg.append("path")
-            .attr("d", "M"+pos.head.x+","+ pos.head.y +" L" + (pos.tool.x+tool_w/2) + "," + (pos.tool.y+tool_h/2))
+            .attr("d", "M"+pos.head.x+","+ pos.head.y +" L" + (screen.x+screen.width/2) + "," + (screen.y+screen.height/2))
             .attr("stroke", pos.color)
             .attr("stroke-width", function(){return count[pos.id].wb /max * stroke_width_coeff})
             .attr("stroke-opacity", "50%")
