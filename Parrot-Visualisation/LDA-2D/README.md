@@ -1,1 +1,0 @@
-This visualisation places the characters according to LDA discriminant functions.

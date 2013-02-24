@@ -7,7 +7,27 @@
     <meta name="description" content="Data Visualisation in Javascript : Visualisations for Computer Supported Cooperative Work class" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/nv.d3.css">
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css">
 
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.v2.js"></script>
+    <script type="text/javascript" src="http://underscorejs.org/underscore.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+    
+    <script type="text/javascript" src="javascripts/nv.d3.js"></script>
+    <script type="text/javascript" src="javascripts/gazeTable.js"></script>
+    <script type="text/javascript" src="javascripts/LDA.js"></script>
+    
+	<script>
+		$(function() {
+			$( "#menu" ).menu();
+    	});
+	</script>
+ 	<style>
+   			.ui-menu { width: 300px; }
+	</style>
+    
     <title>Data Visualisation in Javascript</title>
   </head>
 
@@ -36,7 +56,51 @@
 <p>This page represents the projects of Sergio Almaguer, Christopher Chiche Thomas Droxler and Miji Kim in the EPFL class Computer Supported Cooperative work. For this project 3 different visualizations were made, using some different datasets. </p>
 
 <p>These visualizations were made using the d3.js and nvd3.js libraries. </p>
-      </section>
+	</section>
+	<section id="demos" class="inner">
+	<h3>Demos</h3>
+	<ul id="menu">
+		<li>
+		    <a href="#">Gaze Table</a>
+			<ul>
+				<li><a onclick="drawGazeTable('GazeTableData/all.csv')">All Experiments</a></li>
+				<li><a onclick="drawGazeTable('GazeTableData/week_2.csv')">All Experiment 1</a></li>
+				<li><a onclick="drawGazeTable('GazeTableData/week_3.csv')">All Experiment 2</a></li>
+				<li>
+					<a href="#">Experiment 1</a>
+					<ul>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Beaver.csv')">Beaver</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Dolphin.csv')">Dolphin</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Hamster.csv')">Hamster</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Panda.csv')">Panda</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Parrot.csv')">Parrot</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Penguin.csv')">Penguin</a></li>	
+					</ul>
+				</li>			
+				<li>
+					<a href="#">Experiment 2</a>
+					<ul>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Beaver.csv')">Beaver</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Dolphin.csv')">Dolphin</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Hamster.csv')">Hamster</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Panda.csv')">Panda</a></li>
+						<li><a class="ui-state-disabled" onclick="drawGazeTable('GazeTableData/Week 3/Parrot.csv')">Parrot</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Penguin.csv')">Penguin</a></li>	
+					</ul>
+				</li>					
+			</ul>
+		</li>
+  		<li><a onclick="drawLDA()">Linear Discriminant Analysis</a></li>
+  		<li class="ui-state-disabled"><a href="#">Timeline Of Speech</a></li>
+	</ul>
+    </br></br></br></br>
+	<div id="graph"><svg></svg></div>  
+
+      
+	</section>
+  
+      
+      
     </div>
 
     <!-- FOOTER  -->
