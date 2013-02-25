@@ -1,7 +1,7 @@
 function drawTimeline(source){
     /* Empty svg from all previous content */
     d3.select('#graph')
-        .style("height", "600px")
+        .style("height", "400px")
         .html("<svg></svg>")
 
 
@@ -16,8 +16,7 @@ function drawTimelineB(source){
     /* Empty svg from all previous content */
     d3.select('#graph')
         .html("<svg></svg>")
-        .style("height", 800)
-
+        .style("height","400px")
     /* Draw stacked area */
     aoeNvd3Beaver(source);
 
@@ -257,6 +256,7 @@ function aoeNvd3Beaver(source){
                 .tickFormat(d3.format('.02f'));
 
             d3.select('#graph svg')
+                .style("height", "400px")
                 .datum(data)
                 .transition().
                 duration(500).
@@ -276,7 +276,7 @@ function circle(source){
     var leftMargin = 30;
 
     var w =800,
-        h = 300,
+        h = 200,
         maxValTime = getMaxValTime(source);
 
     var xScale = d3.scale.linear()
@@ -290,8 +290,8 @@ function circle(source){
 
 
     var svg = d3.select("#graph").append("svg:svg")
-        .attr("width", w+50)
-        .attr("height", h);
+        .attr("width", w)
+        .style("height", h+"px");
 
     var yS0 = 60;
     var yS1 = 80;
