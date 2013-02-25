@@ -72,29 +72,56 @@
 				<li>
 					<a href="#">Experiment 1</a>
 					<ul>
-						<li><a onclick="drawTimelineB('TimelineData/Beaver_EnergyTask.csv')">Beaver</a></li>
-						<li><a onclick="drawTimeline('TimelineData/Dolphin_EnergyTask.csv')">Dolphin</a></li>
-						<li><a onclick="drawTimeline('TimelineData/Hamster.csv')">Hamster</a></li>
-						<li><a onclick="drawTimeline('TimelineData/Panda_EnergyTask.csv')">Panda</a></li>
-						<li><a onclick="drawTimeline('TimelineData/Parrot_EnergyTask.csv')">Parrot</a></li>
-						<li><a onclick="drawTimeline('TimelineData/Penguin_EnergyTask.csv')">Penguin</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Beaver.csv')">Beaver</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Dolphin.csv')">Dolphin</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Hamster.csv')">Hamster</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Panda.csv')">Panda</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Parrot.csv')">Parrot</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Penguin.csv')">Penguin</a></li>
 					</ul>
 				</li>			
 				<li>
 					<a href="#">Experiment 2</a>
 					<ul>
-                        <li><a onclick="drawTimelineB('TimelineData/Beaver_NeurologyTask.csv')">Beaver</a></li>
-                        <li><a onclick="drawTimeline('TimelineData/Dolphin_NeurologyTask.csv')">Dolphin</a></li>
-                        <li><a onclick="drawTimeline('TimelineData/Hamster_NeurologyTask.csv')">Hamster</a></li>
-                        <li><a onclick="drawTimeline('TimelineData/Panda_NeurologyTask.csv')">Panda</a></li>
-                        <li><a onclick="drawTimeline('TimelineData/Parrot_NeurologyTask.csv')">Parrot</a></li>
-                        <li><a onclick="drawTimeline('TimelineData/Penguin_NeurologyTask.csv')">Penguin</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Beaver.csv')">Beaver</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Dolphin.csv')">Dolphin</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Hamster.csv')">Hamster</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Panda.csv')">Panda</a></li>
+						<li><a class="ui-state-disabled" onclick="drawGazeTable('GazeTableData/Week 3/Parrot.csv')">Parrot</a></li>
+						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Penguin.csv')">Penguin</a></li>
                     </ul>
 				</li>					
 			</ul>
 		</li>
   		<li><a onclick="drawLDA()">Linear Discriminant Analysis</a></li>
-  		<li class="ui-state-disabled"><a href="#">Timeline Of Speech</a></li>
+  		<li>
+            <a href="#">Timeline Of Speech</a>
+              <ul>
+                  <li>
+                      <a href="#">Experiment 1</a>
+                      <ul>
+                          <li><a onclick="drawTimelineB('TimelineData/Beaver_EnergyTask.csv')">Beaver</a></li>
+                          <li><a onclick="drawTimeline('TimelineData/Dolphin_EnergyTask.csv')">Dolphin</a></li>
+                          <li><a onclick="drawTimeline('TimelineData/Hamster.csv')">Hamster</a></li>
+                          <li><a onclick="drawTimeline('TimelineData/Panda_EnergyTask.csv')">Panda</a></li>
+                          <li><a onclick="drawTimeline('TimelineData/Parrot_EnergyTask.csv')">Parrot</a></li>
+                          <li><a onclick="drawTimeline('TimelineData/Penguin_EnergyTask.csv')">Penguin</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#">Experiment 2</a>
+                      <ul>
+                          <li><a onclick="drawTimelineB('TimelineData/Beaver_NeurologyTask.csv')">Beaver</a></li>
+                          <li><a onclick="drawTimeline('TimelineData/Dolphin_NeurologyTask.csv')">Dolphin</a></li>
+                          <li><a onclick="drawTimeline('TimelineData/Hamster_NeurologyTask.csv')">Hamster</a></li>
+                          <li><a onclick="drawTimeline('TimelineData/Panda_NeurologyTask.csv')">Panda</a></li>
+                          <li><a onclick="drawTimeline('TimelineData/Parrot_NeurologyTask.csv')">Parrot</a></li>
+                          <li><a onclick="drawTimeline('TimelineData/Penguin_NeurologyTask.csv')">Penguin</a></li>
+                      </ul>
+                  </li>
+              </ul>
+
+        </li>
 	</ul>
     </br></br></br></br>
 	<div id="graph"><svg></svg></div>
