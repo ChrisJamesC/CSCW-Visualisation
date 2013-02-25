@@ -1,6 +1,7 @@
 function drawTimeline(source){
     /* Empty svg from all previous content */
     d3.select('#graph')
+        .style("height", "600px")
         .html("<svg></svg>")
 
 

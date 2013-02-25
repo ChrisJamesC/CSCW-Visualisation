@@ -43,7 +43,7 @@ function drawLDA(){
        	
        	d3.select('#graph')
                .html("<svg></svg>")
-               .style("height", 600)
+               .style("height", "600px")
        	
         d3.select('#graph svg')
         	//.attr("width", 640)
