@@ -233,7 +233,7 @@ function aoeNvd3Beaver(source){
             data[4].values.push([allTab[4][i][0]/60,allTab[4][i][1]])
         }
 
-        console.log(data)
+        //console.log(data)
 
         nv.addGraph(function() {
             var chart = nv.models.stackedAreaChart()
@@ -264,9 +264,9 @@ function aoeNvd3Beaver(source){
 }
 
 function circle(source){
-    var title = '<?php $file = $_GET["file"]; echo addslashes($file); ?>';
-    var dataFile = "dataFiles/"+title+".csv";
-    console.log(dataFile);
+    //var title = '<?php $file = $_GET["file"]; echo addslashes($file); ?>';
+    var dataFile = source;
+    //console.log(dataFile);
     var leftMargin = 30;
 
     var w =1000,
@@ -311,7 +311,7 @@ function circle(source){
                 first= false;
             }
         });
-        console.log(data);
+        //console.log(data);
 
         svg.selectAll("ellipse")
             .data(data)
