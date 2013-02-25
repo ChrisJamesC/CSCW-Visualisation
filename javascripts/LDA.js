@@ -41,7 +41,9 @@ function drawLDA(){
         chart.xAxis.tickFormat(d3.format('.02f')).axisLabel('(+)Age, (+)Being Male, (+)Write w/ Ipad, (-)Page switches')
         chart.yAxis.tickFormat(d3.format('.02f')).axisLabel('(+)Write w/Keyboard, (+)Explicit search actions, (-)Total Actions')
        	
-       	d3.select('#graph').html("<svg></svg>")
+       	d3.select('#graph')
+               .html("<svg></svg>")
+               .style("height", 600)
        	
         d3.select('#graph svg')
         	//.attr("width", 640)

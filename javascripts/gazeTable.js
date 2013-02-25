@@ -44,7 +44,9 @@ d3.csv(source, function(rows) {
         .range([height, 0]);
 
     /* Empty svg from all previous content */
-    d3.select('#graph').html("<svg></svg>")
+    d3.select('#graph')
+        .html("<svg></svg>")
+        .style("height", 600)
 
     var svg = d3.select("#graph svg")
         .attr("width", width + margin.left + margin.right)

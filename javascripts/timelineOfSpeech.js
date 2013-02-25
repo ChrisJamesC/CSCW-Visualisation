@@ -1,6 +1,8 @@
 function drawTimeline(source){
     /* Empty svg from all previous content */
-    d3.select('#graph').html("<svg></svg>")
+    d3.select('#graph')
+        .html("<svg></svg>")
+        .style("height", 800)
 
     /* Draw stacked area */
     aoeNvd3(source);
@@ -11,7 +13,9 @@ function drawTimeline(source){
 
 function drawTimelineB(source){
     /* Empty svg from all previous content */
-    d3.select('#graph').html("<svg></svg>")
+    d3.select('#graph')
+        .html("<svg></svg>")
+        .style("height", 800)
 
     /* Draw stacked area */
     aoeNvd3Beaver(source);
