@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/nv.d3.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/timeline.css">
     <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css">
 
     <script type="text/javascript" src="http://mbostock.github.com/d3/d3.v2.js"></script>
@@ -15,9 +16,11 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
     
+    <script type="text/javascript" src="javascripts/d3.v2.js"></script>
     <script type="text/javascript" src="javascripts/nv.d3.js"></script>
     <script type="text/javascript" src="javascripts/gazeTable.js"></script>
     <script type="text/javascript" src="javascripts/LDA.js"></script>
+    <script type="text/javascript" src="javascripts/timelineOfSpeech.js"></script>
     
 	<script>
 		$(function() {
@@ -69,24 +72,24 @@
 				<li>
 					<a href="#">Experiment 1</a>
 					<ul>
-						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Beaver.csv')">Beaver</a></li>
-						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Dolphin.csv')">Dolphin</a></li>
-						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Hamster.csv')">Hamster</a></li>
-						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Panda.csv')">Panda</a></li>
-						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Parrot.csv')">Parrot</a></li>
-						<li><a onclick="drawGazeTable('GazeTableData/Week 2/Penguin.csv')">Penguin</a></li>	
+						<li><a onclick="drawTimelineB('TimelineData/Beaver_EnergyTask.csv')">Beaver</a></li>
+						<li><a onclick="drawTimeline('TimelineData/Dolphin_EnergyTask.csv')">Dolphin</a></li>
+						<li><a onclick="drawTimeline('TimelineData/Hamster.csv')">Hamster</a></li>
+						<li><a onclick="drawTimeline('TimelineData/Panda_EnergyTask.csv')">Panda</a></li>
+						<li><a onclick="drawTimeline('TimelineData/Parrot_EnergyTask.csv')">Parrot</a></li>
+						<li><a onclick="drawTimeline('TimelineData/Penguin_EnergyTask.csv')">Penguin</a></li>
 					</ul>
 				</li>			
 				<li>
 					<a href="#">Experiment 2</a>
 					<ul>
-						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Beaver.csv')">Beaver</a></li>
-						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Dolphin.csv')">Dolphin</a></li>
-						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Hamster.csv')">Hamster</a></li>
-						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Panda.csv')">Panda</a></li>
-						<li><a class="ui-state-disabled" onclick="drawGazeTable('GazeTableData/Week 3/Parrot.csv')">Parrot</a></li>
-						<li><a onclick="drawGazeTable('GazeTableData/Week 3/Penguin.csv')">Penguin</a></li>	
-					</ul>
+                        <li><a onclick="drawTimelineB('TimelineData/Beaver_NeurologyTask.csv')">Beaver</a></li>
+                        <li><a onclick="drawTimeline('TimelineData/Dolphin_NeurologyTask.csv')">Dolphin</a></li>
+                        <li><a onclick="drawTimeline('TimelineData/Hamster_NeurologyTask.csv')">Hamster</a></li>
+                        <li><a onclick="drawTimeline('TimelineData/Panda_NeurologyTask.csv')">Panda</a></li>
+                        <li><a onclick="drawTimeline('TimelineData/Parrot_NeurologyTask.csv')">Parrot</a></li>
+                        <li><a onclick="drawTimeline('TimelineData/Penguin_NeurologyTask.csv')">Penguin</a></li>
+                    </ul>
 				</li>					
 			</ul>
 		</li>
@@ -94,7 +97,7 @@
   		<li class="ui-state-disabled"><a href="#">Timeline Of Speech</a></li>
 	</ul>
     </br></br></br></br>
-	<div id="graph" style="height:600px; width:800px"><svg></svg></div>  
+	<div id="graph"><svg></svg></div>
 
       
 	</section>
