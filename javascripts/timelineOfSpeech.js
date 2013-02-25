@@ -250,7 +250,7 @@ function aoeNvd3Beaver(source){
                 .axisLabel('Voltage (v)')
                 .tickFormat(d3.format('.02f'));
 
-            d3.select('#chart svg')
+            d3.select('#graph svg')
                 .datum(data)
                 .transition().
                 duration(500).
