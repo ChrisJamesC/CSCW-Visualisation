@@ -2,7 +2,7 @@ function drawTimeline(source){
     /* Empty svg from all previous content */
     d3.select('#graph')
         .html("<svg></svg>")
-        .style("height", 800)
+
 
     /* Draw stacked area */
     aoeNvd3(source);
@@ -274,8 +274,8 @@ function circle(source){
     //console.log(dataFile);
     var leftMargin = 30;
 
-    var w =1000,
-        h = 600,
+    var w =800,
+        h = 300,
         maxValTime = getMaxValTime(source);
 
     var xScale = d3.scale.linear()

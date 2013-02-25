@@ -10,7 +10,7 @@ svg {
 }
 
 #graph svg {
-    height: 600px;
+    /*height: 600px;    */
 }
 
 .axis path,
