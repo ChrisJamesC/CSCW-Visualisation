@@ -140,7 +140,7 @@ function aoeNvd3(source){
 }
 
 function aoeNvd3Beaver(source){
-//var title = '<?php $file = $_GET["file"]; echo addslashes($file); ?>';
+    //var title = '<?php $file = $_GET["file"]; echo addslashes($file); ?>';
     var dataFile = source;
     //var maxValTime = getMaxValTime();
 
@@ -425,13 +425,15 @@ function circle(source){
                 .style("fill", color[i])
                 .text("s"+i);
         }
-
+        /*
         svg.append("text")
             .attr("class", "x label")
             .attr("text-anchor", "end")
             .attr("x", 20+ypos)
             .attr("y", 30)
             .text(title);
+
+        */
     });
 }
 
