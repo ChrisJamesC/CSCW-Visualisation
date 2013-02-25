@@ -271,7 +271,7 @@ function circle(source){
 
     var w =1000,
         h = 600,
-        maxValTime = getMaxValTime();
+        maxValTime = getMaxValTime(source);
 
     var xScale = d3.scale.linear()
         .domain([0, maxValTime/60])
@@ -435,7 +435,7 @@ function circle(source){
     });
 }
 
-function getMaxValTime(){
+function getMaxValTime(dataFile){
     var txtFile = new XMLHttpRequest();
 
     txtFile.open("GET", dataFile, false);
