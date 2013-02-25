@@ -1,5 +1,4 @@
 function drawGazeTable(source){
-console.log("gazeTable called on "+source)
 
 d3.csv(source, function(rows) {
     var count = {
@@ -9,7 +8,6 @@ d3.csv(source, function(rows) {
         s3:{tool:0, wb:0, s0:0, s1:0, s2:0, s3:0}
     }
     rows.forEach(function(row){
-    	console.log(row)
     	if(row.subject != "" && row.subject!="s4" && row.target!="s4" && row.target!="exp"){
         	count[row.subject][row.target] = count[row.subject][row.target] + parseFloat(row.time)
         }
