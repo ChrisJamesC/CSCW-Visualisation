@@ -131,7 +131,7 @@ function aoeNvd3(source){
                 .tickFormat(d3.format('.02f'));
 
             d3.select('#graph svg')
-                .style("height", "300px")
+                .style("height", "400px")
                 .datum(data)
                 .transition().
                 duration(500).
